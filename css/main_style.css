@@ -1,0 +1,177 @@
+.sensei {
+    position: absolute;
+    width: 305px;
+    height: 400px;
+    left: 235px;
+    top: 445px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.line_1 {
+    position: absolute;
+    width: 800px;
+    height: 5px;
+    left: 660px;
+    top: 480px;
+    background: #FCDF21;
+}
+
+.quote {
+    position: absolute;
+    width: 500px;
+    height: 210px;
+    left: 820px;
+    top: 530px;
+}
+
+.line_2 {
+    position: absolute;
+    width: 800px;
+    height: 5px;
+    left: 660px;
+    top: 780px;
+    background: #FCDF21;
+}
+
+.aikido_logo {
+    position: absolute;
+    width: 138px;
+    height: 424px;
+    left: 1560px;
+    top: 420px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+
+}
+
+/* ----info---- */
+
+.info_title {
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 855px;
+    top: 935px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.info_federation {
+    width: 1450px;
+    min-height: 245px;
+    margin-left: 235px;
+    margin-top: 1010px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    position: relative;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+}
+
+/* -----news----- */
+
+.news {
+    display: flex;
+}
+
+.new_block {
+    width: 430px;
+    min-height: 830px;
+    margin-top: 100px;
+    background-image: url("images/main/rectangle.png");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+
+.new_1 {
+    position: relative;
+    margin-left: 235px;
+
+}
+
+.new_image_1 {
+    height: 360px;
+    width: 430px;
+    border-radius: 5px;
+}
+
+.new_title {
+    width: 430px;
+    max-height: 100px;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.new {
+    width: 410px;
+    min-height: 310px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    color: #000000;
+}
+
+.new_2 {
+    position: relative;
+    margin-left: 80px;
+}
+
+.new_image_2 {
+    height: 360px;
+    width: 430px;
+    border-radius: 5px;
+}
+
+
+.new_3 {
+    position: relative;
+    margin-left: 80px;
+
+}
+
+.new_image_3 {
+    height: 360px;
+    width: 430px;
+    border-radius: 5px;
+}
+
+.transition {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 2300px;
+    display: flex;
+}
+
+.e_1 {
+    margin-left: 900px;
+}
+
+.e_2 {
+    margin-left: 20px;
+}
+
+.e_3 {
+    margin-left: 20px;
+}
+
