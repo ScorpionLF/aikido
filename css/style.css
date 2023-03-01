@@ -1,98 +1,127 @@
+.main {
+    margin-left: 240px;
+    max-width: 1450px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.i_title_div {
+    align-items: center;
+    text-align: center;
+    height: 55px;
+}
+
+.line_line {
+    width: 800px;
+    height: 5px;
+    margin-top: 10px;
+    background: #FCDF21;
+    /* justify-content: center; */
+    margin-left: 325px;
+}
+
+p {
+    text-indent: 75px;
+} 
+
 /* --------------------header------------------ */
 
 .line {
-    background: black;
-    height: 50px;
+    position: absolute;
     width: 1920px;
-}
-
-.logo {
-    position: absolute;
-    width: 428px;
-    height: 304px;
-    left: 110px;
-}
-
-.main-text {
-    position: absolute;
-    width: 435px;
     height: 50px;
-    left: 645px;
-    top: 146px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
 
+.cap {
+    margin-left: 240px;
+    max-width: 1450px;
+    min-height: 230px;
+    margin-top: 50px;
+    display: flex;
+    column-count: 3;
+    align-items: center;
+}
+
+.slogan_center {
+    width: 480px;
+    text-align: center;
+}
+
+.title_slogan {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
+    font-weight: 300;
+    font-size: 32px;
     color: #000000;
 }
 
 .slogan {
-    position: absolute;
-    width: 435px;
-    height: 27px;
-    left: 550px;
-    top: 226px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #9A9A9A;
-}
-
-.contact {
-    position: absolute;
-    width: 625px;
-    height: 191px;
-    left: 1250px;
-    top: 100px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 28px;
-    display: flex;
-    align-items: center;
+    color: #9A9A9A;
+}
+
+.contact {
+    width: 485px;
     text-align: right;
+}
+
+.logo {
+    width: 485px;
+
+}
+
+.contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
     color: #000000;
 }
+
+.logo_img {
+    width: 200px;
+    height: 170px;
+    margin-left: 195px;
+}
+
+
+/* .menu {
+
+} */
 
 .menu-line {
     position: absolute;
     width: 1920px;
-    height: 110px;
-    top: 362px;
+    height: 70px;
+    top: 280px;
     background: #000000;
 }
 
-.menu .buttons a {
+.buttons a {
     text-decoration: none;
 }
 
 .buttons {
-    position: absolute;
-    width: 284px;
-    height: 50px;
-    top: 392px;
+    margin-left: 240px;
+    max-width: 1450px;
+    height: 70px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    display: flex;
     align-items: center;
     text-align: center;
+    display: flex;
 }
-
+/* 
 .dropdown {
-    position: absolute;
+    position: relative;
     display: inline-block;
 }
 
@@ -122,9 +151,10 @@
 }
 
 .main-page {
-    margin-left: 200px;
     color: #FFFFFF;
     background: none;
+    width: 100px;
+    margin-left: 235px;
 }
 
 .main-page:hover {
@@ -132,7 +162,7 @@
 }
 
 .aikido {
-    margin-left: 250px;
+    margin-left: 210px;
     color: #FFFFFF;
     background: none;
 }
@@ -142,69 +172,74 @@
 }
 
 .federation {
-    margin-left: 250px;
+    margin-left: 210px;
     color: #FFFFFF;
     background: none;
+    max-width: 180px;
 }
 
 .federation:hover {
     color: #dcdcde;
 }
 
-.timetable {
+.timetable-menu {
     color: #FFFFFF;
-    margin-left: 250px;
+    width: 170px;
+    margin-left: 210px;
     background: none;
 }
 
-.timetable:hover {
+.timetable-menu:hover {
     color: #dcdcde;
 }
 
 .gallery {
     color: #FFFFFF;
-    margin-left: 250px;
+    margin-left: 210px;
     background: none;
+    width: 100px;
 }
 
 .gallery:hover {
     color: #dcdcde;
-}
+} */
 
 /* -------------------main---------------------- */
 /* ----sensei----- */
 
 .sensei {
     position: absolute;
-    width: 303px;
+    width: 305px;
     height: 400px;
-    left: 154px;
-    top: 503px;
+    left: 235px;
+    top: 445px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
 .line_1 {
     position: absolute;
     width: 800px;
     height: 5px;
-    left: 614px;
-    top: 552px;
+    left: 660px;
+    top: 480px;
     background: #FCDF21;
 }
 
 .quote {
     position: absolute;
-    width: 497px;
-    height: 204px;
-    left: 765px;
-    top: 601px;
+    width: 500px;
+    height: 210px;
+    left: 820px;
+    top: 530px;
 }
 
 .line_2 {
     position: absolute;
     width: 800px;
     height: 5px;
-    left: 614px;
-    top: 854px;
+    left: 660px;
+    top: 780px;
     background: #FCDF21;
 }
 
@@ -212,19 +247,20 @@
     position: absolute;
     width: 138px;
     height: 424px;
-    left: 1551px;
-    top: 493px;
+    left: 1560px;
+    top: 420px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+
 }
 
 /* ----info---- */
 
 .info_title {
     position: absolute;
-    width: 222px;
-    height: 64px;
-    left: 150px;
-    top: 991px;
-
+    width: 210px;
+    height: 60px;
+    left: 855px;
+    top: 935px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -235,11 +271,10 @@
 }
 
 .info_federation {
-    width: 1620px;
-    min-height: 246px;
-    padding: 10px;
-    margin-left: 150px;
-    margin-top: 1055px;
+    width: 1450px;
+    min-height: 245px;
+    margin-left: 235px;
+    margin-top: 1010px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -256,28 +291,34 @@
     display: flex;
 }
 
+.new_block {
+    width: 430px;
+    min-height: 830px;
+    margin-top: 100px;
+    background-image: url("images/main/rectangle.png");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+
 .new_1 {
-    width: 450px;
-    height: 860px;
-    margin-left: 150px;
-    margin-top: 80px;
-    border: 3px solid #000000;
     position: relative;
+    margin-left: 235px;
+
 }
 
 .new_image_1 {
-    box-sizing: border-box;
-    height: 370px;
-    width: 444px;
+    height: 360px;
+    width: 430px;
+    border-radius: 5px;
 }
 
 .new_title {
-    width: 450px;
-    height: 84px;
-    margin-top: 20px;
+    width: 430px;
+    max-height: 100px;
+    margin-top: 30px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 24px;
     align-items: center;
     text-align: center;
@@ -285,60 +326,54 @@
 }
 
 .new {
-    width: 400px;
-    height: 310px;
-    margin-left: 20px;
-    margin-top: 25px;
+    width: 410px;
+    min-height: 310px;
+    margin-left: 10px;
+    margin-top: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     color: #000000;
 }
 
 .new_2 {
-    position: absolute;
-    width: 450px;
-    height: 860px;
-    margin-left: 730px;
-    margin-top: 80px;
-    border: 3px solid #000000;
+    position: relative;
+    margin-left: 80px;
 }
 
 .new_image_2 {
-    box-sizing: border-box;
-    height: 370px;
-    width: 444px;
+    height: 360px;
+    width: 430px;
+    border-radius: 5px;
 }
 
+
 .new_3 {
-    position: absolute;
-    width: 450px;
-    height: 860px;
-    margin-left: 1315px;
-    margin-top: 80px;
-    border: 3px solid #000000;
+    position: relative;
+    margin-left: 80px;
+
 }
 
 .new_image_3 {
-    box-sizing: border-box;
-    height: 370px;
-    width: 444px;
+    height: 360px;
+    width: 430px;
+    border-radius: 5px;
 }
 
 .transition {
     position: absolute;
     width: 30px;
     height: 30px;
-    margin-top: 1040px;
+    top: 2300px;
     display: flex;
 }
 
 .e_1 {
-    margin-left: 890px;
+    margin-left: 900px;
 }
 
 .e_2 {
@@ -352,7 +387,7 @@
 /* ---------------------footer-------------------- */
 
 footer {
-    top: 250px;
+    /* top: 200px; */
     display: flex;
     position: relative;
     width: 1920px;
@@ -375,10 +410,10 @@ footer {
 
 .footer-text {
     position: absolute;
-    width: 538px;
+    width: 700px;
     height: 80px;
-    left: 151px;
-    top: 52px;
+    left: 235px;
+    top: 60px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -389,7 +424,7 @@ footer {
     color: #FFFFFF;
 }
 
-.sign_in {
+/* .sign_in {
     position: absolute;
     width: 104px;
     height: 30px;
@@ -405,37 +440,37 @@ footer {
     text-align: right;
     color: #FFFFFF;
     background: none;
-}
+} */
 
-.sign_in:hover {
+/* .sign_in:hover {
     text-decoration: none;
     color: #9A9A9A;
-}
+} */
 
 .youtube {
     position: absolute;
     width: 40px;
     height: 30px;
-    left: 1550px;
-    top: 77px;
+    left: 1600px;
+    top: 85px;
 }
 
 .vk {
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 1610px;
-    top: 72px;
+    left: 1650px;
+    top: 80px;
 }
 
-/* -------------about the club------------ */
+/* -------------clube------------ */
 
 .title-page {
     position: absolute;
-    width: 194px;
-    height: 64px;
-    margin-left: 200px;
-    top: 550px;
+    max-width: 250px;
+    height: 60px;
+    margin-left: 830px;
+    top: 410px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -444,175 +479,55 @@ footer {
     display: flex;
     align-items: center;
     color: #000000;
+    text-align: center;
 }
+
+/* .line_line {
+    position: absolute;
+    width: 800px;
+    height: 5px;
+    left: 560px;
+    top: 480px;
+    background: #FCDF21;
+} */
 
 .info-page {
     position: relative;
-    display: flex;
-    width: 1620px;
+    width: 1450px;
     min-height: 680px;
-    /* padding: 10px; */
-    top: 610px;
-    margin-left: 150px;
+    top: 540px;
+    margin-left: 235px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     align-items: center;
     color: #000000;
+    text-align: justify;
 }
+
+/* p {
+    text-indent: 75px;
+} */
 
 .img_about_school {
     position: relative;
-    /* display: flex; */
     width: 876px;
     height: 500px;
     left: 521px;
-    margin-top: 700px;
+    margin-top: 650px;
 }
 
-/* ---------------instructors-------------- */
-
-.block_1 {
-    margin-left: 150px;
-    margin-top: 660px;
-    width: 1620px;
-    min-height: 600px;
-    padding: 10px;
-}
-
-.foto_1 {
-    position: absolute;
-    width: 510px;
-}
-
-.name_1 {
-    position: absolute;
-    height: 80px;
-    margin-left: 610px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
-
-.info_i_1 {
-    position: relative;
-    max-width: 1020px;
-    min-height: 241px;
-    padding: 10px;
-    margin-left: 600px;
-    top: 150px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-
-    color: #000000;
-}
-
-.block {
-    margin-top: 100px;
-    width: 1620px;
-    min-height: 600px;
-    padding: 0%;
-    display: flex;
-}
-
-.foto_right {
-    position: absolute;
-    width: 510px;
-    margin-left: 1270px;
-}
-
-.name_right {
-    position: relative;
-    height: 80px;
-    left: 820px;
-    right: 450px;
-    top: 30px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 28px;
-    align-items: center;
-    color: #000000;
-}
-
-.info_i_right {
-    position: relative;
-    max-width: 1020px;
-    right: 190px;
-    /* top: 50px; */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    color: #000000;
-}
-
-.foto_left {
-    position: absolute;
-    width: 510px;
-    left: 150px;
-}
-
-.name_left {
-    position: absolute;
-    height: 80px;
-    left: 770px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
-
-.info_i_left {
-    position: relative;
-    max-width: 1020px;
-    /* padding: 10px; */
-    left: 770px;
-    /* top: 150px; */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    color: #000000;
-}
 
 /* ---------------timetable----------------- */
 
-.timetable {
-    margin-left: 150px;
-}
 
 .title-page-1 {
     position: relative;
     width: 400px;
     height: 64px;
-    top: 510px;
+    top: 600px;
+    margin-left: 240px;
     display: flex;
     font-family: 'Roboto';
     font-style: normal;
@@ -623,12 +538,13 @@ footer {
     color: #000000;
 }
 
-.timetable-info {
+.table-info {
     position: absolute;
     width: 632px;
     min-height: 64px;
     padding: 0%;
-    margin-top: 600px;
+    margin-top: 620px;
+    left: 240px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -642,28 +558,12 @@ footer {
 
 .maps {
     position: absolute;
-    left: 943px;
-    top: 550px;
+    left: 1000px;
+    margin-top: 550px;
     border-collapse: collapse;
-    border: 2px solid black;
+    border: 0.5px solid black;
 }
 
-.table-info {
-    position: absolute;
-    width: 632px;
-    min-height: 64px;
-    padding: 0%;
-    margin-top: 540px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 38px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
 
 .table {
     font-family: 'Roboto';
@@ -676,6 +576,8 @@ footer {
     text-align: center;
     color: #000000;
     border-spacing: 3px;
+    margin-left: 240px;
+    margin-top: 60px;
 }
 
 .table th {
@@ -684,23 +586,69 @@ footer {
 
 table {
     margin-top: 695px;
-    width: 40%;
+    width: 35%;
     height: 200px;
     border-collapse: collapse;
     border: 2px solid black;
 }
 
 
+.title-page-2 {
+    position: relative;
+    width: 400px;
+    height: 64px;
+    top: 0px;
+    margin-left: 240px;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+/* .page_with_backg {
+    width: 1920px;
+    top: 70px;
+    height: 900px;
+    background-color: #f4f4f7;
+} */
+
+.maps-z {
+    position: absolute;
+    left: 1000px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: 0.5px solid black;
+}
+
+
 /* --------------------history----------------- */
 
+.title-page-3 {
+    position: absolute;
+    max-width: 250px;
+    height: 64px;
+    margin-left: 880px;
+    top: 410px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
 
 .text_1 {
     position: relative;
-    max-width: 1660px;
+    max-width: 1450px;
     min-height: 90px;
-    padding: 10px;
-    top: 600px;
-    margin-left: 145px;
+    top: 550px;
+    margin-left: 240px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -717,22 +665,23 @@ table {
     width: 510px;
     height: 600px;
     left: 705px;
-    top: 650px;
+    top: 600px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
 .text_2 {
     position: relative;
-    max-width: 1660px;
+    max-width: 1400px;
     min-height: 90px;
     padding: 10px;
     top: 700px;
-    margin-left: 145px;
+    margin-left: 240px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    display: flex;
     align-items: center;
     text-align: justify;
     color: #000000;
@@ -750,7 +699,7 @@ table {
     position: absolute;
     width: 796px;
     min-height: 64px;
-    margin-left: 150px;
+    margin-left: 240px;
     margin-top: 800px;
 
     font-family: 'Roboto';
@@ -764,9 +713,9 @@ table {
 
 .info_etiquette {
     position: relative;
-    max-width: 1660px;
+    max-width: 1600px;
     min-height: 1232px;
-    left: 145px;
+    left: 240px;
     top: 870px;
     display: flex;
     font-family: 'Roboto';
@@ -774,7 +723,6 @@ table {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    display: flex;
     align-items: center;
     text-align: justify;
     color: #000000;
@@ -784,7 +732,24 @@ table {
 /* -----------------gallery-------------- */
 
 .g-container {
-    margin-left: 150px;
+    margin-left: 240px;
+}
+
+.title-page-4 {
+    position: absolute;
+    max-width: 100px;
+    height: 60px;
+    left: 900px;
+    top: 410px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-align: center;
 }
 
 .one {
@@ -794,22 +759,21 @@ table {
 
 
 .g-block_1 {
-    border: 3px solid black;
-    /* width: 450px;
-    height: 480px; */
-    width: 350px;
-    height: 380px;
+    background-image: url("images/main/rectangle.png");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 420px;
+    height: 400px;
+    left: 1235px;
+    top: 550px;
 }
 
 .album {
-    /* width: 430px;
-    height: 370px; */
-    width: 330px;
-    height: 270px;
-    margin-left: 7px;
-    margin-top: 7px;
-    border: 2px solid black;
+    width: 420px;
+    height: 300px;
+    left: 20px;
+    top: 20px;
 }
+
 
 .album_info {
     font-family: 'Roboto';
@@ -826,12 +790,12 @@ table {
 }
 
 .g-block {
-    margin-left: 80px;
-    border: 3px solid black;
-    /* width: 450px;
-    height: 480px; */
-    width: 350px;
-    height: 380px;
+    margin-left: 95px;
+    background-image: url("images/main/rectangle.png");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 420px;
+    height: 400px;
+    top: 550px;
 }
 
 .etc {
