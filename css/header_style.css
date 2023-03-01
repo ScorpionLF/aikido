@@ -67,7 +67,9 @@
 /* -----------------------menu-------------------- */
 
 /* .menu {
-
+    color: #FFFFFF;
+    background: none;
+    border: 0;
 } */
 
 .menu-line {
@@ -89,21 +91,28 @@
     align-items: center;
     text-align: center;
     display: flex;
-}
-
-.m_button {
-    width: 290px;
-}
-
-.menu.main_button {
-    color: #FFFFFF;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
+}
+
+.m_button {
+    width: 290px;
+    z-index: 100;
+}
+
+
+.menu_button {
+    color: #FFFFFF;
+    background: none;
 } 
 
-/* 
+.menu_button:hover {
+    color: #dcdcde;
+}
+
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -139,45 +148,3 @@
     color: #dcdcde;
 }
 
-.aikido {
-    margin-left: 210px;
-    color: #FFFFFF;
-    background: none;
-}
-
-.aikido:hover {
-    color: #dcdcde;
-}
-
-.federation {
-    margin-left: 210px;
-    color: #FFFFFF;
-    background: none;
-    max-width: 180px;
-}
-
-.federation:hover {
-    color: #dcdcde;
-}
-
-.timetable-menu {
-    color: #FFFFFF;
-    width: 170px;
-    margin-left: 210px;
-    background: none;
-}
-
-.timetable-menu:hover {
-    color: #dcdcde;
-}
-
-.gallery {
-    color: #FFFFFF;
-    margin-left: 210px;
-    background: none;
-    width: 100px;
-}
-
-.gallery:hover {
-    color: #dcdcde;
-} */
