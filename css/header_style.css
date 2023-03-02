@@ -60,7 +60,7 @@
 .logo_img {
     width: 200px;
     height: 170px;
-    margin-left: 160px;
+    margin-left: 150px;
 }
 
 /* -----------------------menu-------------------- */
@@ -72,6 +72,7 @@
     height: 70px;
     top: 280px;
     background: #000000;
+    left: 0px;
 }
 
 .buttons a {
@@ -85,13 +86,10 @@
     align-items: center;
     text-align: center;
     display: flex;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
 }
 
 .m_button {
+    
     width: 290px;
     z-index: 100;
 }
@@ -101,6 +99,10 @@
     color: #FFFFFF;
     background: none;
     border: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
 } 
 
 .menu_button:hover {
@@ -111,6 +113,10 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .dropdown-content {
