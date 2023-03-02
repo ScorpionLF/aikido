@@ -1,43 +1,68 @@
-.sensei {
-    position: absolute;
-    width: 305px;
+
+#leftBlock {
+    float: left;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+#rightBlock {
+    float: right;
+    height: inherit;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+#centralBlock {
+    height: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main_composition {
     height: 400px;
-    left: 235px;
+}
+
+.sensei {
+    /* width: 305px; */
+    height: inherit;
     top: 445px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 }
 
-.line_1 {
-    position: absolute;
-    width: 800px;
-    height: 5px;
-    left: 660px;
-    top: 480px;
+.yellow_line {
+    width: 90%;
+    height: 7px;
     background: #FCDF21;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.quote {
-    position: absolute;
-    width: 500px;
-    height: 210px;
-    left: 820px;
-    top: 530px;
-}
+@font-face {
+    font-family: Kashima;
+    src: url(../fonts/Kashima.otf);
+   }
 
-.line_2 {
-    position: absolute;
-    width: 800px;
-    height: 5px;
-    left: 660px;
-    top: 780px;
-    background: #FCDF21;
+.quote_text {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Kashima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    color: #000000;
 }
 
 .aikido_logo {
-    position: absolute;
-    width: 138px;
-    height: 424px;
+    height: inherit;
     left: 1560px;
     top: 420px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
@@ -48,7 +73,7 @@
 
 .info_title {
     position: absolute;
-    width: 210px;
+    width: 300px;
     height: 60px;
     left: 855px;
     top: 935px;
@@ -64,8 +89,8 @@
 .info_federation {
     width: 1450px;
     min-height: 245px;
-    margin-left: 235px;
-    margin-top: 1010px;
+    /* margin-left: 235px; */
+    margin-top: 250px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -86,14 +111,14 @@
     width: 430px;
     min-height: 830px;
     margin-top: 100px;
-    background-image: url("images/main/rectangle.png");
+    background-image: url("../images/rectangle.png");
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 5px;
 }
 
 .new_1 {
     position: relative;
-    margin-left: 235px;
+    /* margin-left: 235px; */
 
 }
 
@@ -174,4 +199,3 @@
 .e_3 {
     margin-left: 20px;
 }
-
