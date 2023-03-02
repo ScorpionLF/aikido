@@ -100,6 +100,7 @@
 .menu_button {
     color: #FFFFFF;
     background: none;
+    border: 0px;
 } 
 
 .menu_button:hover {
