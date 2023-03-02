@@ -1,0 +1,50 @@
+.block_personal_page {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 1450px;
+    justify-content: center;
+}
+
+.block_person {
+    display: grid;
+    margin-left: 100px;
+}
+
+.fio {
+    display: flex;
+
+}
+
+.request {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+}
+
+.info {
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+}
+
+.data {
+    display: flex;
+    margin-top: 20px;
+}
+
+.img_person {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 450px;
+    height: 400px;
+}
+
+/* .input {
+    background-color: #f3f2f2;
+    border: 0;
+} */
