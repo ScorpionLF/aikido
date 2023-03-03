@@ -1,0 +1,48 @@
+.about_the_club {
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+}
+
+.yellow_line {
+    position: absolute;
+    width: 800px;
+    height: 5px;
+    margin-top: 150px;
+    background: #FCDF21;
+}
+
+.title-page {
+    position: absolute;
+    max-width: 250px;
+    height: 60px;
+    text-align: center;
+    top: 410px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+}
+
+.info-page {
+    position: absolute;
+    width: 1450px;
+    min-height: 680px;
+    top: 540px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    align-items: center;
+    color: #000000;
+    text-align: justify;
+}
+
+.img_about_school {
+    margin-top: 930px;
+}
