@@ -1,9 +1,9 @@
 
 .photo_albums {
-    /* margin-top: 50px; */
-    /* justify-content: center; */
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    width: 1450px;
 }
 
 .photos_container_album_grid {
@@ -42,9 +42,6 @@
 
 .ablum_1 {
     position: relative;
-    /* margin-top: 50px; */
-    /* margin-left: 40px; */
-
 }
 
 .album_image_1 {
