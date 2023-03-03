@@ -5,6 +5,7 @@ footer {
     height: 250px;
     background: #000000;  
     border: 0px;  
+    /* position: relative; */
 }
 
 .footer {

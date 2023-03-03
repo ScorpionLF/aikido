@@ -1,3 +1,7 @@
+/* #body {
+    height: 100%;
+} */
+
 .main {
     /* margin-left: 240px; */
     /* max-width: 1450px; */
@@ -6,6 +10,7 @@
     margin-bottom: 100px;
     justify-items: center;
     display: inline-grid;
+    min-height: 70vh;
 }
 
 .i_title_div {
