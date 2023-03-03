@@ -21,7 +21,7 @@
     <title>Личный кабинет</title>
 </head>
 
-<body style="min-height:100%">
+<body>
     <?php include 'header.html'; ?>
     <div class="personal_page">
         <div class="i_title_div">
@@ -35,19 +35,67 @@
             <div class="block_person">
                 <div class="fio">
                     <div class="request">ФИО:</div>
-                    <div class="info">Хатипова Линиза Фаниловна</div>
+                    <div class="info">
+                        <?php
+                        $login = $_SESSION['login'];
+                        $file_arr = file("users/data.csv");
+        				$lines = count($file_arr);
+                        for ($i = 0; $i < $lines; $i++) {
+                            $line = explode(';', $file_arr[$i]);
+        					if (strval($line[1]) == strval($login)) {
+                                echo $line[2].' '.$line[3].' '.$line[4];
+                            }
+                        }
+                         ?>
+                    </div>
                 </div>
                 <div class="data">
                     <div class="request">Дата рождения:</div>
-                    <div class="info">26.04.2003</div>
+                    <div class="info">
+                        <?php
+                        $login = $_SESSION['login'];
+                        $file_arr = file("users/data.csv");
+        				$lines = count($file_arr);
+                        for ($i = 0; $i < $lines; $i++) {
+                            $line = explode(';', $file_arr[$i]);
+        					if (strval($line[1]) == strval($login)) {
+                                echo $line[5];
+                            }
+                        }
+                         ?>
+                    </div>
                 </div>
                 <div class="data">
                     <div class="request">Дата оформления страховки:</div>
-                    <div class="info">02.03.2023</div>
+                    <div class="info">
+                        <?php
+                        $login = $_SESSION['login'];
+                        $file_arr = file("users/data.csv");
+        				$lines = count($file_arr);
+                        for ($i = 0; $i < $lines; $i++) {
+                            $line = explode(';', $file_arr[$i]);
+        					if (strval($line[1]) == strval($login)) {
+                                echo $line[6];
+                            }
+                        }
+                         ?>
+                    </div>
                 </div>
                 <div class="data">
                     <div class="request">Дата окончания страховки:</div>
-                    <div class="info">02.03.2024</div>
+                    <div class="info">
+                        <?php
+                        $login = $_SESSION['login'];
+                        $file_arr = file("users/data.csv");
+        				$lines = count($file_arr);
+                        for ($i = 0; $i < $lines; $i++) {
+                            $line = explode(';', $file_arr[$i]);
+        					if (strval($line[1]) == strval($login)) {
+                                echo $line[7];
+                            }
+                        }
+                         ?>
+                    </div>
                 </div>
                 <!-- <div class="data">
                     <div class="input__wrapper">
@@ -57,7 +105,7 @@
             </div>
         </div>
     </div>
-    <?php include 'footer.html'; ?>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>

@@ -22,15 +22,15 @@
 				$lines = count($file_arr);
 
 				for ($i = 0; $i < $lines; $i++) {
-					echo $i;
+					// echo $i;
 					$line = explode(';', $file_arr[$i]);
-					if (strval($line[0]) != strval($login)) {
+					if (strval($line[1]) != strval($login)) {
 						if ($i + 1 == $lines) {
 							die("Неверный логин.");
 						}
 					} else {
-						if (strval($line[1]) != strval($password)) {
-							echo '_'.$line[1].'_'.$password.'_';
+						if (strval($line[2]) != strval($password)) {
+							// echo '_'.$line[2].'_'.$password.'_';
 							die("Неверный пароль.");
 						} else {
 							// setcookie("login", $login);

@@ -31,7 +31,17 @@
                 <div class="button_footer">
                     <input type="image" class="youtube" src="images/youtube.png" alt="youtube">
                     <input type="image" class="vk" src="images/vk.png" alt="vk">
-                    <button class="sign_in">Вход</button>
+                    <?php
+                    if (isset($_SESSION['login'])) {
+                        ?>
+                        <a href="logout.php" class="sign">Выйти</a>
+                        <?php
+                    } else {
+                        ?>
+                        <a href="login_page.php" class="sign">Вход</a>
+                        <?php
+                    }
+                    ?>
                 </div>
                 <div class="law">Федерация Айкидо Ametsuchi Dojo © 2023. Все права защищены.</div>
             </div>
