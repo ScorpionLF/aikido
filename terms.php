@@ -20,59 +20,7 @@
 </head>
 
 <body>
-    <header>
-        <div class="cap">
-            <div class="line"></div>
-            <div class="logo" id="logo">
-                <img class="logo_img" src="images/logo.png" alt="logo">
-            </div>
-            <div class="slogan_center" id="slogan_center">
-                <div class="title_slogan"><strong>Ametsuchi Dojo</strong></div>
-                <div class="slogan">Энергия непреодолимой силы</div>
-            </div>
-            <div class="contact" id="contact">
-                Казань: ул. Ямашева 36
-                <br>Телефон: +7 (999) 999-99-99
-            </div>
-        </div>
-        <div class="menu">
-            <div class="menu-line"></div>
-            <div class="buttons">
-                <div class="m_button">
-                    <button class="menu_button">Главная</button>
-                </div>
-                <div class="m_button">
-                    <div class="dropdown">
-                        <button class="menu_button">Айкидо</button>
-                        <div class="dropdown-content">
-                            <a href="#">История</a>
-                            <a href="#">Термины</a>
-                            <a href="#">Техники</a>
-                            <a href="#">Принципы</a>
-                            <a href="#">Этикет</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="m_button">
-                    <div class="dropdown">
-                        <button class="menu_button">Федерация</button>
-                        <div class="dropdown-content">
-                            <a href="#">О школе</a>
-                            <a href="#">Инструкторы</a>
-                            <a href="#">Расписание</a>
-                            <a href="#">Документы</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="m_button">
-                    <button class="menu_button">Расписание</button>
-                </div>
-                <div class="m_button">
-                    <button class="menu_button">Галерея</button>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include 'header.html'; ?>
     <div class="main">
         <div class="i_title_div">
             <div class="title_page_i">Терминология</div>
@@ -157,28 +105,7 @@
         </div>
     </div>
 
-
-    <footer>
-        <div class="footer">
-            <div class="footer_one_div" id="footer_one_div">
-                <div class="footer-text">Региональная общественная организация “Федерация Айкидо “Аметсучи” по
-                    республике
-                    Татарстан”
-                </div>
-                <div class="alyans">
-                    Разработка и поддержка сайта IT-компания "Альянс"
-                </div>
-            </div>
-            <div class="footer_second_div" id="footer_second_div">
-                <div class="button_footer">
-                    <input type="image" class="youtube" src="images/youtube.png" alt="youtube">
-                    <input type="image" class="vk" src="images/vk.png" alt="vk">
-                    <button class="sign_in">Вход</button>
-                </div>
-                <div class="law">Федерация Айкидо Ametsuchi Dojo © 2023. Все права защищены.</div>
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
