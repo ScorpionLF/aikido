@@ -23,13 +23,13 @@
 
 <body>
     <?php include 'header.html'; ?>
-    <div class="main">
+    <div class="personal_page">
         <div class="i_title_div">
             <div class="title_page_i">Личные данные</div>
-            <div class="line_line"></div>
+            <div class="yellow_line"></div>
         </div>
         <div class="block_personal_page">
-            <div class="foto_personal">
+            <div class="photo_personal">
                 <img class="img_person" src="images/image.jpg" alt="">
             </div>
             <div class="block_person">
