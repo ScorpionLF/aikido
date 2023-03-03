@@ -21,7 +21,7 @@
     <title>Личный кабинет</title>
 </head>
 
-<body>
+<body style="min-height:100%">
     <?php include 'header.html'; ?>
     <div class="personal_page">
         <div class="i_title_div">

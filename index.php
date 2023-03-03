@@ -19,7 +19,7 @@
     <title>Главная</title>
 </head>
 
-<body>
+<body style="min-height:100%">
     <?php include 'header.html'; ?>
     <div class="main">
         <div class="main_composition">
