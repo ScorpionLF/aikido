@@ -1,0 +1,61 @@
+.timetable {
+    margin-top: 50px;
+    display: flex;
+}
+
+.timetable_left_div {
+    max-width: 725px;
+}
+
+.title-page-t {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+}
+
+.table-info {
+
+}
+
+.adress {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+}
+
+.maps {
+    /* position: absolute; */
+    /* left: 1000px; */
+    /* margin-top: 550px; */
+    margin-left: 20px;
+    border-collapse: collapse;
+    /* border: 0.5px solid black; */
+}
+
+.table th {
+    text-align: center;
+}
+
+table {
+    width: 725px;
+    margin-top: 50px;
+    height: 200px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+
+}
+
+.timetable_right_div {
+
+}
+

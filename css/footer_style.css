@@ -1,49 +1,72 @@
 
 footer {
-    min-width: 1920px;
+    /* min-width: 1920px; */
     width: 100%;
     height: 250px;
-    background: #000000;    
+    background: #000000;  
+    border: 0px;  
 }
 
 .footer {
-    margin-left: 240px;
-    max-width: 1450px;
+    /* margin-left: 240px; */
+    /* max-width: 1450px; */
     min-height: 250px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     /* align-items: center; */
-    display: grid;
+    /* display: grid; */
+    width: 100%;
+    justify-content:center ;
+}
+
+
+#footer_one_div {
+    float: left;
+    width: 35%;
+}
+
+#footer_second_div {
+    float: right;
+    width: 35%;
 }
 
 .footer-text {
-    width: 725px;
+    margin-top: 50px;
+    width: 100%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     text-align: left;
     color: #FFFFFF;
+    /* align-items: end; */
 }
 
 .law {
-    width: 725px;
+    /* width: 50%; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
     text-align: right;
     color: #706f6f;
+    /* margin-top: 5px; */
+        /* align-items: center; */
+        margin-bottom: 30px;
 }
 
 .alyans {
-    width: 725px;
+    /* align-items: baseline; */
+    /* width: 725px; */
+    /* margin-top: 30px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
     text-align: left;
     color: #706f6f;
+    margin-bottom: 30px;
+
 }
 
 .sign_in {
@@ -53,8 +76,8 @@ footer {
     font-size: 24px;
     color: #FFFFFF;
     background: none;
-    min-width: 70px;
-    min-height: 40px;
+    /* min-width: 70px; */
+    /* min-height: 40px; */
     margin-left: 10px;
     border: 0px;
 }
@@ -65,10 +88,11 @@ footer {
 }
 
 .button_footer {
-    margin-left: 550px;
+    margin-top: 50px;
+    /* margin-left: 550px; */
     display: flex;
     align-items: center;
-    text-align: right;
+    /* text-align: right; */
 }
 
 .youtube {
@@ -83,11 +107,14 @@ footer {
 }
 
 .footer_one_div {
-    display: flex;
-    align-items: end;
+    display: grid;
+    align-items: center;
+    /* width: 100%; */
 }
 
 .footer_second_div {
-    display: flex;
+    /* width: 100%; */
+    display: inline-grid;
     align-items: center;
+    justify-items: right;
 }

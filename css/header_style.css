@@ -2,7 +2,7 @@
 
 .line {
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 50px;
     left: 0px;
     top: 0px;
@@ -10,12 +10,13 @@
 }
 
 .cap {
-    margin-left: 240px;
-    max-width: 1450px;
+    /* margin-left: 240px; */
+    max-width: 100%;
     min-height: 230px;
     margin-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .slogan_center {
@@ -44,6 +45,20 @@
     text-align: right;
 }
 
+#logo {
+    float: left;
+    width: 30%;
+}
+
+#contact {
+    float: right;
+    width: 30%;
+}
+
+#slogan_center {
+
+}
+
 .logo {
     width: 485px;
 
@@ -68,7 +83,7 @@
 
 .menu-line {
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 70px;
     top: 280px;
     background: #000000;
@@ -80,12 +95,12 @@
 }
 
 .buttons {
-    margin-left: 240px;
-    max-width: 1450px;
+    max-width: 100%;
     height: 70px;
     align-items: center;
     text-align: center;
     display: flex;
+    justify-content: center;
 }
 
 .m_button {
