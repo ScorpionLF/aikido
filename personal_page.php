@@ -23,7 +23,7 @@
 
 <body>
     <?php include 'header.html'; ?>
-    <div class="main">
+    <div class="personal_page">
         <div class="i_title_div">
             <div class="title_page_i">Личные данные</div>
             <div class="line_line"></div>

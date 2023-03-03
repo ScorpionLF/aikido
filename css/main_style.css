@@ -25,6 +25,13 @@
     height: 400px;
 }
 
+.main {
+    margin-left: 240px;
+    width: 1450px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
 .sensei {
     /* width: 305px; */
     height: inherit;
