@@ -1,8 +1,11 @@
 .main {
-    margin-left: 240px;
-    max-width: 1450px;
+    /* margin-left: 240px; */
+    /* max-width: 1450px; */
+    width: 100%;
     margin-top: 70px;
     margin-bottom: 100px;
+    justify-items: center;
+    display: inline-grid;
 }
 
 .i_title_div {
@@ -26,7 +29,7 @@
     margin-top: 10px;
     background: #FCDF21;
     /* justify-content: center; */
-    margin-left: 325px;
+    /* margin-left: 325px; */
 }
 
 p {
