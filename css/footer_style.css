@@ -3,9 +3,16 @@ footer {
     /* min-width: 1920px; */
     width: 100%;
     height: 250px;
+<<<<<<< HEAD
     background: #000000;  
     border: 0px;  
     /* position: relative; */
+=======
+    background: #000000;
+    border: 0px;
+    /* bottom: 0;
+    position: absolute; */
+>>>>>>> devel
 }
 
 .footer {
