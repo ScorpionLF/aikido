@@ -70,7 +70,7 @@ footer {
 
 }
 
-.sign_in {
+.sign {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -81,6 +81,7 @@ footer {
     /* min-height: 40px; */
     margin-left: 10px;
     border: 0px;
+    text-decoration: none;
 }
 
 .sign_in:hover {
