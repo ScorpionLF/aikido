@@ -53,7 +53,7 @@
         </div>
         <img class="img_about_school" src="images/image.jpg" alt="about_school">
     </div>
-    <?php include 'footer.html'; ?>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
