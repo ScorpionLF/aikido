@@ -19,7 +19,8 @@
 </head>
 
 <body>
-    <header>
+    <?php include 'header.html'; ?>
+    <!-- <header>
         <div class="cap">
             <div class="line"></div>
             <div class="logo" id="logo">
@@ -71,7 +72,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
 
     <div class="main">
         <div class="i_title_div">
@@ -120,7 +121,7 @@
         </div>
 
     </div>
-    <footer>
+    <!-- <footer>
         <div class="footer">
             <div class="footer_one_div" id="footer_one_div">
                 <div class="footer-text">Региональная общественная организация “Федерация Айкидо “Аметсучи” по
@@ -140,7 +141,8 @@
                 <div class="law">Федерация Айкидо Ametsuchi Dojo © 2023. Все права защищены.</div>
             </div>
         </div>
-    </footer>
+    </footer> -->
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
