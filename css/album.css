@@ -1,21 +1,13 @@
-/* -----------------album------------------ */
-
-.g2-container {
-    margin-left: 160px;
-}
-
+/* 
 .foto_blok_1 {
     display: flex;
-
-}
-
+} */
+/* 
 .img_1_class {
-    /* width: 450px;
-    height: 350px; */
     width: 350px;
     height: 250px;
     margin-top: 550px;
-}
+} */
 
 #Img {
     border-radius: 5px;
@@ -28,31 +20,18 @@
 }
 
 .img_class {
-    /* width: 450px;
-    height: 350px; */
     width: 350px;
     height: 250px;
-    margin-top: 550px;
-    margin-left: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 .foto_blok {
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    max-width: 1450px;
+    flex-wrap: wrap;
     display: flex;
-}
-
-.img_etc_class {
-    /* width: 450px;
-    height: 350px; */
-    left: 50px;
-    width: 350px;
-    height: 250px;
-}
-
-.img__class {
-    margin-left: 50px;
-    /* width: 450px;
-    height: 350px; */
-    width: 350px;
-    height: 250px;
+    justify-content: center;
 }
