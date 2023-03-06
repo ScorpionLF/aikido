@@ -87,25 +87,46 @@
                     <strong>Хати</strong> - Восемь. <br><br>
                     <strong>Кю:</strong> - Девять. <br><br>
                     <strong>Дзю</strong> - Десять. <br><br>
-            </div>
+                </div>
 
 
-            <div class="side">
-                <!-- <button class="terms-title">Стороны и части тела</button> -->
-                <!-- <div id="text" style="display:none">Hidden Text</div> -->
-                <!-- <button class="terms_button" style="cursor:hand;cursor:pointer;" onclick="document.getElementById('t ext').style.display=''">Общее</button> -->
-                <button class="terms_button">Стороны и части тела</button>
-            </div>
-            <div class="rack">
-                <!-- <button class="terms-title">Стойки</button> -->
-                <!-- <div id="text" style="display:none">Hidden Text</div> -->
-                <!-- <button class="terms_button" style="cursor:hand;cursor:pointer;" onclick="document.getElementById('t ext').style.display=''">Общее</button> -->
-                <button class="terms_button">Стойки</button>
+                <div class="side">
+                    <!-- <button class="terms-title">Стороны и части тела</button> -->
+                    <!-- <div id="text" style="display:none">Hidden Text</div> -->
+                    <!-- <button class="terms_button" style="cursor:hand;cursor:pointer;" onclick="document.getElementById('t ext').style.display=''">Общее</button> -->
+                    <button class="terms_button">Стороны и части тела</button>
+                </div>
+                <div class="rack">
+                    <!-- <button class="terms-title">Стойки</button> -->
+                    <!-- <div id="text" style="display:none">Hidden Text</div> -->
+                    <!-- <button class="terms_button" style="cursor:hand;cursor:pointer;" onclick="document.getElementById('t ext').style.display=''">Общее</button> -->
+                    <button class="terms_button">Стойки</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <?php include 'footer.php'; ?>
+    <footer>
+        <div class="footer">
+            <div class="footer_one_div" id="footer_one_div">
+                <div class="footer-text">Региональная общественная организация “Федерация Айкидо “Аметсучи” по
+                    республике
+                    Татарстан”
+                </div>
+                <div class="alyans">
+                    Разработка и поддержка сайта IT-компания "Альянс"
+                </div>
+            </div>
+            <div class="footer_second_div" id="footer_second_div">
+                <div class="button_footer">
+                    <input type="image" class="youtube" src="images/youtube.png" alt="youtube">
+                    <input type="image" class="vk" src="images/vk.png" alt="vk">
+                    <button class="sign">Вход</button>
+                </div>
+                <div class="law">Федерация Айкидо Ametsuchi Dojo © 2023. Все права защищены.</div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

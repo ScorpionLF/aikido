@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     max-width: 1450px;
-}
+}   
 
 .foto_1 {
     width: 430px;
@@ -48,7 +48,6 @@
     position: relative;
     width: 800px;
     height: 2px;
-    left: 325px;
     margin-top: 40px;
     background: #000000;
     justify-content: center;
@@ -60,6 +59,7 @@
     align-items: center;
     min-height: 600px;
     max-width: 1450px;
+
 }
 
 
