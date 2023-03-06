@@ -121,6 +121,12 @@
         </div>
 
     </div>
+<<<<<<< HEAD
+    <?php include 'footer.php'; ?>
+</body>
+
+</html>
+=======
     <!-- <footer>
         <div class="footer">
             <div class="footer_one_div" id="footer_one_div">
@@ -146,3 +152,4 @@
 </body>
 
 </html>
+>>>>>>> devel

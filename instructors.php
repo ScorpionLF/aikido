@@ -21,7 +21,7 @@
 
 <body>
     <?php include 'header.html'; ?>
-    
+
     <div class="main">
         <div class="i_title_div">
             <div class="title_page_i">Инструкторы</div>
