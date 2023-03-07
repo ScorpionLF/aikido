@@ -1,5 +1,11 @@
 /* --------------------------cap------------------- */
 
+header {
+    justify-items: center;
+    display: grid;
+    width: 100%;
+}
+
 .line {
     position: absolute;
     width: 100%;
@@ -11,7 +17,8 @@
 
 .cap {
     /* margin-left: 240px; */
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 1450px;
     min-height: 230px;
     margin-top: 50px;
     display: flex;
@@ -20,16 +27,17 @@
 }
 
 .slogan_center {
-    width: 480px;
+    /* width: 480px; */
     text-align: center;
 }
 
 .title_slogan {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 32px;
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 48px;
     color: #000000;
+    /* font-style: bold; */
 }
 
 .slogan {
@@ -41,18 +49,18 @@
 }
 
 .contact {
-    width: 485px;
+    /* width: 485px; */
     text-align: right;
 }
 
 #logo {
     float: left;
-    width: 30%;
+    /* width: 30%; */
 }
 
 #contact {
     float: right;
-    width: 30%;
+    /* width: 30%; */
 }
 
 #slogan_center {
@@ -60,22 +68,32 @@
 }
 
 .logo {
-    width: 485px;
-
+    /* width: 485px; */
+    display: flex;
+    align-items: center;
+    /* width: 1450px; 
+    w*/
+    width: 100%;
+    margin-left: 50px;
 }
 
 .contact {
+    text-align: right;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     color: #000000;
+    width: 320px;
+    flex-shrink: 0;
+    margin-right: 100px;
 }
 
 .logo_img {
-    width: 200px;
+    /* width: 200px; */
     height: 170px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 /* -----------------------menu-------------------- */
@@ -101,6 +119,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    /* margin-top: 10px; */
 }
 
 .m_button {

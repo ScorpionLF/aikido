@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +9,28 @@
     <link rel="stylesheet" href="css/header_style.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="styles/bootstrap.min.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>header</title>
 </head>
+
 <body>
     <header>
         <div class="cap">
             <div class="line"></div>
             <div class="logo" id="logo">
-                <img class="logo_img" src="images/logo.png" alt="logo">
+                <div style="float: left; ">
+                    <img class="logo_img" src="images/logo.png" alt="logo">
+                </div>
+                <div class="title_slogan"><strong>Ametsuchi Dojo</strong></div>
+
             </div>
             <div class="slogan_center" id="slogan_center">
-                <div class="title_slogan"><strong>Ametsuchi Dojo</strong></div>
-                <div class="slogan">Энергия непреодолимой силы</div>
+                <!-- <div class="title_slogan"><strong>Ametsuchi Dojo</strong></div> -->
+                <!-- <div class="slogan">Энергия непреодолимой силы</div> -->
             </div>
             <div class="contact" id="contact">
                 Казань: ул. Ямашева, 36
@@ -32,42 +38,44 @@
             </div>
         </div>
         <div class="menu">
-            <div class="menu-line"></div>
-            <div class="buttons">
-                <div class="m_button">
-                    <a href="index.php" class="menu_button">Главная</a>
-                </div>
-                <div class="m_button">
-                    <div class="dropdown">
-                        <button class="menu_button">Айкидо</button>
-                        <div class="dropdown-content">
-                            <a href="history.php">История</a>
-                            <a href="terms.php">Термины</a>
-                            <a href="#">Техники</a>
-                            <a href="history.php">Принципы</a>
-                            <a href="history.php">Этикет</a>
+            <div class="menu-line">
+                <div class="buttons">
+                    <div class="m_button">
+                        <a href="index.php" class="menu_button">Главная</a>
+                    </div>
+                    <div class="m_button">
+                        <div class="dropdown">
+                            <button class="menu_button">Айкидо</button>
+                            <div class="dropdown-content">
+                                <a href="history.php">История</a>
+                                <a href="terms.php">Термины</a>
+                                <a href="#">Техники</a>
+                                <a href="history.php">Принципы</a>
+                                <a href="history.php">Этикет</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="m_button">
-                    <div class="dropdown">
-                        <button class="menu_button">Федерация</button>
-                        <div class="dropdown-content">
-                            <a href="club.php">О школе</a>
-                            <a href="instructors.php">Инструкторы</a>
-                            <a href="timetable.php">Расписание</a>
-                            <a href="#">Документы</a>
+                    <div class="m_button">
+                        <div class="dropdown">
+                            <button class="menu_button">Федерация</button>
+                            <div class="dropdown-content">
+                                <a href="club.php">О школе</a>
+                                <a href="instructors.php">Инструкторы</a>
+                                <a href="timetable.php">Расписание</a>
+                                <a href="#">Документы</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="m_button">
-                    <a href="timetable.php" class="menu_button">Расписание</a>
-                </div>
-                <div class="m_button">
-                    <a href="gallery.html" class="menu_button">Галерея</a>
+                    <div class="m_button">
+                        <a href="timetable.php" class="menu_button">Расписание</a>
+                    </div>
+                    <div class="m_button">
+                        <a href="gallery.html" class="menu_button">Галерея</a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 </body>
+
 </html>
