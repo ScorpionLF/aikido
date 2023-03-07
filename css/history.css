@@ -6,9 +6,11 @@
 .text {
     justify-content: center;
     display: flex;
+    margin-top: 50px;
+
 }
 
-.yellow_line {
+/* .yellow_line {
     position: absolute;
     width: 800px;
     height: 5px;
@@ -30,18 +32,19 @@
     display: flex;
     align-items: center;
     color: #000000;
-}
+} */
 
 .text_1 {
     position: absolute;
     width: 1450px;
     min-height: 90px;
-    top: 550px;
+    /* top: 550px; */
+    /* margin-top: 50px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
+    /* line-height: 28px; */
     /* display: flex; */
     align-items: center;
     text-align: justify;
@@ -52,7 +55,7 @@
     position: relative;
     /* width: 510px; */
     /* height: 600px; */
-    margin-top: 350px;
+    margin-top: 170px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 }
@@ -61,7 +64,7 @@
     position: absolute;
     width: 1450px;
     min-height: 90px;
-    padding: 10px;
+    /* padding: 10px; */
     margin-top: 50px;
     font-family: 'Roboto';
     font-style: normal;

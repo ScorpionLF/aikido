@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="css/history.css">
     <link rel="stylesheet" href="css/footer_style.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
@@ -20,11 +19,15 @@
 
 <body>
     <?php include 'header.html'; ?>
-
-    <div class="hisotry">
+<div class="main">
+    <div class="i_title_div">
+            <div class="title_page_i">Иcтория</div>
+            <div class="line_line"></div>
+        </div>
+        <div class="hisotry">
         <div class="text">
-            <div class="title-page">Иcтория</div>
-            <div class="yellow_line"></div>
+            <!-- <div class="title-page">Иcтория</div>
+            <div class="yellow_line"></div> -->
             <div class="text_1"> <p>
                 Основателем искусства Айкидо был Величайший Мастер восточных единоборств, искатель и философ Уэсиба Морихей.
                 Он всю свою жизнь посвятил поиску пути гармонии и, несмотря на все жизненные сложности, сумел создать
@@ -58,6 +61,9 @@
             </div>
             <img class="img_history" src="images/image.jpg" alt="img_history">
         </div>
+
+        <!-- <div class="line_black"></div> -->
+
         <div class="text">
             <div class="title_etiquette">Этикет. Рэйсики - правила поведения в додзё.</div>
             <div class="info_etiquette">
@@ -124,6 +130,8 @@
             </div>
         </div>
     </div>
+    </div>
+
     <?php include 'footer.php'; ?>
 </body>
 

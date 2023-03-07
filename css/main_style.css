@@ -1,7 +1,7 @@
 
 #leftBlock {
     float: left;
-    width: 25%;
+    /* width: 25%; */
     display: flex;
     justify-content: center;
 }
@@ -9,7 +9,7 @@
 #rightBlock {
     float: right;
     height: inherit;
-    width: 25%;
+    /* width: 25%; */
     display: flex;
     justify-content: center;
 }
@@ -23,6 +23,8 @@
 
 .main_composition {
     height: 400px;
+    max-width: 1450px;
+margin-top: 50px;
 }
 
 .main {
@@ -81,10 +83,11 @@
 
 .info_title {
     position: absolute;
-    width: 300px;
+    /* width: 300px; */
     height: 60px;
     /* left: 855px; */
-    top: 935px;
+    /* top: 935px; */
+    margin-top: 500px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -92,13 +95,14 @@
     display: flex;
     align-items: center;
     color: #000000;
+    text-align: center;
 }
 
 .info_federation {
     width: 1450px;
     min-height: 245px;
     /* margin-left: 235px; */
-    margin-top: 250px;
+    margin-top: 120px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
