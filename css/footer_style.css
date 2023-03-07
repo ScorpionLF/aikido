@@ -7,6 +7,8 @@ footer {
     justify-items: center;
     display: grid;
     /* width: 100%; */
+    margin-left: -10px;
+    margin-bottom: -10px;
 }
 
 .footer {
@@ -35,10 +37,11 @@ footer {
 #footer_second_div {
     float: right;
     /* width: 35%; */
+    /* align-items: center; */
 }
 
 .footer-text {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 100%;
     font-family: 'Roboto';
     font-style: normal;
@@ -55,10 +58,10 @@ footer {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 16px;
     text-align: right;
     color: #706f6f;
-    margin-top: 40px;
+    margin-top: 20px;
         /* align-items: center; */
         /* margin-bottom: 30px; */
 }
@@ -66,11 +69,11 @@ footer {
 .alyans {
     /* align-items: baseline; */
     /* width: 725px; */
-    margin-top: 30px;
+    margin-top: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     color: #706f6f;
     /* margin-bottom: 30px; */
@@ -97,7 +100,7 @@ footer {
 }
 
 .button_footer {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* margin-left: 550px; */
     display: flex;
     align-items: center;
@@ -119,6 +122,7 @@ footer {
     display: grid;
     align-items: center;
     /* width: 100%; */
+    /* margin-top: 30px; */
 }
 
 .footer_second_div {

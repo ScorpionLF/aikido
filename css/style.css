@@ -8,6 +8,8 @@
     justify-items: center;
     display: inline-grid;
     min-height: 70vh;
+    margin-left: -10px;
+    /* margin-bottom: -10px; */
 }
 
 .i_title_div {
