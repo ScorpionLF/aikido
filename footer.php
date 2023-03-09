@@ -23,9 +23,6 @@
                     республике
                     Татарстан”
                 </div>
-                <div class="alyans">
-                    Разработка и поддержка сайта IT-компания "Альянс"
-                </div>
             </div>
             <div class="footer_second_div" id="footer_second_div">
                 <div class="button_footer">
@@ -43,9 +40,9 @@
                     }
                     ?>
                 </div>
-                <div class="law">Федерация Айкидо Ametsuchi Dojo © 2023. Все права защищены.</div>
+                <div class="footer_third_div">Разработка и поддержка сайта IT-компания "Альянс" © 2023. Все права защищены.</div>
+                </div>
             </div>
-        </div>
     </footer>
 </body>
 </html>
