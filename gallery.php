@@ -21,10 +21,6 @@
 <body>
     <?php include 'header.html'; ?>
     <div class="main">
-        <div class="i_title_div">
-            <div class="title_page_i">Галерея</div>
-            <div class="line_line"></div>
-        </div>
         <div class="photo_albums">
             <div class="album">
                 <div class="album_block">

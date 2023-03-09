@@ -21,10 +21,6 @@
 <body>
     <?php include 'header.html'; ?>
     <div class="main">
-        <div class="i_title_div">
-            <div class="title_page_i">Терминология</div>
-            <div class="line_line"></div>
-        </div>
         <div class="terms">
             <div class="test">
                 <button class="terms_button">Общее</button>

@@ -19,8 +19,8 @@ header {
     /* margin-left: 240px; */
     /* max-width: 100%; */
     width: 1450px;
-    min-height: 140px;
-    margin-top: 50px;
+    min-height: 270px;
+    /* margin-top: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,11 +48,6 @@ header {
     color: #9A9A9A;
 }
 
-.contact {
-    /* width: 485px; */
-    text-align: right;
-}
-
 #logo {
     float: left;
     /* width: 30%; */
@@ -63,10 +58,6 @@ header {
     /* width: 30%; */
 }
 
-#slogan_center {
-
-}
-
 .logo {
     /* width: 485px; */
     display: flex;
@@ -75,11 +66,12 @@ header {
     w*/
     width: 100%;
     margin-left: 80px;
+    margin-bottom: 15px;
 }
 
 .contact {
     text-align: right;
-
+margin-bottom: 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -100,7 +92,7 @@ header {
 /* -----------------------menu-------------------- */
 
 
-.menu-line {
+.menu {
     position: absolute;
     width: 100%;
     height: 70px;
