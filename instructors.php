@@ -21,10 +21,6 @@
     <?php include 'header.html'; ?>
 
     <div class="main">
-        <div class="i_title_div">
-            <div class="title_page_i">Инструкторы</div>
-            <div class="line_line"></div>
-        </div>
         <div class="block_1">
             <img class="foto_1" src="images/image.jpg" alt="b_evgenii">
             <div class="block_info_left">

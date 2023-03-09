@@ -22,10 +22,6 @@
     <?php include 'header.html'; ?>
 
     <div class="main">
-        <div class="i_title_div">
-            <div class="title_page_i">Расписание</div>
-            <div class="line_line"></div>
-        </div>
         <div class="schedule">
             <div class="schedule_left_div">
                 <div class="table_info">
