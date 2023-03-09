@@ -1,11 +1,16 @@
 .schedule {
-    margin-top: 50px;
     display: flex;
-    /* justify-content: center; */
+    align-items: center;
+    min-height: 400px;
+    max-width: 1450px;
 }
 
 .schedule_left_div {
-    max-width: 725px;
+    float: left;
+}
+
+.schedule_right_div {
+    float: right;
 }
 
 .title-page-t {
@@ -27,12 +32,8 @@
 }
 
 .maps {
-    /* position: absolute; */
-    /* left: 1000px; */
-    /* margin-top: 550px; */
     margin-left: 20px;
     border-collapse: collapse;
-    /* border: 0.5px solid black; */
 }
 
 .table th {
