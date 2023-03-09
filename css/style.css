@@ -1,3 +1,10 @@
+body {
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 
 .main {
     /* margin-left: 240px; */
@@ -8,8 +15,6 @@
     justify-items: center;
     display: inline-grid;
     min-height: 70vh;
-    margin-left: -10px;
-    /* margin-bottom: -10px; */
 }
 
 .i_title_div {
@@ -40,4 +45,3 @@
 p {
     text-indent: 75px;
 }
-
