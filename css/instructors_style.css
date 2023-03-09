@@ -1,14 +1,4 @@
 
-
-/* .title_page_i {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    color: #000000;
-    position: relative;
-} */
-
 .block_1 {
     min-height: 600px;
     display: flex;
@@ -54,7 +44,7 @@
 }
 
 .block {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     display: flex;
     align-items: center;
     min-height: 600px;
@@ -94,4 +84,12 @@
     text-align: justify;
     color: #000000;
     margin-top: 50px;
+}
+
+.right_block {
+    width: 100%;
+    background-size: cover;
+    background-color: #e8e8e8;
+    justify-items: center;
+    display: inline-grid;
 }

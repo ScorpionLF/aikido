@@ -40,8 +40,7 @@
             </div>
         </div>
 
-        <div class="line_black"></div>
-
+    <div class="right_block">
         <div class="block">
             <div class="block_info_right">
                 <div class="name_right"><strong>Фамилия Рамис Отчество</strong></div>
@@ -61,8 +60,7 @@
             </div>
             <img class="foto_right" src="images/image.jpg" alt="ramis">
         </div>
-
-        <div class="line_black"></div>
+    </div>
 
         <div class="block">
             <img class="foto_left" src="images/image.jpg" alt="b_evgenii">
@@ -83,8 +81,7 @@
             </div>
         </div>
 
-        <div class="line_black"></div>
-
+    <div class="right_block">
         <div class="block">
             <div class="block_info_right">
                 <div class="name_right"><strong>Фамилия Руслан Отчество</strong></div>
@@ -102,8 +99,9 @@
             </div>
             <img class="foto_right" src="images/image.jpg" alt="ramis">
         </div>
+    </div>
 
-        <div class="line_black"></div>
+        <!-- <div class="line_black"></div> -->
 
         <div class="block">
             <img class="foto_left" src="images/image.jpg" alt="b_evgenii">
