@@ -13,17 +13,8 @@
     float: right;
 }
 
-.title-page-t {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    color: #000000;
-}
-
-
 .adress {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;

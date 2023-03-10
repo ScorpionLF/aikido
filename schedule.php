@@ -25,7 +25,6 @@
         <div class="schedule">
             <div class="schedule_left_div">
                 <div class="table_info">
-                    <div class="title-page-t">Казань</div>
                     <div class="adress">Ул. Ямашева, д. 36 <br>Белоусов Е.Н.</div>
                 </div>
                 <div class="table">
