@@ -22,7 +22,7 @@
     <?php include 'header.html'; ?>
     <div class="main">
         <div class="terms">
-            <div class="test">
+            <div class="common">
                 <button class="terms_button">Общее</button>
                 <div class="terms-text">
                     <!-- <p> -->
