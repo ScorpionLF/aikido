@@ -15,9 +15,9 @@ header {
     background: #000000;
 }
 
-.cap .buttons {
+/* .cap .buttons {
     justify-content: space-between;
-}
+} */
 
 .cap {
     /* margin-left: 240px; */
@@ -31,17 +31,14 @@ header {
 }
 
 .slogan_center {
-    /* width: 480px; */
     text-align: center;
 }
 
 .title_slogan {
     font-family: 'Roboto';
-    /* font-style: normal; */
     font-weight: 700;
     font-size: 40px;
     color: #000000;
-    /* font-style: bold; */
 }
 
 .slogan {
@@ -54,20 +51,16 @@ header {
 
 #logo {
     float: left;
-    /* width: 30%; */
 }
 
 #contact {
     float: right;
-    /* width: 30%; */
 }
 
 .logo {
-    /* width: 485px; */
     display: flex;
     align-items: center;
-    /* width: 1450px; 
-    w*/
+
     width: 100%;
     margin-left: 80px;
     margin-bottom: 15px;

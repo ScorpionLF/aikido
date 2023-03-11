@@ -1,7 +1,7 @@
-
 .terms {
+    display: grid;
+    align-items: center;
     max-width: 1450px;
-    margin-bottom: 50px;
 }
 
 .general {
@@ -24,7 +24,7 @@
     text-align: center;
     justify-content: center;
     color: #000000;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .terms-text {
@@ -42,5 +42,3 @@
     color: #000000;
 
 }
-
-
