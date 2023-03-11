@@ -1,7 +1,7 @@
 .terms {
     display: grid;
     align-items: center;
-    max-width: 1450px;
+    max-width: 1270px;
 }
 
 .general {
@@ -13,7 +13,7 @@
 }
 
 .terms_button {
-    width: 1450px;
+    width: 1270px;
     height: 60px;
     font-family: 'Roboto';
     font-style: normal;
@@ -29,7 +29,7 @@
 
 .terms-text {
     display: none;
-    width: 1450px;
+    width: 1270px;
     min-height: 50px;
     margin-top: 20px;
     font-family: 'Roboto';

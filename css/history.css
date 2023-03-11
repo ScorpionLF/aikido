@@ -10,7 +10,8 @@
 
 .text_1 {
     position: absolute;
-    width: 1450px;
+    /* width: 1450px; */
+    width: 1270px;
     min-height: 90px;
     font-family: 'Roboto';
     font-style: normal;
@@ -30,7 +31,7 @@
 
 .text_2 {
     position: absolute;
-    width: 1450px;
+    width: 1270px;
     min-height: 90px;
     margin-top: 50px;
     font-family: 'Roboto';
@@ -45,13 +46,13 @@
 
 .img_history {
     position: relative;
-    margin-top: 700px;
+    margin-top: 750px;
 }
 
 .title_etiquette {
     position: absolute;
     min-height: 64px;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 
     font-family: 'Roboto';
@@ -65,9 +66,9 @@
 
 .info_etiquette {
     position: relative;
-    width: 1450px;
+    width: 1270px;
     min-height: 1232px;
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     font-family: 'Roboto';
     font-style: normal;
