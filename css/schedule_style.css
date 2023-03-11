@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     min-height: 400px;
-    max-width: 1450px;
+    max-width: 1270px;
 }
 
 .schedule_left_div {
@@ -32,7 +32,7 @@
 }
 
 table {
-    width: 725px;
+    width: 630px;
     margin-top: 50px;
     height: 200px;
     border-collapse: collapse;
