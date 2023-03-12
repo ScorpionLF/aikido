@@ -33,6 +33,7 @@ details {
     text-align: center;
     justify-content: center;
     color: #000000;
+    cursor: default; 
     margin-top: 50px;
 }
 
@@ -51,6 +52,7 @@ details {
     justify-content: center;
     color: #000000;
     margin-top: 50px;
+    cursor: default; 
 }
 
 .tech_block {

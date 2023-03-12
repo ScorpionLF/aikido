@@ -24,6 +24,7 @@
     color: #000000;
     margin-top: 50px;
     /* position: relative; */
+    cursor: default; 
 }
 
 details {
