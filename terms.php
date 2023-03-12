@@ -23,8 +23,8 @@
     <div class="main">
         <div class="terms">
             <div class="common">
-                <button class="terms_button">Общее</button>
-                <div class="terms-text">
+                <button onclick="showCommonElement('common_id')" class="terms_button">Общее</button>
+                <div id="common_id" class="terms-text">
                     <!-- <p> -->
                     <strong>Ай</strong> - Любовь, гармония. <br><br>
                     <strong>Ки</strong> - жизненная энергия. <br><br>
@@ -67,10 +67,20 @@
                     каллиграфией, который обычно расположен у камидза. <br><br>
                     <!-- </p> -->
                 </div>
+                <script>
+                    function showCommonElement(common_id) {
+                        if (document.getElementById(common_id)) {
+                            var common = document.getElementById(common_id);
+                            if (common.style.display == "none") {
+                                common.style.display = "block";
+                            } else common.style.display = "none";
+                        } else console.log("WRONG!!!");
+                    }
+                </script>
             </div>
             <div class="numbers">
-                <button class="terms_button">Счет</button>
-                <div class="terms-text">
+                <button onclick="showNumberslement('numbers_id')" class="terms_button">Счет</button>
+                <div id="numbers_id" class="terms-text">
                     <strong>Ити</strong> - Один <br><br>
                     <strong>Ни</strong> - Два. <br><br>
                     <strong>Сан</strong> - Три. <br><br>
@@ -82,12 +92,22 @@
                     <strong>Кю:</strong> - Девять. <br><br>
                     <strong>Дзю</strong> - Десять. <br><br>
                 </div>
+                <script>
+                    function showNumberslement(numbers_id) {
+                        if (document.getElementById(numbers_id)) {
+                            var numbers = document.getElementById(numbers_id);
+                            if (numbers.style.display == "none") {
+                                numbers.style.display = "block";
+                            } else numbers.style.display = "none";
+                        } else console.log("WRONG!!!");
+                    }
+                </script>
             </div>
 
 
             <div class="side">
-                <button class="terms_button">Стороны и части тела</button>
-                <div class="terms-text">
+                <button onclick="showSidelement('side_id')" class="terms_button">Стороны и части тела</button>
+                <div id="side_id" class="terms-text">
                     <strong>Те</strong> - рука. <br><br>
                     <strong>Тай</strong> - тело. <br><br>
                     <strong>Куби</strong> - горло. <br><br>
@@ -113,10 +133,21 @@
                     <strong>Усиро</strong> - задний, назад. <br><br>
                     <strong>Ёко</strong> - боковой, вбок. <br><br>
                 </div>
+                <script>
+                    function showSidelement(side_id) {
+                        if (document.getElementById(side_id)) {
+                            var side = document.getElementById(side_id);
+                            if (side.style.display == "none") {
+                                side.style.display = "block";
+                            } else side.style.display = "none";
+                        } else console.log("WRONG!!!");
+                    }
+                </script>
             </div>
-            <div class="rack">
+
+            <div onclick="showRackElement('rack_id')" class="rack">
                 <button class="terms_button">Стойки</button>
-                <div class="terms-text">
+                <div id="rack_id" class="terms-text">
                     <strong>Камаэ</strong> - основная стойка. <br><br>
                     <strong>Сидзэнтай</strong> - стойка естественного ожидания. <br><br>
                     <strong>Кибадати</strong> - "стойка всадника". <br><br>
@@ -125,10 +156,21 @@
                     <strong>Ма ай</strong> - дистанция между партнерами, дистанция гармонии, "две руки", "два меча".
                     <br><br>
                 </div>
+                <script>
+                    function showRackElement(rack_id) {
+                        if (document.getElementById(rack_id)) {
+                            var rack = document.getElementById(rack_id);
+                            if (rack.style.display == "none") {
+                                rack.style.display = "block";
+                            } else rack.style.display = "none";
+                        } else console.log("WRONG!!!");
+                    }
+                </script>
             </div>
-            <div class="attacks">
+
+            <div onclick="showAttacksElement('attacks_id')" class="attacks">
                 <button class="terms_button">Удары</button>
-                <div class="terms-text">
+                <div id="attacks_id" class="terms-text">
                     <strong>Цки (Цуки)</strong> - прямой удар. <br><br>
                     <strong>Ути</strong> - удар ребром ладони. <br><br>
                     <strong>Ёкомэн ути</strong> - боковой удар в голову или шею. <br><br>
@@ -148,6 +190,16 @@
                     <strong>Рё мунэ дори</strong> - за отворот кимоно двумя руками. <br><br>
                     <strong>Ката дори мен учи</strong> - захват плеча с одновременным ударом в лицо. <br><br>
                 </div>
+                <script>
+                    function showAttacksElement(attacks_id) {
+                        if (document.getElementById(attacks_id)) {
+                            var attacks = document.getElementById(attacks_id);
+                            if (attacks.style.display == "none") {
+                                attacks.style.display = "block";
+                            } else attacks.style.display = "none";
+                        } else console.log("WRONG!!!");
+                    }
+                </script>
             </div>
         </div>
     </div>
