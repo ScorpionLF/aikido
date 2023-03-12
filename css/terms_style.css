@@ -1,6 +1,5 @@
 .terms {
     display: grid;
-    align-items: center;
     max-width: 1270px;
 }
 
@@ -22,7 +21,7 @@
     text-align: center;
     justify-content: center;
     color: #000000;
-    margin-top: 50px;
+    margin-top: 35px;
     /* position: relative; */
     cursor: default; 
 }
