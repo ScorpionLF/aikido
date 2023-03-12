@@ -4,7 +4,9 @@
     max-width: 1270px;
 }
 
-
+.text_terms {
+    margin-top: 50px;
+}
 
 .terms_button {
     background-color: rgb(222, 223, 224);
@@ -28,7 +30,7 @@ details {
     /* display: none; */
     width: 1270px;
     min-height: 50px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
