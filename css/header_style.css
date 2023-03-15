@@ -15,29 +15,30 @@ header {
     background: #000000;
 }
 
+/* .cap .buttons {
+    justify-content: space-between;
+} */
+
 .cap {
     /* margin-left: 240px; */
     /* max-width: 100%; */
     width: 1450px;
-    min-height: 230px;
-    margin-top: 50px;
+    min-height: 270px;
+    /* margin-top: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .slogan_center {
-    /* width: 480px; */
     text-align: center;
 }
 
 .title_slogan {
     font-family: 'Roboto';
-    /* font-style: normal; */
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     color: #000000;
-    /* font-style: bold; */
 }
 
 .slogan {
@@ -48,38 +49,26 @@ header {
     color: #9A9A9A;
 }
 
-.contact {
-    /* width: 485px; */
-    text-align: right;
-}
-
 #logo {
     float: left;
-    /* width: 30%; */
 }
 
 #contact {
     float: right;
-    /* width: 30%; */
-}
-
-#slogan_center {
-
 }
 
 .logo {
-    /* width: 485px; */
     display: flex;
     align-items: center;
-    /* width: 1450px; 
-    w*/
+
     width: 100%;
-    margin-left: 50px;
+    margin-left: 80px;
+    margin-bottom: 15px;
 }
 
 .contact {
     text-align: right;
-
+margin-bottom: 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -94,16 +83,17 @@ header {
     /* width: 200px; */
     height: 110px;
     /* margin-left: 150px; */
+    width: 140px;
 }
 
 /* -----------------------menu-------------------- */
 
 
-.menu-line {
+.menu {
     position: absolute;
     width: 100%;
     height: 70px;
-    top: 280px;
+    top: 200px;
     background: #000000;
     left: 0px;
 }

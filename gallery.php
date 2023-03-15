@@ -21,11 +21,14 @@
 <body>
     <?php include 'header.html'; ?>
     <div class="main">
-        <div class="i_title_div">
-            <div class="title_page_i">Галерея</div>
-            <div class="line_line"></div>
-        </div>
         <div class="photo_albums">
+            <div class="album">
+                <div class="album_block">
+                    <img class="album_image_1" src="images/image.jpg" alt="">
+                    <div class="album_title">Аттестация <br>
+                        Май, 2022</div>
+                </div>
+            </div>
             <div class="album">
                 <div class="album_block">
                     <img class="album_image_1" src="images/image.jpg" alt="">

@@ -20,9 +20,11 @@
 
 <body>
     <?php include 'header.html'; ?>
-    <div class="about_the_club">
-        <div class="title-page">Ametsuchi Dojo</div>
-        <div class="yellow_line"></div>
+    <div class="main">
+        <!-- <div class="i_title_div">
+            <div class="title_page_i">О клубе</div>
+            <div class="line_line"></div>
+        </div> -->
         <div class="info-page">
             <p>Федерация Айкидо Ametsuchi Dojo входит во Всестилевую Федерацию Айкидо России. Поэтому все ученики
                 проходят
@@ -52,6 +54,7 @@
                 Занятия проводятся 3 раза в неделю.</p>
         </div>
         <img class="img_about_school" src="images/image.jpg" alt="about_school">
+    </div>
     </div>
     <?php include 'footer.php'; ?>
 </body>

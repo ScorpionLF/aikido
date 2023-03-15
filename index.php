@@ -53,7 +53,7 @@
         <div class="news">
             <div class="new_1">
                 <div class="new_block">
-                    <img class="new_image_1" src="images/image.jpg" alt="new_image_1">
+                    <img class="new_image" src="images/image.jpg" alt="new_image_1">
                     <div class="new_title">Константиновка, набор в новую детскую группу айкидо!</div>
                     <div class="new"><?php echo(file_get_contents('./news/new_1.txt')); ?>
                     </div>
@@ -61,7 +61,7 @@
             </div>
             <div class="new_2">
                 <div class="new_block">
-                    <img class="new_image_2" src="images/image.jpg" alt="new_image_2">
+                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
                     <div class="new_title">Аттестованы!</div>
                     <div class="new">В конце мая прошла плановая аттестация учеников Ametsuchi Dojo. Сенсеи федерации во
                         главе с Белоусовым Евгением Набиевичем были очень строги и "сдать на пояс" удалось единицам.
@@ -76,7 +76,7 @@
             </div>
             <div class="new_3">
                 <div class="new_block">
-                    <img class="new_image_3" src="images/image.jpg" alt="new_image_3">
+                    <img class="new_image" src="images/image.jpg" alt="new_image_3">
                     <div class="new_title">Семинар Айкидо прошел успешно!</div>
                     <div class="new">В декабре прошел семинар Айкидо федерации Ametsuchi.
                         Традиционно был выбран зал Ак Барс, поскольку число участников снова бьет наши рекорды.<br>

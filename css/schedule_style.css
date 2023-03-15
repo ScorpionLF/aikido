@@ -1,27 +1,20 @@
-.timetable {
-    margin-top: 50px;
+.schedule {
     display: flex;
-    /* justify-content: center; */
+    align-items: center;
+    min-height: 400px;
+    max-width: 1270px;
 }
 
-.timetable_left_div {
-    max-width: 725px;
+.schedule_left_div {
+    float: left;
 }
 
-.title-page-t {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    color: #000000;
-}
-
-.table-info {
-
+.schedule_right_div {
+    float: right;
 }
 
 .adress {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -30,12 +23,8 @@
 }
 
 .maps {
-    /* position: absolute; */
-    /* left: 1000px; */
-    /* margin-top: 550px; */
     margin-left: 20px;
     border-collapse: collapse;
-    /* border: 0.5px solid black; */
 }
 
 .table th {
@@ -43,7 +32,7 @@
 }
 
 table {
-    width: 725px;
+    width: 630px;
     margin-top: 50px;
     height: 200px;
     border-collapse: collapse;
@@ -53,10 +42,6 @@ table {
     font-weight: 300;
     font-size: 24px;
     color: #000000;
-
-}
-
-.timetable_right_div {
 
 }
 

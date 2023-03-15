@@ -20,14 +20,7 @@
 <body>
     <?php include 'header.html'; ?>
 <div class="main">
-    <div class="i_title_div">
-            <div class="title_page_i">Иcтория</div>
-            <div class="line_line"></div>
-        </div>
-        <div class="hisotry">
         <div class="text">
-            <!-- <div class="title-page">Иcтория</div>
-            <div class="yellow_line"></div> -->
             <div class="text_1"> <p>
                 Основателем искусства Айкидо был Величайший Мастер восточных единоборств, искатель и философ Уэсиба Морихей.
                 Он всю свою жизнь посвятил поиску пути гармонии и, несмотря на все жизненные сложности, сумел создать

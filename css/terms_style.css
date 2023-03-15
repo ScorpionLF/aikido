@@ -1,19 +1,16 @@
-
 .terms {
-    max-width: 1450px;
-    margin-bottom: 50px;
+    display: grid;
+    max-width: 1270px;
 }
 
-.general {
-    margin-top: 600px;
-    margin-left: 200px;
-    background-color: #9A9A9A;
-    width: 1500px;
-    height: 60px;
+.text_terms {
+    margin-top: 50px;
 }
 
 .terms_button {
-    width: 1450px;
+    background-color: rgb(222, 223, 224);
+    border: 2px solid black;
+    width: 1270px;
     height: 60px;
     font-family: 'Roboto';
     font-style: normal;
@@ -24,14 +21,16 @@
     text-align: center;
     justify-content: center;
     color: #000000;
-    margin-top: 50px;
+    margin-top: 35px;
+    /* position: relative; */
+    cursor: default; 
 }
 
-.terms-text {
-    display: none;
-    width: 1450px;
+details {
+    /* display: none; */
+    width: 1270px;
     min-height: 50px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -40,7 +39,4 @@
     text-align: center;
     justify-content: center;
     color: #000000;
-
 }
-
-

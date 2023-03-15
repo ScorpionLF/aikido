@@ -6,46 +6,17 @@
 .text {
     justify-content: center;
     display: flex;
-    margin-top: 50px;
-
 }
-
-/* .yellow_line {
-    position: absolute;
-    width: 800px;
-    height: 5px;
-    margin-top: 150px;
-    background: #FCDF21;
-}
-
-.title-page {
-    position: absolute;
-    max-width: 250px;
-    height: 60px;
-    text-align: center;
-    top: 410px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-} */
 
 .text_1 {
     position: absolute;
-    width: 1450px;
+    /* width: 1450px; */
+    width: 1270px;
     min-height: 90px;
-    /* top: 550px; */
-    /* margin-top: 50px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    /* line-height: 28px; */
-    /* display: flex; */
     align-items: center;
     text-align: justify;
     color: #000000;
@@ -53,8 +24,6 @@
 
 .uesiba_h {
     position: relative;
-    /* width: 510px; */
-    /* height: 600px; */
     margin-top: 170px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
@@ -62,9 +31,8 @@
 
 .text_2 {
     position: absolute;
-    width: 1450px;
+    width: 1270px;
     min-height: 90px;
-    /* padding: 10px; */
     margin-top: 50px;
     font-family: 'Roboto';
     font-style: normal;
@@ -78,15 +46,13 @@
 
 .img_history {
     position: relative;
-    /* width: 750px; */
-    /* height: 505px; */
-    margin-top: 700px;
+    margin-top: 750px;
 }
 
 .title_etiquette {
     position: absolute;
     min-height: 64px;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 
     font-family: 'Roboto';
@@ -100,16 +66,14 @@
 
 .info_etiquette {
     position: relative;
-    width: 1450px;
+    width: 1270px;
     min-height: 1232px;
-    margin-top: 200px;
-    margin-bottom: 100px;
+    margin-top: 150px;
     display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
     align-items: center;
     text-align: justify;
     color: #000000;
