@@ -9,10 +9,10 @@
         <div style="text-align:center">
             <?php if(!empty($_SESSION['login'])): ?>
             <?php echo "Административная панель."; ?>
-            <a href="/logout.php">Выйти</a>
+            <a href="logout.php">Выйти</a>
         <?php else:
             echo '<h2>Для получения доступа в админ-панель нужно авторизоваться.</h2>';
-            echo '<a href="/index.php">На главную</a>';
+            echo '<a href="index.php">На главную</a>';
         ?>
     <?php endif ?>
         </div>
