@@ -11,10 +11,11 @@ body {
     /* max-width: 1450px; */
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     justify-items: center;
     display: inline-grid;
-    min-height: 76vh;
+    min-height: 77vh;
+    /* align-items: center; */
 }
 
 .i_title_div {

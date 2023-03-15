@@ -1,6 +1,6 @@
 .techique {
     width: 1270px;
-    display: grid;
+    /* display: grid; */
     /* align-items: center; */
 }
 
@@ -34,7 +34,7 @@ details {
     justify-content: center;
     color: #000000;
     cursor: default; 
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .exam_button {
