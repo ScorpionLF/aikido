@@ -13,7 +13,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     justify-items: center;
-    display: inline-grid;
+    display: grid;
     min-height: 77vh;
     /* align-items: center; */
 }
