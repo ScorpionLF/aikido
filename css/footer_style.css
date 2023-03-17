@@ -44,7 +44,7 @@ footer {
     font-size: 16px;
     text-align: right;
     color: #706f6f;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .sign {
@@ -90,5 +90,4 @@ footer {
     display: inline-grid;
     align-items: center;
     justify-items: right;
-    margin-top: 20px;
 }
