@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
-    <title>Инструкторы</title>
+    <title>Тренеры</title>
 </head>
 
 <body>

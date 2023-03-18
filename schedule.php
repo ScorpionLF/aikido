@@ -24,57 +24,34 @@
     <div class="main">
         <div class="schedule">
             <div class="schedule_left_div">
-                <div class="table_info">
-                    Дети
-                    <!-- <div class="adress">Ул. Ямашева, д. 36 <br>Белоусов Е.Н.</div> -->
+                <img class="img_tr" src="images/image.jpg" alt="">
+                <div class="info_tr">
+                    Белоусов Е.Н. 4 дан
                 </div>
-                <div class="table">
+            </div>
+            <div class="schedule_right_div">
+                <div id="table" class="table">
                     <table>
                         <tr>
+                            <th>Группы</th>
                             <th>Дни</th>
                             <th>Время</th>
-                            <th>Тренер</th>
                             <th>Адрес</th>
                         </tr>
                         <tr>
+                            <th>Детская</th>
                             <th>Понедельник, Среда, Пятница</th>
                             <th>18.00 - 19.00</th>
-                            <th>Белоусов Е.Н.</th>
                             <th>ул. Ямашева, д. 36</th>
                         </tr>
                         <tr>
+                            <th>Взрослая</th>
                             <th>Понедельник, Среда, Пятница</th>
-                            <th>18.00 - 19.00</th>
-                            <th>Белоусов Е.Н.</th>
+                            <th>19.00 - 21.00</th>
                             <th>ул. Ямашева, д. 36</th>
                         </tr>
                     </table>
                 </div>
-                <div class="table_info">
-                    Взрослые
-                    <!-- <div class="adress">Ул. Ямашева, д. 36 <br>Белоусов Е.Н.</div> -->
-                </div>
-                <div class="table">
-                    <table>
-                        <tr>
-                            <th>Дни</th>
-                            <th>Время</th>
-                            <th>Тренер</th>
-                            <th>Адрес</th>
-                        </tr>
-                        <tr>
-                            <th>Понедельник, Среда, Пятница</th>
-                            <th>18.00 - 19.00</th>
-                            <th>Белоусов Е.Н.</th>
-                            <th>ул. Ямашева, д. 36</th>
-                        </tr>
-                        <tr>
-                            <th>Понедельник, Среда, Пятница</th>
-                            <th>18.00 - 19.00</th>
-                            <th>Белоусов Е.Н.</th>
-                            <th>ул. Ямашева, д. 36</th>
-                        </tr>
-                    </table>
                 </div>
             </div>
             <!-- <div class="schedule_right_div">

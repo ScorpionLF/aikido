@@ -108,8 +108,8 @@ header {
 }
 
 .m_button {
-
-    width: 254px;
+/* -----!!!!----- */
+    width: 235px;
     z-index: 100;
 }
 

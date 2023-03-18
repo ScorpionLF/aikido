@@ -7,19 +7,32 @@
 
 .schedule_left_div {
     float: left;
+    display: grid;
+    max-height: 400px;
+}
+
+.img_tr {
+    width: 400px;
+    height: 320px;
+}
+
+.info_tr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    display: grid;
+    /* margin-top: 10px; */
 }
 
 .schedule_right_div {
     float: right;
-}
-
-.adress {
-    /* margin-top: 10px; */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    color: #000000;
+    max-height: 400px;
 }
 
 .maps {
@@ -30,13 +43,13 @@
 .table th {
     text-align: center;
     border: 2px solid black;
-    
+
 }
 
 table {
-    width: 1270px;
-    margin-top: 20px;
-    /* height: 200px; */
+    /* width: 1270px; */
+    /* margin-top: 50px; */
+    height: 400px;
     border-collapse: collapse;
     border: 2px solid black;
     font-family: 'Roboto';
@@ -44,15 +57,10 @@ table {
     font-weight: 200;
     font-size: 25px;
     color: #000000;
+    margin-left: 20px;
 
 }
 
-.table_info {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    color: #000000;
-    text-align: center;
-    margin-top: 20px;
-}
+/* #table {
+
+} */
