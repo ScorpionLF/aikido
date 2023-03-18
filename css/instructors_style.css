@@ -1,18 +1,28 @@
+.treners {
+    max-width: 1270px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 50px;
+}
 
 .block_1 {
-    min-height: 600px;
-    display: flex;
-    align-items: center;
-    max-width: 1270px;
-}   
+    min-height: 900px;
+    display: grid;
+    margin-top: 50px;
+    width: 600px;
+}
 
 .foto_1 {
-    width: 430px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 600px;
+    height: 800px;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 .block_info_left {
-    margin-left: 50px;
+    display: grid;
+    background-color: #000000;
+    align-items: center;
+    height: 100px;
 }
 
 .name_left {
@@ -20,18 +30,19 @@
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    color: #000000;
+    color: white;
     text-align: center;
+    margin-top: 10px;
 }
 
 .info_i_left {
-    margin-top: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    text-align: justify;
-    color: #000000;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .line_black {
@@ -44,27 +55,32 @@
 }
 
 .block {
-    /* margin-top: 40px; */
-    display: flex;
-    align-items: center;
-    min-height: 600px;
-    max-width: 1270px;
-
+    min-height: 900px;
+    display: grid;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 70px; 
+    /* --- */
 }
 
 
 .block_info_right {
-    margin-right: 50px;
+    display: grid;
+    background-color: #000000;
+    align-items: center;
+    height: 100px;
 }
 
 .foto_right {
-    width: 500px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 600px;
+    height: 800px;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 .foto_left {
-    width: 500px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 600px;
+    height: 800px;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 .name_right {
@@ -72,8 +88,9 @@
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    color: #000000;
+    color: white;
     text-align: center;
+    margin-top: 10px;
 }
 
 .info_i_right {
@@ -81,9 +98,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    text-align: justify;
-    color: #000000;
-    margin-top: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .right_block {

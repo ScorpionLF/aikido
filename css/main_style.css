@@ -28,14 +28,6 @@
     /* margin-top: 50px; */
 }
 
-.main {
-    width: 100%;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    justify-items: center;
-    display: inline-grid;
-}
-
 .sensei {
     /* width: 305px; */
     height: inherit;
