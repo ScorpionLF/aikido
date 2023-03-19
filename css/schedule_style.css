@@ -1,6 +1,6 @@
 .schedule {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     min-height: 400px;
     max-width: 1270px;
 }

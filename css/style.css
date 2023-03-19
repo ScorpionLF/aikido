@@ -14,7 +14,7 @@ body {
     margin-bottom: 50px;
     justify-items: center;
     display: grid;
-    min-height: 77vh;
+    /* min-height: 77vh; */
     /* align-items: center; */
 }
 
