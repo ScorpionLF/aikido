@@ -1,9 +1,20 @@
+html {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
 body {
-    
+    min-height: 100%;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: first baseline;
 }
 
 .main {
