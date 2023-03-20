@@ -25,7 +25,7 @@
     height: 400px;
     /* max-width: 1450px; */
     max-width: 1270px;
-    /* margin-top: 50px; */
+    margin-top: 50px;
 }
 
 .sensei {
@@ -112,6 +112,7 @@
 
 .news {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .new_block {

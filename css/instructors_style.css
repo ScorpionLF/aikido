@@ -3,6 +3,7 @@
     /* flex-wrap: wrap; */
     display: flex;
     margin-bottom: 50px;
+    justify-content: space-between;
 }
 
 .block_1 {
@@ -61,7 +62,7 @@
 .block {
     display: grid;
     margin-top: 50px;
-    margin-left: 23px; 
+    /* margin-left: 23px;  */
     /* --- */
     height: 500px;
     width: 300px;

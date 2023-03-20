@@ -1,6 +1,8 @@
 .history {
-    justify-content: center;
-    display: flex;
+    /* justify-content: center;
+    display: flex; */
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .text {

@@ -22,7 +22,7 @@
 
     <div class="main">
         <div class="treners">
-            <div class="block_1">
+            <div class="block">
                 <img class="foto_1" src="images/image.jpg" alt="b_evgenii">
                 <div class="block_info_left">
                     <div class="name_left"><strong>Белоусов Евгений Набиевич</strong></div>
