@@ -6,7 +6,7 @@ footer {
     justify-items: center;
     display: grid;
     /* right: 0; */
-    
+    position: relative;
 }
 
 .footer {
@@ -53,7 +53,7 @@ footer {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     color: #FFFFFF;
     background: none;
     margin-left: 10px;
@@ -73,14 +73,14 @@ footer {
 }
 
 .youtube {
-    width: 40px;
-    height: 30px;
+    width: 35px;
+    height: 25px;
 }
 
 .vk {
-    margin-left: 15px;
-    width: 40px;
-    height: 40px;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
 }
 
 .footer_one_div {

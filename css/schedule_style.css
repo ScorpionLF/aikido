@@ -1,6 +1,6 @@
 .schedule {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     min-height: 400px;
     max-width: 1270px;
 }
@@ -8,7 +8,7 @@
 .schedule_left_div {
     float: left;
     display: grid;
-    max-height: 400px;
+    /* max-height: 400px; */
 }
 
 .img_tr {
@@ -32,7 +32,7 @@
 
 .schedule_right_div {
     float: right;
-    max-height: 400px;
+    /* max-height: 400px; */
 }
 
 .maps {
@@ -43,13 +43,14 @@
 .table th {
     text-align: center;
     border: 2px solid black;
-
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 table {
     width: 850px;
     /* margin-top: 50px; */
-    height: 400px;
+    /* height: 20px; */
     border-collapse: collapse;
     border: 2px solid black;
     font-family: 'Roboto';

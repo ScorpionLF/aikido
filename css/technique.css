@@ -2,6 +2,7 @@
     width: 1270px;
     /* display: grid; */
     /* align-items: center; */
+margin-bottom: 20px;
 }
 
 details {
@@ -34,7 +35,7 @@ details {
     justify-content: center;
     color: #000000;
     cursor: default; 
-    margin-top: 35px;
+    /* margin-top: 25px; */
 }
 
 .exam_button {

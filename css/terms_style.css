@@ -1,7 +1,8 @@
 .terms {
     max-width: 1270px;
     /* align-items: center; */
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
+    margin-bottom: 25px;
 }
 
 .text_terms {
@@ -22,7 +23,7 @@
     text-align: center;
     justify-content: center;
     color: #000000;
-    margin-top: 35px;
+    margin-top: 25px;
     /* position: relative; */
     cursor: default; 
 }
