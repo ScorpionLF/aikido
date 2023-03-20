@@ -5,7 +5,8 @@ footer {
     background: #000000;
     justify-items: center;
     display: grid;
-    right: 0;
+    /* right: 0; */
+    
 }
 
 .footer {
@@ -41,10 +42,11 @@ footer {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 12px;
     text-align: right;
     color: #706f6f;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
 }
 
 .sign {
@@ -67,6 +69,7 @@ footer {
 .button_footer {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .youtube {

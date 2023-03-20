@@ -26,7 +26,8 @@
             <div class="schedule_left_div">
                 <img class="img_tr" src="images/image.jpg" alt="">
                 <div class="info_tr">
-                    Белоусов Е.Н. 4 дан
+                    Белоусов Е.Н. <br>
+                    4 дан
                 </div>
             </div>
             <div class="schedule_right_div">
@@ -40,13 +41,13 @@
                         </tr>
                         <tr>
                             <th>Детская</th>
-                            <th>Понедельник, Среда, Пятница</th>
+                            <th>Пн, Ср, Пт</th>
                             <th>18.00 - 19.00</th>
                             <th>ул. Ямашева, д. 36</th>
                         </tr>
                         <tr>
                             <th>Взрослая</th>
-                            <th>Понедельник, Среда, Пятница</th>
+                            <th>Пн, Ср, Пт</th>
                             <th>19.00 - 21.00</th>
                             <th>ул. Ямашева, д. 36</th>
                         </tr>

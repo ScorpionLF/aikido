@@ -144,7 +144,7 @@ header {
     position: absolute;
     background-color: black;
     width: 185px;
-    height: 370px;
+    /* height: 300px; */
     border: 2px solid #FFFFFF;
     z-index: 1;
 }
