@@ -103,13 +103,14 @@ header {
     align-items: center;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /* margin-top: 10px; */
+    width: 1270px;
 }
 
 .m_button {
 /* -----!!!!----- */
-    width: 235px;
+    /* width: 235px; */
     z-index: 100;
 }
 
@@ -144,23 +145,23 @@ header {
     position: absolute;
     background-color: black;
     width: 185px;
-    /* height: 300px; */
+    /* height: 370px; */
     border: 2px solid #FFFFFF;
     z-index: 1;
 }
 
-.menu .buttons .dropdown-content a {
+.buttons .dropdown-content a {
     color: #FFFFFF;
     padding: 15px 20px;
     text-decoration: none;
     display: block;
 }
 
-.menu .buttons .dropdown .dropdown-content a:hover {
+.buttons .dropdown .dropdown-content a:hover {
     background-color: rgba(221, 221, 221, 0.27);
 }
 
-.menu .buttons .dropdown:hover .dropdown-content {
+.buttons .dropdown:hover .dropdown-content {
     display: block;
 }
 
