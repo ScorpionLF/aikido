@@ -2,7 +2,8 @@
     width: 1270px;
     /* display: grid; */
     /* align-items: center; */
-margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 25px;
 }
 
 details {

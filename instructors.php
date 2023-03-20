@@ -23,11 +23,11 @@
     <div class="main">
         <div class="treners">
             <div class="block">
-                <img class="foto_1" src="images/image.jpg" alt="b_evgenii">
+                <img class="foto_1" src="images/image.jpg" alt="evgenii">
                 <div class="block_info_left">
                     <div class="name_left"><strong>Белоусов Евгений Набиевич</strong></div>
                     <div class="info_i_left">
-                        3 дан Айкидо Айкикай
+                        4 дан Айкидо Айкикай
                     </div>
                 </div>
             </div>
@@ -37,27 +37,27 @@
                 <div class="block_info_right">
                     <div class="name_right"><strong>Фамилия Рамис Отчество</strong></div>
                     <div class="info_i_right">
-                        дан Айкидо Айкикай
+                        1 дан Айкидо Айкикай
                     </div>
                 </div>
             </div>
 
             <div class="block">
-                <img class="foto_left" src="images/image.jpg" alt="b_evgenii">
+                <img class="foto_left" src="images/image.jpg" alt="ruslan">
                 <div class="block_info_left">
                     <div class="name_left"><strong>Фамилия Рамис Отчество</strong></div>
                     <div class="info_i_left">
-                         дан Айкидо Айкикай
+                        1 дан Айкидо Айкикай
                     </div>
                 </div>
             </div>
 
             <div class="block">
-                <img class="foto_right" src="images/image.jpg" alt="ramis">
+                <img class="foto_right" src="images/image.jpg" alt="andrey">
                 <div class="block_info_right">
                     <div class="name_right"><strong>Белоусов Андрей Евгениевич</strong></div>
                     <div class="info_i_right">
-                         дан Айкидо Айкикай
+                        1 дан Айкидо Айкикай
                     </div>
                 </div>
             </div>
