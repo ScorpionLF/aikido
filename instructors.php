@@ -14,110 +14,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
-    <title>Инструкторы</title>
+    <title>Тренеры</title>
 </head>
 
 <body>
     <?php include 'header.html'; ?>
 
     <div class="main">
-        <div class="block_1">
-            <img class="foto_1" src="images/image.jpg" alt="b_evgenii">
-            <div class="block_info_left">
-                <div class="name_left"><strong>Белоусов Евгений Набиевич</strong></div>
-                <div class="info_i_left">
-                    <p>3 дан Айкидо Айкикай, тренируется с 1994 года.</p>
-                    <p>Евгения Набиевича, наряду с высочайшим мастерством и преданным отношением к Айкидо, характеризует
-                        невероятная доброта и открытость, основанная на его высоких нравственных качествах. Он является
-                        не
-                        просто тренером, а непревзойденным примером для своих учеников и настоящим другом для каждого,
-                        который
-                        готов поддержать даже за пределами тренировочного зала. Одно знакомство с этим человеком
-                        способно
-                        сделать вас лучше и добрее, а обучение у этого Мастера приведет вас к замечательным результатам.
-                    </p>
+        <div class="treners">
+            <div class="block_1">
+                <img class="foto_1" src="images/image.jpg" alt="b_evgenii">
+                <div class="block_info_left">
+                    <div class="name_left"><strong>Белоусов Евгений Набиевич</strong></div>
+                    <div class="info_i_left">
+                        3 дан Айкидо Айкикай
+                    </div>
                 </div>
             </div>
-        </div>
 
-    <div class="right_block">
-        <div class="block">
-            <div class="block_info_right">
-                <div class="name_right"><strong>Фамилия Рамис Отчество</strong></div>
-                <div class="info_i_right">
-                    <p>3 дан Айкидо Айкикай, тренируется с 1994 года. </p>
-                    <p> Евгения Набиевича, наряду с высочайшим мастерством и преданным отношением к Айкидо,
-                        характеризует
-                        невероятная доброта и открытость, основанная на его высоких нравственных качествах. Он является
-                        не
-                        просто тренером, а непревзойденным примером для своих учеников и настоящим другом для каждого,
-                        который
-                        готов поддержать даже за пределами тренировочного зала. Одно знакомство с этим человеком
-                        способно
-                        сделать вас лучше и добрее, а обучение у этого Мастера приведет вас к замечательным результатам.
-                    </p>
+            <div class="block">
+                <img class="foto_right" src="images/image.jpg" alt="ramis">
+                <div class="block_info_right">
+                    <div class="name_right"><strong>Фамилия Рамис Отчество</strong></div>
+                    <div class="info_i_right">
+                        дан Айкидо Айкикай
+                    </div>
                 </div>
             </div>
-            <img class="foto_right" src="images/image.jpg" alt="ramis">
-        </div>
-    </div>
 
-        <div class="block">
-            <img class="foto_left" src="images/image.jpg" alt="b_evgenii">
-            <div class="block_info_left">
-                <div class="name_left"><strong>Курбанов Олег Игоревич</strong></div>
-                <div class="info_i_left">
-                    <p>3 дан Айкидо Айкикай, тренируется с 1994 года. </p>
-                    <p>Евгения Набиевича, наряду с высочайшим мастерством и преданным отношением к Айкидо, характеризует
-                        невероятная доброта и открытость, основанная на его высоких нравственных качествах. Он является
-                        не
-                        просто тренером, а непревзойденным примером для своих учеников и настоящим другом для каждого,
-                        который
-                        готов поддержать даже за пределами тренировочного зала. Одно знакомство с этим человеком
-                        способно
-                        сделать вас лучше и добрее, а обучение у этого Мастера приведет вас к замечательным результатам.
-                    </p>
+            <div class="block">
+                <img class="foto_left" src="images/image.jpg" alt="b_evgenii">
+                <div class="block_info_left">
+                    <div class="name_left"><strong>Фамилия Рамис Отчество</strong></div>
+                    <div class="info_i_left">
+                         дан Айкидо Айкикай
+                    </div>
                 </div>
             </div>
-        </div>
 
-    <div class="right_block">
-        <div class="block">
-            <div class="block_info_right">
-                <div class="name_right"><strong>Фамилия Руслан Отчество</strong></div>
-                <div class="info_i_right">
-                    <p>3 дан Айкидо Айкикай, тренируется с 1994 года.</p>
-                    <p>Евгения Набиевича, наряду с высочайшим мастерством и преданным отношением к Айкидо, характеризует
-                        невероятная доброта и открытость, основанная на его высоких нравственных качествах. Он является
-                        не
-                        просто тренером, а непревзойденным примером для своих учеников и настоящим другом для каждого,
-                        который
-                        готов поддержать даже за пределами тренировочного зала. Одно знакомство с этим человеком
-                        способно
-                        сделать вас лучше и добрее, а обучение у этого Мастера приведет вас к замечательным результатам.
-                </div>
-            </div>
-            <img class="foto_right" src="images/image.jpg" alt="ramis">
-        </div>
-    </div>
-
-        <!-- <div class="line_black"></div> -->
-
-        <div class="block">
-            <img class="foto_left" src="images/image.jpg" alt="b_evgenii">
-            <div class="block_info_left">
-                <div class="name_left"><strong>Курбанов Олег Игоревич</strong></div>
-                <div class="info_i_left">
-                    <p> 3 дан Айкидо Айкикай, тренируется с 1994 года.</p>
-                    <p>Евгения Набиевича, наряду с высочайшим мастерством и преданным отношением к Айкидо, характеризует
-                        невероятная доброта и открытость, основанная на его высоких нравственных качествах. Он является
-                        не
-                        просто тренером, а непревзойденным примером для своих учеников и настоящим другом для каждого,
-                        который
-                        готов поддержать даже за пределами тренировочного зала. Одно знакомство с этим человеком
-                        способно
-                        сделать вас лучше и добрее, а обучение у этого Мастера приведет вас к замечательным результатам.
-                    </p>
+            <div class="block">
+                <img class="foto_right" src="images/image.jpg" alt="ramis">
+                <div class="block_info_right">
+                    <div class="name_right"><strong>Белоусов Андрей Евгениевич</strong></div>
+                    <div class="info_i_right">
+                         дан Айкидо Айкикай
+                    </div>
                 </div>
             </div>
         </div>

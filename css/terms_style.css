@@ -1,7 +1,8 @@
 .terms {
     max-width: 1270px;
     /* align-items: center; */
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
+    margin-bottom: 25px;
 }
 
 .text_terms {
@@ -11,7 +12,7 @@
 .terms_button {
     background-color: rgb(222, 223, 224);
     border: 2px solid black;
-    width: 1270px;
+    width: 1266px;
     height: 60px;
     font-family: 'Roboto';
     font-style: normal;
@@ -22,7 +23,7 @@
     text-align: center;
     justify-content: center;
     color: #000000;
-    margin-top: 35px;
+    margin-top: 25px;
     /* position: relative; */
     cursor: default; 
 }
