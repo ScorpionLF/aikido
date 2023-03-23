@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,14 +16,17 @@
         rel="stylesheet">
     <title>footer</title>
 </head>
+
 <body>
     <footer>
         <div class="footer">
-            <div class="footer_one_div" id="footer_one_div">
+            <div class="footer_first_div" id="footer_one_div">
                 <div class="footer-text">Региональная общественная организация “Федерация Айкидо “Аметсучи” по
                     республике
                     Татарстан”
                 </div>
+                <div class="footer_third_div">Разработка и поддержка сайта IT-компания "Альянс" © 2023. Все права
+                    защищены.</div>
             </div>
             <div class="footer_second_div" id="footer_second_div">
                 <div class="button_footer">
@@ -40,9 +44,9 @@
                     }
                     ?>
                 </div>
-                <div class="footer_third_div">Разработка и поддержка сайта IT-компания "Альянс" © 2023. Все права защищены.</div>
-                </div>
             </div>
+        </div>
     </footer>
 </body>
+
 </html>
