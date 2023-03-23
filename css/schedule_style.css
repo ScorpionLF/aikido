@@ -14,8 +14,8 @@ margin-bottom: 50px;
 }
 
 .img_tr {
-    width: 400px;
-    height: 320px;
+    width: 320px;
+    height: 400px;
 }
 
 .info_tr {
@@ -50,7 +50,7 @@ margin-bottom: 50px;
 }
 
 table {
-    width: 850px;
+    width: 900px;
     /* margin-top: 50px; */
     /* height: 20px; */
     border-collapse: collapse;
@@ -60,7 +60,7 @@ table {
     font-weight: 200;
     font-size: 25px;
     color: #000000;
-    margin-left: 20px;
+    margin-left: 50px;
 
 }
 

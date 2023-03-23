@@ -35,7 +35,7 @@
             <div class="block">
                 <img class="foto_right" src="images/image.jpg" alt="ramis">
                 <div class="block_info_right">
-                    <div class="name_right"><strong>Фамилия Рамис Отчество</strong></div>
+                    <div class="name_right"><strong>Гисмятов Рамис Расыхович</strong></div>
                     <div class="info_i_right">
                         1 дан Айкидо Айкикай
                     </div>
@@ -45,7 +45,7 @@
             <div class="block">
                 <img class="foto_left" src="images/image.jpg" alt="ruslan">
                 <div class="block_info_left">
-                    <div class="name_left"><strong>Фамилия Рамис Отчество</strong></div>
+                    <div class="name_left"><strong>Утяганов Руслан Анварович</strong></div>
                     <div class="info_i_left">
                         1 дан Айкидо Айкикай
                     </div>
