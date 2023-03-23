@@ -1,0 +1,49 @@
+.contact_container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1270px;
+    display: flex;
+    /* display: grid; */
+}
+
+.title_contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+    text-align: left;
+}
+
+.info_contact {
+    /* margin-top: 20px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: black;
+    text-align: left;
+    height: 60px;
+}
+
+.left_div {
+    float: left;
+    width: 70%;
+    /* width: 630px; */
+    display: grid;
+}
+
+.right_div {
+    float: right;
+    width: 100%;
+    /* width: 630px; */
+    /* margin-left: 10px; */
+    display: grid;
+
+}
+
+.first {
+    display: flex;
+    height: 150px;
+
+}
