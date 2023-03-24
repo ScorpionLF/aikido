@@ -135,11 +135,11 @@
             </div>
         </div>
         <div class="transitions_news">
-                <div class="element">< </div>
+                <div class="element_1">< </div>
                 <div class="element">1 </div>
                 <div class="element">2 </div>
                 <div class="element">3 </div>
-                <div class="element">></div>
+                <div class="element_1">></div>
         </div>
 
     </div>
