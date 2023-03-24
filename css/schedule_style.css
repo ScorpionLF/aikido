@@ -37,11 +37,6 @@ margin-bottom: 50px;
     /* max-height: 400px; */
 }
 
-.maps {
-    margin-left: 20px;
-    border-collapse: collapse;
-}
-
 .table th {
     text-align: center;
     border: 2px solid black;
