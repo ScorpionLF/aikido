@@ -2,7 +2,8 @@
     width: 1270px;
     /* flex-wrap: wrap; */
     display: flex;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    margin-top: -50px;
     justify-content: space-between;
 }
 
