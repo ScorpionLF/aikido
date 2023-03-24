@@ -7,7 +7,7 @@
     </head>
     <body>
         <div style="text-align:center">
-            <?php if(!empty($_SESSION['login'])): ?>
+            <?php if(!empty($_SESSION['login']) and $_SESSION['login'] == 'admin'): ?>
             <?php echo "Административная панель."; ?>
             <a href="logout.php">Выйти</a>
         <?php else:
