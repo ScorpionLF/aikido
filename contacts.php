@@ -47,12 +47,12 @@
                 <div class="info_contact"><strong>YouTube:</strong> ссылка</div>
             </div>
             <div class="right_div">
-                <img class="img-map" src="images/image.jpg" style="width" alt="">
-                <div class="maps" style="width: 100%; ">
+                <img style="width: 100%; height: 300px; z-index: -100;" src="images/image.jpg" style="width" alt="">
+                <div class="maps" style="width: 745px; z-index: 1000; position: absolute;">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1120.4904545474737!2d49.10169281735697!3d55.8282906571291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415952ae457ec33f%3A0x942bb741ea0d311!2z0L_RgC3Rgi4g0KXRg9GB0LDQuNC90LAg0K_QvNCw0YjQtdCy0LAsIDM2LCDQmtCw0LfQsNC90YwsINCg0LXRgdC_LiDQotCw0YLQsNGA0YHRgtCw0L0sIDQyMDA0NA!5e0!3m2!1sru!2sru!4v1675417328707!5m2!1sru!2sru"
                         style="border: none; height: 300px; width: 100%;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
