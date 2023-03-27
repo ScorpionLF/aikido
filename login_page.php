@@ -16,7 +16,7 @@
                 <input type="text" placeholder="Введите логин" name="login">
             </div>
             <div class="form-group">
-                <input type="text" placeholder="Введите пароль" name="password">
+                <input type="password" placeholder="Введите пароль" name="password">
             </div>
             <button type="submit" class="btn btn-primary" style="background-color:grey" name="submit">Войти</button>
         </form>
