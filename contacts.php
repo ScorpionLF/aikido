@@ -47,13 +47,27 @@
                 <div class="info_contact"><strong>YouTube:</strong> ссылка</div>
             </div>
             <div class="right_div">
-                <div class="maps" style="width: 100%; ">
-                    <iframe
+                <img class="img_map" src="images/image.jpg" style="width" alt="">
+                <div class="maps">
+                    <!-- <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1120.4904545474737!2d49.10169281735697!3d55.8282906571291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415952ae457ec33f%3A0x942bb741ea0d311!2z0L_RgC3Rgi4g0KXRg9GB0LDQuNC90LAg0K_QvNCw0YjQtdCy0LAsIDM2LCDQmtCw0LfQsNC90YwsINCg0LXRgdC_LiDQotCw0YLQsNGA0YHRgtCw0L0sIDQyMDA0NA!5e0!3m2!1sru!2sru!4v1675417328707!5m2!1sru!2sru"
                         style="border: none; height: 300px; width: 100%;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                        <iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=49.101661%2C55.829023&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjI2Mzc4NBJo0KDQvtGB0YHQuNGPLCDQoNC10YHQv9GD0LHQu9C40LrQsCDQotCw0YLQsNGA0YHRgtCw0L0sINCa0LDQt9Cw0L3RjCwg0L_RgNC-0YHQv9C10LrRgiDQr9C80LDRiNC10LLQsCwgMzYiCg08aERCFbNQX0I%2C&z=16.61"
+                        width="560" height="400" frameborder="1" allowfullscreen="true"
+                        style="position:relative; border: none; height: 300px; width: 100%;"></iframe>
                 </div>
-            </div>
+                <!-- <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/43/kazan/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Казань</a><a
+                        href="https://yandex.ru/maps/43/kazan/house/prospekt_yamasheva_36/YEAYdwdhTk0PQFtvfXRzeXRjbQ==/?ll=49.101661%2C55.829023&utm_medium=mapframe&utm_source=maps&z=16.61"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Проспект Ямашева, 36 —
+                        Яндекс Карты</a><iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=49.101661%2C55.829023&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjI2Mzc4NBJo0KDQvtGB0YHQuNGPLCDQoNC10YHQv9GD0LHQu9C40LrQsCDQotCw0YLQsNGA0YHRgtCw0L0sINCa0LDQt9Cw0L3RjCwg0L_RgNC-0YHQv9C10LrRgiDQr9C80LDRiNC10LLQsCwgMzYiCg08aERCFbNQX0I%2C&z=16.61"
+                        width="560" height="400" frameborder="1" allowfullscreen="true"
+                        style="position:relative;"></iframe></div>
+            </div> -->
         </div>
 
         <!-- <div class="contact_container">

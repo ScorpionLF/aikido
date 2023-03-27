@@ -11,11 +11,11 @@
     align-items: center;
     color: #000000;
     text-align: justify;
-    margin-top: 20px;
+    margin-top: -20px;
     /* margin-bottom: 75px; */
 }
 
 .img_about_school {
     margin-top: 800px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
