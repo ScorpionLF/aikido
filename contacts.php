@@ -55,8 +55,8 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                         <iframe
                         src="https://yandex.ru/map-widget/v1/?ll=49.101661%2C55.829023&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjI2Mzc4NBJo0KDQvtGB0YHQuNGPLCDQoNC10YHQv9GD0LHQu9C40LrQsCDQotCw0YLQsNGA0YHRgtCw0L0sINCa0LDQt9Cw0L3RjCwg0L_RgNC-0YHQv9C10LrRgiDQr9C80LDRiNC10LLQsCwgMzYiCg08aERCFbNQX0I%2C&z=16.61"
-                        width="560" height="400" frameborder="1" allowfullscreen="true"
-                        style="position:relative; border: none; height: 300px; width: 100%;"></iframe>
+                         height="400" frameborder="1" allowfullscreen="true"
+                        style="position:relative; border: none; height: 340px; width: 100%;"></iframe>
                 </div>
                 <!-- <div style="position:relative;overflow:hidden;"><a
                         href="https://yandex.ru/maps/43/kazan/?utm_medium=mapframe&utm_source=maps"
