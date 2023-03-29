@@ -17,20 +17,35 @@
 
 .info_contact {
     /* margin-top: 20px; */
+    display: grid;
+}
+
+.info_name_c {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 28px;
     color: black;
     text-align: left;
-    height: 60px;
+    height: 50px;
+}
+
+.info_info_c {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    height: 50px;
+    margin-left: 50px;
 }
 
 .left_div {
     float: left;
     width: 70%;
     /* width: 630px; */
-    display: grid;
+    /* display: grid; */
 }
 
 .right_div {
