@@ -41,21 +41,10 @@
 
         <div class="contact_container">
             <div class="left_div">
-                <div class="info_contact">
-                    <div class="info_name_c">Адрес:</div>
-                    <div class="info_info_c">Ул. Ямашева, д. 36</div>
-                </div>
-                <div class="info_contact">
-                    <div class="info_name_c">Телефон:</div>
-                    <div class="info_info_c">+7 (999) 999-99-99</div>
-                </div>
-                <div class="info_contact">
-                    <div class="info_name_c">Вконтакте:</div>
-                    <div class="info_info_c"></div>
-                </div>
-                <!-- <div class="info_contact"><strong>Телефон:</strong> +7 (999) 999-99-99</div>
+                <div class="info_contact"><strong>Адрес:</strong> ул. Ямашева, д. 36</div>
+                <div class="info_contact"><strong>Телефон:</strong> +7 (999) 999-99-99</div>
                 <div class="info_contact"><strong>Вконтакте:</strong> ссылка</div>
-                <div class="info_contact"><strong>YouTube:</strong> ссылка</div> -->
+                <div class="info_contact"><strong>YouTube:</strong> ссылка</div>
             </div>
             <div class="right_div">
                 <img class="img_map" src="images/image.jpg" style="width" alt="">
