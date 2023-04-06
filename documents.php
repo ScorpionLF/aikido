@@ -20,15 +20,15 @@
     <?php include 'header.html'; ?>
     <div class="main">
         <div class="documents">
-            <img class="doc_1" src="images/image.jpg" alt="">
-            <img class="doc" src="images/image.jpg" alt="">
-            <img class="doc" src="images/image.jpg" alt="">
-            <img class="doc" src="images/image.jpg" alt="">
-            <img class="doc_1" src="images/image.jpg" alt="">
-            <img class="doc" src="images/image.jpg" alt="">
-            <img class="doc" src="images/image.jpg" alt="">
-            <img class="doc" src="images/image.jpg" alt="">
-            <img class="doc_1" src="images/image.jpg" alt="">
+            <img class="doc_1" src="images/doc_1.jpg"  onError="this.src='images/not_found.png'">
+            <img class="doc" src="images/doc_2.jpg"  onError="this.src='images/not_found.png'">
+            <img class="doc" src="images/doc_3.jpg"  onError="this.src='images/not_found.png'">
+            <img class="doc" src="images/doc_4.jpg"  onError="this.src='images/not_found.png'">
+            <img class="doc_1" src="images/doc_5.jpg"  onError="this.src='images/not_found.png'">
+            <img class="doc" src="images/doc_6.jpg"  onError="this.src='images/not_found.png'">
+            <img class="doc" src="images/doc_7.jpg"  onError="this.src='images/not_found.png'">
+            <img class="doc" src="images/doc_8.jpg"  onError="this.src='images/not_found.png'">
+            <img class="doc_1" src="images/doc_9.jpg"  onError="this.src='images/not_found.png'">
         </div>
     </div>
 

@@ -51,7 +51,7 @@
             <p>- взрослая (для всех возрастов от 14 лет); <br>
                 Занятия проводятся 3 раза в неделю.</p>
         </div>
-        <img class="img_about_school" src="images/image.jpg" alt="about_school">
+        <img class="img_about_school"  src="images/about_club.jpg"  onError="this.src='images/not_found.png'">
     </div>
     </div>
     <?php include 'footer.php'; ?>
