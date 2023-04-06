@@ -23,7 +23,7 @@
         <div class="news_container">
             <div class="block_new">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
+                    <img class="new_image" src="images/new_1.jpg"  onError="this.src='images/not_found.png'">
                     <div class="new_title">Аттестованы!</div>
                     <div class="new">
                         В конце мая прошла плановая аттестация учеников Ametsuchi Dojo. Сенсеи федерации во главе с
@@ -36,7 +36,7 @@
             </div>
             <div class="block_new">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
+                <img class="new_image" src="images/new_2.jpg"  onError="this.src='images/not_found.png'">
                     <div class="new_title">Семинар Айкидо прошел успешно!</div>
                     <div class="new">
                         В декабре прошел семинар Айкидо федерации Ametsuchi. Традиционно был выбран зал Ак Барс,
@@ -48,7 +48,7 @@
             </div>
             <div class="block_new">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
+                <img class="new_image" src="images/new_3.jpg"  onError="this.src='images/not_found.png'">
                     <div class="new_title">Аттестованы!</div>
                     <div class="new">
                         В конце мая прошла плановая аттестация учеников Ametsuchi Dojo. Сенсеи федерации во главе с
@@ -61,7 +61,7 @@
             </div>
             <div class="block_new">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
+                <img class="new_image" src="images/new_4.jpg"  onError="this.src='images/not_found.png'">
                     <div class="new_title">Семинар Айкидо прошел успешно!</div>
                     <div class="new">
                         В декабре прошел семинар Айкидо федерации Ametsuchi. Традиционно был выбран зал Ак Барс,
@@ -73,7 +73,7 @@
             </div>
             <div class="block_new">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
+                <img class="new_image" src="images/new_5.jpg"  onError="this.src='images/not_found.png'">
                     <div class="new_title">Аттестованы!</div>
                     <div class="new">
                         В конце мая прошла плановая аттестация учеников Ametsuchi Dojo. Сенсеи федерации во главе с
@@ -86,7 +86,7 @@
             </div>
             <div class="block_new">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
+                <img class="new_image" src="images/new_6.jpg"  onError="this.src='images/not_found.png'">
                     <div class="new_title">Семинар Айкидо прошел успешно!</div>
                     <div class="new">
                         В декабре прошел семинар Айкидо федерации Ametsuchi. Традиционно был выбран зал Ак Барс,
@@ -98,7 +98,7 @@
             </div>
             <div class="block_new">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
+                <img class="new_image" src="images/new_7.jpg"  onError="this.src='images/not_found.png'">
                     <div class="new_title">Семинар Айкидо прошел успешно!</div>
                     <div class="new">
                         В декабре прошел семинар Айкидо федерации Ametsuchi. Традиционно был выбран зал Ак Барс,
@@ -110,7 +110,7 @@
             </div>
             <div class="block_new">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
+                <img class="new_image" src="images/new_8.jpg"  onError="this.src='images/not_found.png'">
                     <div class="new_title">Аттестованы!</div>
                     <div class="new">
                         В конце мая прошла плановая аттестация учеников Ametsuchi Dojo. Сенсеи федерации во главе с
@@ -123,7 +123,7 @@
             </div>
             <div class="block_new">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
+                <img class="new_image" src="images/new_9.jpg"  onError="this.src='images/not_found.png'">
                     <div class="new_title">Семинар Айкидо прошел успешно!</div>
                     <div class="new">
                         В декабре прошел семинар Айкидо федерации Ametsuchi. Традиционно был выбран зал Ак Барс,

@@ -22,7 +22,7 @@
     <div class="main">
         <div class="schedule">
             <div class="schedule_left_div">
-                <img class="img_tr" src="images/image.jpg" alt="">
+                <img class="img_tr" src="images/instructor_1.jpg"  onError="this.src='images/not_found.png'">
                 <div class="info_tr">
                     Белоусов Е.Н. <br>
                     4 дан

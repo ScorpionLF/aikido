@@ -23,7 +23,7 @@
     <div class="main">
         <div class="treners">
             <div class="block">
-                <img class="foto_1" src="images/image.jpg" alt="evgenii">
+                <img class="foto_1"  src="images/instructor_1.jpg"  onError="this.src='images/not_found.png'">
                 <div class="block_info_left">
                     <div class="name_left"><strong>Белоусов Евгений Набиевич</strong></div>
                     <div class="info_i_left">
@@ -33,7 +33,7 @@
             </div>
 
             <div class="block">
-                <img class="foto_right" src="images/image.jpg" alt="ramis">
+            <img class="foto_1"  src="images/instructor_2.jpg"  onError="this.src='images/not_found.png'">
                 <div class="block_info_right">
                     <div class="name_right"><strong>Гисмятов Рамис Расыхович</strong></div>
                     <div class="info_i_right">
@@ -43,7 +43,7 @@
             </div>
 
             <div class="block">
-                <img class="foto_left" src="images/image.jpg" alt="ruslan">
+            <img class="foto_1"  src="images/instructor_3.jpg"  onError="this.src='images/not_found.png'">
                 <div class="block_info_left">
                     <div class="name_left"><strong>Утяганов Руслан Анварович</strong></div>
                     <div class="info_i_left">
@@ -53,7 +53,7 @@
             </div>
 
             <div class="block">
-                <img class="foto_right" src="images/image.jpg" alt="andrey">
+            <img class="foto_1"  src="images/instructor_4.jpg"  onError="this.src='images/not_found.png'">
                 <div class="block_info_right">
                     <div class="name_right"><strong>Белоусов Андрей Евгениевич</strong></div>
                     <div class="info_i_right">
