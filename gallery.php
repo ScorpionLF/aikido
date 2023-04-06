@@ -15,8 +15,8 @@
         rel="stylesheet">
     <title>Галерея</title>
     
-    <link type="image/x-icon" href="images/logo.png" rel="shortcut icon">
-    <link type="Image/x-icon" href="images/logo.png" rel="icon">
+    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
 
 </head>
 
