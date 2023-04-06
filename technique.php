@@ -29,19 +29,19 @@
                 <div class="tech_block">
                     <div id="tech_block_left">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                            <img class="video" src="images/video_1.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
                     <div id="tech_block_center">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_2.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
                     <div id="tech_block_right">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_3.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
@@ -49,19 +49,19 @@
                 <div class="tech_block">
                     <div id="tech_block_left">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_4.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
                     <div id="tech_block_center">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_5.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
                     <div id="tech_block_right">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_6.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
