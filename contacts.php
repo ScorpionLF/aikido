@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>Контакты</title>
+    <link type="image/x-icon" href="images/logo.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/logo.png" rel="icon">
 </head>
 
 <body>
