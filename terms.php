@@ -15,8 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>Терминология</title>
-    <!-- <script type="text/javascript" src="script.js"></script> -->
-</head>
+    <link type="image/x-icon" href="images/logo.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/logo.png" rel="icon"></head>
 
 <body>
     <?php include 'header.html'; ?>
