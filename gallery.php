@@ -14,6 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>Галерея</title>
+    
+    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
+
 </head>
 
 <body>
@@ -22,63 +26,64 @@
         <div class="photo_albums">
             <div class="album">
                 <div class="album_block">
-                    <img class="album_image_1" src="images/image.jpg" alt="">
+                    <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
+
                     <div class="album_title">Аттестация <br>
                         Май, 2022</div>
                 </div>
             </div>
             <div class="album">
                 <div class="album_block">
-                    <img class="album_image_1" src="images/image.jpg" alt="">
+                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
                     <div class="album_title">Аттестация <br>
                         Май, 2022</div>
                 </div>
             </div>
             <div class="album">
                 <div class="album_block">
-                    <img class="album_image_1" src="images/image.jpg" alt="">
+                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
                     <div class="album_title">Аттестация <br>
                         Май, 2022</div>
                 </div>
             </div>
             <div class="album">
                 <div class="album_block">
-                    <img class="album_image_1" src="images/image.jpg" alt="">
+                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
                     <div class="album_title">Аттестация <br>
                         Май, 2022</div>
                 </div>
             </div>
             <div class="album">
                 <div class="album_block">
-                    <img class="album_image_1" src="images/image.jpg" alt="">
+                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
                     <div class="album_title">Аттестация <br>
                         Май, 2022</div>
                 </div>
             </div>
             <div class="album">
                 <div class="album_block">
-                    <img class="album_image_1" src="images/image.jpg" alt="">
+                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
                     <div class="album_title">Аттестация <br>
                         Май, 2022</div>
                 </div>
             </div>
             <div class="album">
                 <div class="album_block">
-                    <img class="album_image_1" src="images/image.jpg" alt="">
+                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
                     <div class="album_title">Аттестация <br>
                         Май, 2022</div>
                 </div>
             </div>
             <div class="album">
                 <div class="album_block">
-                    <img class="album_image_1" src="images/image.jpg" alt="">
+                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
                     <div class="album_title">Аттестация <br>
                         Май, 2022</div>
                 </div>
             </div>
             <div class="album">
                 <div class="album_block">
-                    <img class="album_image_1" src="images/image.jpg" alt="">
+                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
                     <div class="album_title">Аттестация <br>
                         Май, 2022</div>
                 </div>

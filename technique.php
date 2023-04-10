@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>Техники</title>
+    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
 </head>
 
 <body>
@@ -27,19 +29,19 @@
                 <div class="tech_block">
                     <div id="tech_block_left">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                            <img class="video" src="images/video_1.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
                     <div id="tech_block_center">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_2.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
                     <div id="tech_block_right">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_3.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
@@ -47,19 +49,19 @@
                 <div class="tech_block">
                     <div id="tech_block_left">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_4.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
                     <div id="tech_block_center">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_5.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>
                     <div id="tech_block_right">
                         <div class="video_block">
-                            <img class="video" src="images/image.jpg" alt="video">
+                        <img class="video" src="images/video_6.jpg"  onError="this.src='images/not_found.png'">
                             <div class="video_title">Маэ укэми (Сувари Вадза)</div>
                         </div>
                     </div>

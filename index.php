@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>Главная</title>
+    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
 </head>
 
 <body style="min-height:100%">
@@ -50,7 +52,8 @@
         <div class="news">
             <div class="new_1">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_1">
+                    <img class="new_image" src="images/new_1.jpg" onError="this.src='images/not_found.png'"
+                        alt="new_image_1">
                     <div class="new_title">Константиновка, набор в новую детскую группу айкидо!</div>
                     <div class="new">
                         <?php echo (file_get_contents('./news/new_1.txt')); ?>
@@ -59,8 +62,8 @@
             </div>
             <div class="new_2">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_2">
-                    <div class="new_title">Аттестованы!</div>
+                <img class="new_image" src="images/new_2.jpg" onError="this.src='images/not_found.png'">
+                <div class="new_title">Аттестованы!</div>
                     <div class="new">
                         В конце мая прошла плановая аттестация учеников Ametsuchi Dojo. Сенсеи федерации во главе с
                         Белоусовым Евгением Набиевичем были очень строги и "сдать на пояс" удалось единицам. Хотя число
@@ -73,7 +76,7 @@
             </div>
             <div class="new_3">
                 <div class="new_block">
-                    <img class="new_image" src="images/image.jpg" alt="new_image_3">
+                <img class="new_image" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
                     <div class="new_title">Семинар Айкидо прошел успешно!</div>
                     <div class="new">
                         В декабре прошел семинар Айкидо федерации Ametsuchi. Традиционно был выбран зал Ак Барс,

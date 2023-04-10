@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>История</title>
+    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
 </head>
 
 <body>
@@ -30,7 +32,7 @@
                         создать
                         несравненное по своей внутренней философии учение. </p>
                 </div>
-                <img class="uesiba_h" src="images/image.jpg" alt="uesiba_h">
+                <img class="uesiba_h" src="images/img_history_1.jpg"  onError="this.src='images/not_found.png'">
             </div>
             <div class="text">
                 <div class="text_2">
@@ -75,7 +77,7 @@
                         это ради
                         исправления вашего собственного разума. Это Айкидо."</p>
                 </div>
-                <img class="img_history" src="images/image.jpg" alt="img_history">
+                <img class="img_history"  src="images/img_history_2.jpg"  onError="this.src='images/not_found.png'">
             </div>
 
             <!-- <div class="line_black"></div> -->

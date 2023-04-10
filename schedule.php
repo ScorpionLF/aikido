@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>Расписание</title>
+    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
     <div class="main">
         <div class="schedule">
             <div class="schedule_left_div">
-                <img class="img_tr" src="images/image.jpg" alt="">
+                <img class="img_tr" src="images/instructor_1.jpg"  onError="this.src='images/not_found.png'">
                 <div class="info_tr">
                     Белоусов Е.Н. <br>
                     4 дан
