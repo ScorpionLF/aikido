@@ -1,0 +1,210 @@
+#leftBlock {
+    float: left;
+    /* width: 25%; */
+    display: flex;
+    justify-content: center;
+}
+
+
+#rightBlock {
+    float: right;
+    height: inherit;
+    /* width: 25%; */
+    display: flex;
+    justify-content: center;
+}
+
+#centralBlock {
+    height: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main_composition {
+    height: 400px;
+    /* max-width: 1450px; */
+    max-width: 1270px;
+    /* margin-top: 50px; */
+}
+
+.sensei {
+    /* width: 305px; */
+    height: inherit;
+    top: 445px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 300px;
+}
+
+.yellow_line {
+    width: 90%;
+    height: 7px;
+    background: #FCDF21;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: Kashima;
+    src: url(../fonts/Kashima.otf);
+}
+
+.quote_text {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Kashima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+}
+
+.aikido_logo {
+    height: inherit;
+    left: 1560px;
+    top: 420px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+    /* width: 300px; */
+}
+
+/* ----info---- */
+
+.info_title {
+    /* position: absolute; */
+    /* width: 300px; */
+    height: 60px;
+    /* left: 855px; */
+    /* top: 935px; */
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+}
+
+.info_federation {
+    /* width: 1450px; */
+    width: 1270px;
+
+    min-height: 245px;
+    /* margin-left: 235px; */
+    /* margin-top: 120px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    position: relative;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+}
+
+/* -----news----- */
+
+.news {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.new_block {
+    /* width: 430px; */
+    width: 400px;
+    margin-top: 50px;
+    background-image: url("../images/rectangle.png");
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.new_1 {
+    position: relative;
+    /* margin-left: 235px; */
+
+}
+
+.new_image {
+    /* height: 360px; */
+    height: 340px;
+    width: 400px;
+    /* width: 430px; */
+    border-radius: 5px;
+}
+
+.new_title {
+    /* width: 430px; */
+    margin-left: 5px;
+    width: 390px;
+    min-height: 60px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    align-items: center;
+    display: grid;
+}
+
+.new {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    /* align-items: center; */
+    text-align: left;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    hyphens: auto;
+}
+
+.new_2 {
+    position: relative;
+    /* margin-left: 80px; */
+    margin-left: 35px;
+}
+
+
+
+.new_3 {
+    position: relative;
+    /* margin-left: 80px; */
+    margin-left: 35px;
+}
+
+.transition {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 2300px;
+    display: flex;
+}
+
+.e_1 {
+    margin-left: 900px;
+}
+
+.e_2 {
+    margin-left: 20px;
+}
+
+.e_3 {
+    margin-left: 20px;
+}

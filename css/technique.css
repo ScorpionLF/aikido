@@ -1,0 +1,92 @@
+.techique {
+    width: 1270px;
+    /* display: grid; */
+    /* align-items: center; */
+    /* margin-bottom: 40px; */
+    margin-top: -20px;
+}
+
+details {
+    /* display: none; */
+    width: 1270px;
+    min-height: 50px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.terms_button {
+    background-color: rgb(222, 223, 224);
+    border: 2px solid black;
+    width: 1266px;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    cursor: default; 
+    /* margin-top: 25px; */
+}
+
+.exam_button {
+    background-color: rgb(244, 245, 246);
+    border: 1px solid black;
+    width: 1270px;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    margin-top: 50px;
+    cursor: default; 
+}
+
+.tech_block {
+    margin-top: 50px;
+    width: 1270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #tech_block_left {
+    float: left;
+}
+
+#tech_block_right {
+    float: right;
+} */
+
+.video_block {
+    width: 420px;
+}
+
+.video {
+    height: 250px;
+    width: 100%;
+}
+
+.video_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}

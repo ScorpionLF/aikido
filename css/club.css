@@ -1,0 +1,21 @@
+
+
+.info-page {
+    position: absolute;
+    width: 1270px;
+    min-height: 680px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    align-items: center;
+    color: #000000;
+    text-align: justify;
+    margin-top: -20px;
+    /* margin-bottom: 75px; */
+}
+
+.img_about_school {
+    margin-top: 800px;
+    /* margin-bottom: 50px; */
+}

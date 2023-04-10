@@ -5,72 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/header_style.css">
+    <link rel="stylesheet" href="css/club.css">
+    <link rel="stylesheet" href="css/footer_style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>О клубе</title>
+    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
 </head>
 
 <body>
-    <header>
-        <div class="line"></div>
-        <div class="cap">
-            <img class="logo" src="images/main/logo.png" alt="logo">
-            <div class="main-text"><strong>Ametsuchi Dojo</strong></div>
-            <div class="slogan">Энергия непреодолимой силы</div>
-            <div class="contact">
-                Казань: ул. Ямашева 36
-                <br>Телефон: +7 (999) 999-99-99
-                <!-- <br>Зеленодольск: ул. Карла Маркса 57а
-                <br>Телефон: +7 (999) 999-99-99 -->
-            </div>
-        </div>
-        <div class="menu">
-            <div class="menu-line"></div>
-            <div class="buttons">
-                <button class="main-page">Главная</button>
-                <div class="dropdown">
-                    <button class="aikido">Айкидо</button>
-                    <div class="dropdown-content">
-                        <a href="#">История</a>
-                        <a href="#">Термины</a>
-                        <a href="#">Техники</a>
-                        <a href="#">Принципы</a>
-                        <a href="#">Этикет</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="federation">Федерация</button>
-                    <div class="dropdown-content">
-                        <a href="#">О школе</a>
-                        <a href="#">Инструкторы</a>
-                        <a href="#">Расписание</a>
-                        <a href="#">Документы</a>
-                    </div>
-                </div>
-                <button class="timetable-menu">Расписание</button>
-                <button class="gallery">Галерея</button>
-            </div>
-        </div>
-        <!-- <div class="menu">
-            <div class="menu-line"></div>
-            <div class="buttons">
-                <a class="main-page" href="#">Главная</a>
-                <a class="aikido" href="#">Айкидо</a>
-                <a class="federation" href="#">Федерация</a>
-                <a class="timetable-menu" href="#">Расписание</a>
-                <a class="gallery" href="#">Галерея</a>
-            </div>
+    <?php include 'header.html'; ?>
+    <div class="main">
+        <!-- <div class="i_title_div">
+            <div class="title_page_i">О клубе</div>
+            <div class="line_line"></div>
         </div> -->
-    </header>
-
-    <div class="about_the_club">
-        <div class="title-page">Ametsuchi Dojo</div>
-        <div class="line_line"></div>
         <div class="info-page">
             <p>Федерация Айкидо Ametsuchi Dojo входит во Всестилевую Федерацию Айкидо России. Поэтому все ученики
                 проходят
@@ -99,18 +53,10 @@
             <p>- взрослая (для всех возрастов от 14 лет); <br>
                 Занятия проводятся 3 раза в неделю.</p>
         </div>
-        <img class="img_about_school" src="images/clube/about_school.png" alt="about_school">
+        <img class="img_about_school"  src="images/about_club.jpg"  onError="this.src='images/not_found.png'">
     </div>
-
-    <footer>
-        <div class="footer-text">Региональная общественная организация “Федерация Айкидо “Аметсучи” по республике
-            Татарстан”</div>
-        <div class="botooms-footer">
-            <input type="image" class="youtube" src="images/main/youtube.png" alt="youtube">
-            <input type="image" class="vk" src="images/main/vk.png" alt="vk">
-            <!-- <a class="sign_in" href="#">Вход</a> -->
-        </div>
-    </footer>
+    </div>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
