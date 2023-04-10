@@ -33,11 +33,32 @@
                     <?php
                     if (isset($_SESSION['login'])) {
                         ?>
-                        <a href="logout.php" class="sign">Выйти</a>
+                        <a href="index.php" class="sign">Выйти</a>
                         <?php
                     } else {
                         ?>
-                        <a href="login_page.php" class="sign">Вход</a>
+                        <a href="#login_page.php" class="sign">Вход</a>
+                        <div class="modal" id="login_page.php" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-header">
+                                    <h2 style="text-align:center; font-family: Roboto; font-size: 28px">Вход в личный
+                                        кабинет</h2>
+                                    <a href="#close" class="btn-close" aria-hidden="true">×</a>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="login_script.php" method="post" style="text-align:center;">
+                                        <div class="form-group">
+                                            <input class="text_sign" type="text" placeholder="Введите логин" name="login">
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="text_sign" type="password" placeholder="Введите пароль"
+                                                name="password">
+                                        </div>
+                                        <button type="submit" class="btn_btn-primary" name="submit">Войти</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                         <?php
                     }
                     ?>
