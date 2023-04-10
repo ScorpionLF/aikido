@@ -32,7 +32,7 @@
                         создать
                         несравненное по своей внутренней философии учение. </p>
                 </div>
-                <img class="uesiba_h" src="images/img_history_1.jpg"  onError="this.src='images/not_found.png'">
+                <img class="history_img_1" src="images/img_history_1.jpg"  onError="this.src='images/not_found.png'">
             </div>
             <div class="text">
                 <div class="text_2">
@@ -77,7 +77,7 @@
                         это ради
                         исправления вашего собственного разума. Это Айкидо."</p>
                 </div>
-                <img class="img_history"  src="images/img_history_2.jpg"  onError="this.src='images/not_found.png'">
+                <img class="history_img_2"  src="images/img_history_2.jpg"  onError="this.src='images/not_found.png'">
             </div>
 
             <!-- <div class="line_black"></div> -->
