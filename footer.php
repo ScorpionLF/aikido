@@ -41,12 +41,14 @@
                         <div class="modal" id="login_page.php" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-header">
-                                    <h2 style="text-align:center; font-family: Roboto; font-size: 28px">Вход в личный
-                                        кабинет</h2>
+                                    <div class="img_sign">
+                                        <img class="japan" src="images/japan.jpg" onError="this.src='images/not_found.png'">
+                                    </div>
+                                    <!-- <h2>Вход</h2> -->
                                     <a href="#close" class="btn-close" aria-hidden="true">×</a>
                                 </div>
                                 <div class="modal-body">
-                                    <form action="login_script.php" method="post" style="text-align:center;">
+                                    <form action="login_script.php" method="post" class="class">
                                         <div class="form-group">
                                             <input class="text_sign" type="text" placeholder="Введите логин" name="login">
                                         </div>
@@ -54,7 +56,7 @@
                                             <input class="text_sign" type="password" placeholder="Введите пароль"
                                                 name="password">
                                         </div>
-                                        <button type="submit" class="btn_btn-primary" name="submit">Войти</button>
+                                        <button type="submit" class="btn_btn-primary" name="submit">Авторизоваться</button>
                                     </form>
                                 </div>
                             </div>
