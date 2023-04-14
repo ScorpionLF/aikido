@@ -20,6 +20,7 @@
             <div class="form-group">
                 <input type="password" placeholder="Введите пароль" name="password">
             </div>
+            <br>
             <button type="submit" class="btn btn-primary" style="background-color:grey" name="submit">Войти</button>
         </form>
     </body>
