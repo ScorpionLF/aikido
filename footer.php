@@ -33,11 +33,34 @@
                     <?php
                     if (isset($_SESSION['login'])) {
                         ?>
-                        <a href="logout.php" class="sign">Выйти</a>
+                        <a href="index.php" class="sign">Выйти</a>
                         <?php
                     } else {
                         ?>
-                        <a href="login_page.php" class="sign">Вход</a>
+                        <a href="#login_page.php" class="sign">Вход</a>
+                        <div class="modal" id="login_page.php" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-header">
+                                    <div class="img_sign">
+                                        <img class="japan" src="images/japan.jpg" onError="this.src='images/not_found.png'">
+                                    </div>
+                                    <!-- <h2>Вход</h2> -->
+                                    <a href="#close" class="btn-close" aria-hidden="true">×</a>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="login_script.php" method="post" class="class">
+                                        <div class="form-group">
+                                            <input class="text_sign" type="text" placeholder="Введите логин" name="login">
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="text_sign" type="password" placeholder="Введите пароль"
+                                                name="password">
+                                        </div>
+                                        <button type="submit" class="btn_btn-primary" name="submit">Авторизоваться</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                         <?php
                     }
                     ?>
