@@ -57,7 +57,7 @@
             <div class="block">
             <img class="foto_1"  src="images/instructor_4.jpg"  onError="this.src='images/not_found.png'">
                 <div class="block_info_right">
-                    <div class="name_right"><strong>Белоусов Андрей Евгениевич</strong></div>
+                    <div class="name_right"><strong>Белоусов Андрей Евгеньевич</strong></div>
                     <div class="info_i_right">
                         1 дан Айкидо Айкикай
                     </div>
