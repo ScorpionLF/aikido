@@ -38,29 +38,31 @@
                     } else {
                         ?>
                         <a href="#login_page.php" class="sign">Вход</a>
+
                         <div class="modal" id="login_page.php" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-header">
                                     <div class="img_sign">
                                         <img class="japan" src="images/japan.jpg" onError="this.src='images/not_found.png'">
+                                        <a href="#close" class="btn-close" aria-hidden="true">×</a>
                                     </div>
-                                    <!-- <h2>Вход</h2> -->
-                                    <a href="#close" class="btn-close" aria-hidden="true">×</a>
                                 </div>
                                 <div class="modal-body">
                                     <form action="login_script.php" method="post" class="class">
                                         <div class="form-group">
-                                            <input class="text_sign" type="text" placeholder="E-mail" name="login">
+                                            <span class="input-title">Логин или e-mail <span>*</span></span>
+                                            <input class="text_sign" type="text" name="login">
                                         </div>
                                         <div class="form-group">
-                                            <input class="text_sign" type="password" placeholder="Пароль"
-                                                name="password">
+                                            <span class="input-title">Пароль <span>*</span></span>
+                                            <input class="text_sign" type="password" name="password">
                                         </div>
-                                        <button type="submit" class="btn_btn-primary" name="submit">Войти</button>
+                                        <button type="submit" class="btn_btn-primary" name="submit">ВОЙТИ</button>
                                     </form>
                                 </div>
                             </div>
                         </div>
+
                         <?php
                     }
                     ?>
