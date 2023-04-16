@@ -50,13 +50,13 @@
                                 <div class="modal-body">
                                     <form action="login_script.php" method="post" class="class">
                                         <div class="form-group">
-                                            <input class="text_sign" type="text" placeholder="Введите логин" name="login">
+                                            <input class="text_sign" type="text" placeholder="E-mail" name="login">
                                         </div>
                                         <div class="form-group">
-                                            <input class="text_sign" type="password" placeholder="Введите пароль"
+                                            <input class="text_sign" type="password" placeholder="Пароль"
                                                 name="password">
                                         </div>
-                                        <button type="submit" class="btn_btn-primary" name="submit">Авторизоваться</button>
+                                        <button type="submit" class="btn_btn-primary" name="submit">Войти</button>
                                     </form>
                                 </div>
                             </div>
