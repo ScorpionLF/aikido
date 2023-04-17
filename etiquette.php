@@ -22,7 +22,7 @@
     <?php include 'header.html'; ?>
     <div class="main">
         <section class="etiquette">
-            <!-- <div class="title_etiquette">Этикет. Рэйсики - правила поведения в додзё.</div> -->
+            <div class="etiquette-title">Рэйсики - правила поведения в додзё.</div>
             <div class="etiquette-information">
                 1. Додзё (зал для занятий) предназначено не для самоутверждения, а для того, чтобы развивать свои
                 ум, тело и

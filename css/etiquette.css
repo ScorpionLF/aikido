@@ -10,6 +10,7 @@
     align-items: center;
     text-align: justify;
     color: #000000;
+    margin-top: 25px;
 }
 
 .etiquette-imgs{
@@ -26,17 +27,12 @@
     height: 550px;
 }
 
-.title_etiquette {
-    position: absolute;
-    min-height: 64px;
-    margin-top: 50px;
-    text-align: center;
-
+.etiquette-title {
+    justify-content: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     display: flex;
-    align-items: center;
     color: #000000;
 }
