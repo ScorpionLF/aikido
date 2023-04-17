@@ -77,7 +77,7 @@
             <div class="new_3">
                 <div class="new_block">
                 <img class="new_image" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
-                    <div class="new_title">Семинар Айкидо прошел успешно!</div>
+                    <div class="new_title">Семинар Айкидо прошел успешно!   </div>
                     <div class="new">
                         В декабре прошел семинар Айкидо федерации Ametsuchi. Традиционно был выбран зал Ак Барс,
                         поскольку число участников снова бьет наши рекорды. Поздравляем всех успешно сдавших на пояс, а
