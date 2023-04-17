@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
-    <title>История</title>
+    <title>Этикет</title>
     <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
     <link type="Image/x-icon" href="images/favicon.png" rel="icon">
 </head>
