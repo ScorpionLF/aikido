@@ -17,47 +17,47 @@
 
 <body>
     <footer>
-        <div class="footer">
-            <div class="footer_first_div" id="footer_one_div">
-                <div class="footer-text">Региональная общественная организация “Федерация Айкидо “Аметсучи” по
+        <section class="footer">
+            <div class="block-footer-indormation">
+                <div class="block-footer-indormation-text-1">Региональная общественная организация “Федерация Айкидо “Аметсучи” по
                     республике
                     Татарстан”
                 </div>
-                <div class="footer_third_div">Разработка и поддержка сайта IT-компания "Альянс" © 2023. Все права
+                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © 2023. Все права
                     защищены.</div>
             </div>
-            <div class="footer_second_div" id="footer_second_div">
-                <div class="button_footer">
-                    <input type="image" class="youtube" src="images/youtube.png" alt="youtube">
-                    <input type="image" class="vk" src="images/vk.png" alt="vk">
+            <div class="block-footer-buttons">
+                <div class="block-footer-buttons-elements">
+                    <input type="image" class="block-footer-buttons-element-1" src="images/youtube.png" alt="youtube">
+                    <input type="image" class="block-footer-buttons-element-2" src="images/vk.png" alt="vk">
                     <?php
                     if (isset($_SESSION['login'])) {
                         ?>
-                        <a href="index.php" class="sign">Выйти</a>
+                        <a href="index.php" class="block-footer-buttons-element-button">Выйти</a>
                         <?php
                     } else {
                         ?>
-                        <a href="#login_page.php" class="sign">Вход</a>
+                        <a href="#login_page.php" class="block-footer-buttons-element-button">Вход</a>
 
-                        <div class="modal" id="login_page.php" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-header">
-                                    <div class="img_sign">
-                                        <img class="japan" src="images/japan.jpg" onError="this.src='images/not_found.png'">
-                                        <a href="#close" class="btn-close" aria-hidden="true">×</a>
+                        <div class="block-footer-modalWindow" id="login_page.php" aria-hidden="true">
+                            <div class="block-footer-modalWindow-dialog">
+                                <div class="block-footer-modalWindow-dialog-header">
+                                    <div class="block-footer-modalWindow-dialog-header-imgs">
+                                        <img class="block-footer-modalWindow-dialog-header-imgs-img" src="images/japan.jpg" onError="this.src='images/not_found.png'">
+                                        <a href="#close" class="block-footer-modalWindow-dialog-header-imgs-close" aria-hidden="true">×</a>
                                     </div>
                                 </div>
-                                <div class="modal-body">
-                                    <form action="login_script.php" method="post" class="class">
-                                        <div class="form-group">
-                                            <span class="input-title">Логин или e-mail <span>*</span></span>
-                                            <input class="text_sign" type="text" name="login">
+                                <div class="block-footer-modalWindow-dialog-body">
+                                    <form action="login_script.php" method="post" class="block-footer-modalWindow-dialog-body-forms">
+                                        <div class="block-footer-modalWindow-dialog-body-forms-group">
+                                            <span class="block-footer-modalWindow-dialog-body-forms-group-title">Логин или e-mail <span>*</span></span>
+                                            <input class="block-footer-modalWindow-dialog-body-forms-group-input" type="text" name="login">
                                         </div>
-                                        <div class="form-group">
-                                            <span class="input-title">Пароль <span>*</span></span>
-                                            <input class="text_sign" type="password" name="password">
+                                        <div class="block-footer-modalWindow-dialog-body-forms-group">
+                                            <span class="block-footer-modalWindow-dialog-body-forms-group-title">Пароль <span>*</span></span>
+                                            <input class="block-footer-modalWindow-dialog-body-forms-group-input" type="password" name="password">
                                         </div>
-                                        <button type="submit" class="btn_btn-primary" name="submit">ВОЙТИ</button>
+                                        <button type="submit" class="block-footer-modalWindow-dialog-body-button" name="submit">ВОЙТИ</button>
                                     </form>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                     ?>
                 </div>
             </div>
-        </div>
+        </section>
     </footer>
 </body>
 

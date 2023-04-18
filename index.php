@@ -63,7 +63,6 @@
                     <?php echo (file_get_contents('./news/new_1.txt')); ?>
                 </div>
             </div>
-
             <div class="block-index-news">
                 <img class="block-index-news-img" src="images/new_2.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-index-news-title">Аттестованы!</div>
@@ -76,7 +75,6 @@
 
                 </div>
             </div>
-
             <div class="block-index-news">
                 <img class="block-index-news-img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-index-news-title">Семинар Айкидо прошел успешно! </div>
