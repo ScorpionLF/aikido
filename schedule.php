@@ -14,24 +14,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>Расписание</title>
-    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
-    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon">
+</head>
 </head>
 
 <body>
     <?php include 'header.html'; ?>
-
-    <div class="main">
-        <div class="schedule">
-            <div class="schedule_left_div">
-                <img class="img_tr" src="images/instructor_1.jpg"  onError="this.src='images/not_found.png'">
-                <div class="info_tr">
-                    Белоусов Е.Н. <br>
-                    4 дан
+    <main>
+        <section class="schedule">
+            <div class="block-trener">
+                <img class="block-trener-photo" src="images/instructor_1.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-trener-information">
+                    <div class="block-trener-information-name"><strong>Белоусов Евгений Набиевич</strong></div>
+                    <div class="block-trener-information-dan">
+                        4 дан Айкидо Айкикай
+                    </div>
                 </div>
             </div>
-            <div class="schedule_right_div">
-                <div id="table" class="table">
+            <div class="block-schedule-information">
+                <div class="block-schedule-information-table">
                     <table>
                         <tr>
                             <th>Группы</th>
@@ -53,20 +54,9 @@
                         </tr>
                     </table>
                 </div>
-                </div>
             </div>
-            <!-- <div class="schedule_right_div">
-                <div class="maps">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1120.4904545474737!2d49.10169281735697!3d55.8282906571291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415952ae457ec33f%3A0x942bb741ea0d311!2z0L_RgC3Rgi4g0KXRg9GB0LDQuNC90LAg0K_QvNCw0YjQtdCy0LAsIDM2LCDQmtCw0LfQsNC90YwsINCg0LXRgdC_LiDQotCw0YLQsNGA0YHRgtCw0L0sIDQyMDA0NA!5e0!3m2!1sru!2sru!4v1675417328707!5m2!1sru!2sru"
-                        width="630" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div> -->
-        </div>
-
-    </div>
-
+        </section>
+    </main>
     <?php include 'footer.php'; ?>
 </body>
 

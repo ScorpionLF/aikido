@@ -1,42 +1,37 @@
-#leftBlock {
-    float: left;
-    /* width: 25%; */
-    display: flex;
-    justify-content: center;
+/* --------------style for section index-composition------------ */
+
+@font-face {
+    font-family: Kashima;
+    src: url(../fonts/Kashima.otf);
 }
 
-
-#rightBlock {
-    float: right;
-    height: inherit;
-    /* width: 25%; */
-    display: flex;
-    justify-content: center;
-}
-
-#centralBlock {
-    height: inherit;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.main_composition {
+.index-composition {
     height: 400px;
-    /* max-width: 1450px; */
     max-width: 1270px;
-    /* margin-top: 50px; */
+    display: flex;
 }
 
-.sensei {
-    /* width: 305px; */
+.block-composition-left {
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.block-composition-left-img {
     height: inherit;
     top: 445px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 300px;
 }
 
-.yellow_line {
+.block-composition-center {
+    height: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.block-composition-center-line {
     width: 90%;
     height: 7px;
     background: #FCDF21;
@@ -44,12 +39,7 @@
     margin-right: auto;
 }
 
-@font-face {
-    font-family: Kashima;
-    src: url(../fonts/Kashima.otf);
-}
-
-.quote_text {
+.block-composition-center-text {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
@@ -64,22 +54,25 @@
     color: #000000;
 }
 
-.aikido_logo {
+.block-composition-right {
+    float: right;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.block-composition-right-img {
     height: inherit;
     left: 1560px;
     top: 420px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
-    /* width: 300px; */
 }
 
-/* ----info---- */
+/* --------------style for section index-information------------ */
 
-.info_title {
-    /* position: absolute; */
-    /* width: 300px; */
+
+.index-information-title {
     height: 60px;
-    /* left: 855px; */
-    /* top: 935px; */
     margin-top: 20px;
     font-family: 'Roboto';
     font-style: normal;
@@ -88,16 +81,12 @@
     display: flex;
     align-items: center;
     color: #000000;
-    text-align: center;
+    justify-content: center;
 }
 
-.info_federation {
-    /* width: 1450px; */
+.index-information-text {
     width: 1270px;
-
     min-height: 245px;
-    /* margin-left: 235px; */
-    /* margin-top: 120px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -108,15 +97,16 @@
     color: #000000;
 }
 
-/* -----news----- */
+/* --------------style for section index-news------------ */
 
-.news {
+.index-news {
     display: flex;
     margin-bottom: 50px;
+    justify-content: space-between;
+    width: 1270px;
 }
 
-.new_block {
-    /* width: 430px; */
+.block-index-news {
     width: 400px;
     margin-top: 50px;
     background-image: url("../images/rectangle.png");
@@ -126,22 +116,13 @@
     height: 500px;
 }
 
-.new_1 {
-    position: relative;
-    /* margin-left: 235px; */
-
-}
-
-.new_image {
-    /* height: 360px; */
+.block-index-news-img {
     height: 340px;
     width: 400px;
-    /* width: 430px; */
     border-radius: 5px;
 }
 
-.new_title {
-    /* width: 430px; */
+.block-index-news-title {
     margin-left: 5px;
     width: 390px;
     min-height: 60px;
@@ -162,13 +143,12 @@
     hyphens: auto;
 }
 
-.new {
+.block-index-news-news {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     display: flex;
-    /* align-items: center; */
     text-align: left;
     color: #000000;
     padding-left: 10px;
@@ -181,19 +161,9 @@
     hyphens: auto;
 }
 
-.new_2 {
-    position: relative;
-    /* margin-left: 80px; */
-    margin-left: 35px;
-}
 
 
 
-.new_3 {
-    position: relative;
-    /* margin-left: 80px; */
-    margin-left: 35px;
-}
 
 .transition {
     position: absolute;

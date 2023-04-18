@@ -1,7 +1,5 @@
-
-
-.info-page {
-    position: absolute;
+.club-information {
+    position: relative;
     width: 1270px;
     min-height: 680px;
     font-family: 'Roboto';
@@ -12,10 +10,8 @@
     color: #000000;
     text-align: justify;
     margin-top: -20px;
-    /* margin-bottom: 75px; */
 }
 
-.img_about_school {
-    margin-top: 800px;
-    /* margin-bottom: 50px; */
+.club-img {
+    margin-top: 50px;
 }
