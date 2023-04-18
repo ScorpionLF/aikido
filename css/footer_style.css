@@ -13,9 +13,13 @@ footer {
     width: 1270px;
 }
 
+.block-footer-indormation {
+    display: grid;
+    width: 100%;
+    float: left;
+}
 
-
-.footer-text {
+.block-footer-indormation-text-1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -25,7 +29,44 @@ footer {
     margin-top: 50px;
 }
 
-.sign {
+.block-footer-indormation-text-2{
+    width: 700px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: left;
+    color: #706f6f;
+    margin-bottom: 50px;
+}
+
+.block-footer-buttons {
+    align-items: center;
+    justify-items: right;
+    float: right;
+    width: 660%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block-footer-buttons-elements {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.block-footer-buttons-element-1 {
+    width: 35px;
+    height: 30px;
+}
+
+.block-footer-buttons-element-2 {
+    margin-left: 10px;
+    width: 35px;
+    height: 34px;
+}
+
+.block-footer-buttons-element-button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -37,57 +78,14 @@ footer {
     text-decoration: none;
 }
 
-.sign:hover {
+.block-footer-buttons-element-button:hover {
     text-decoration: none;
     color: #9A9A9A;
 }
 
-.button_footer {
-    display: flex;
-    align-items: center;
-    float: right;
-}
+/*---------------------modal window-----------------*/
 
-.youtube {
-    width: 35px;
-    height: 30px;
-}
-
-.vk {
-    margin-left: 10px;
-    width: 35px;
-    height: 34px;
-}
-
-.footer_first_div {
-    display: grid;
-    width: 100%;
-    float: left;
-}
-
-.footer_second_div {
-    align-items: center;
-    justify-items: right;
-    float: right;
-    width: 660%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.footer_third_div {
-    width: 700px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 12px;
-    text-align: left;
-    color: #706f6f;
-    margin-bottom: 50px;
-}
-
-
-/* CSS для модального окна */
-.modal:before {
+.block-footer-modalWindow:before {
     content: "";
     display: none;
     background: rgba(0, 0, 0, 0.8);
@@ -99,11 +97,11 @@ footer {
     z-index: 10
 }
 
-.modal:target:before {
+.block-footer-modalWindow:target:before {
     display: block
 }
 
-.modal-dialog {
+.block-footer-modalWindow-dialog {
     background: #FFFFFF;
     border-radius: 5px;
     position: fixed;
@@ -114,31 +112,38 @@ footer {
     width: 500px;
 }
 
-.modal:target .modal-dialog {
+.block-footer-modalWindow:target .block-footer-modalWindow-dialog {
     top: 25%
 }
 
-.modal-body {
-    padding: 20px;
-    display: grid;
-    justify-content: center;
-}
-
-.modal-header,
+.block-footer-modalWindow-dialog-header,
 .modal-footer {
     padding: 10px 20px
 }
 
-.modal-header {
+.block-footer-modalWindow-dialog-header {
     border-bottom: #eee solid 1px;
     font-size: 20px
 }
 
-.form-group {
-    display: grid;
+.block-footer-modalWindow-dialog-header-imgs {
+    display: flex;
+    justify-content: center;
 }
 
-.btn-close {
+.block-footer-modalWindow-dialog-header-imgs-img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 150px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.block-footer-modalWindow-dialog-header-imgs-close {
     color: #aaa;
     font-size: 50px;
     text-decoration: none;
@@ -147,17 +152,50 @@ footer {
     top: 10px;
 }
 
-.btn-close:hover {
+.block-footer-modalWindow-dialog-header-imgs-close:hover {
     color: #919191
 }
 
-/*добавляем, чтобы остановить прокручивание вверх*/
 #close {
     display: none
 }
 
 
-.btn_btn-primary {
+.block-footer-modalWindow-dialog-body {
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+.block-footer-modalWindow-dialog-body-forms {
+    display: grid;
+    justify-content: center;
+}
+
+.block-footer-modalWindow-dialog-body-forms-group {
+    display: grid;
+}
+
+
+.block-footer-modalWindow-dialog-body-forms-group-title {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.block-footer-modalWindow-dialog-body-forms-group-title span {
+    color: red;
+}
+
+.block-footer-modalWindow-dialog-body-forms-group-input {
+    padding: 10px;
+    width: 350px;
+    height: 35px;
+}
+
+.block-footer-modalWindow-dialog-body-button {
     background-color: #000000;
     font-family: 'Roboto';
     font-size: 20px;
@@ -169,52 +207,4 @@ footer {
     margin-top: 25px;
     margin-bottom: 20px;
     height: 60px;
-}
-
-.text_sign {
-    padding: 10px;
-    width: 350px;
-    height: 35px;
-}
-
-.password-checkbox {
-    margin-bottom: 30px;
-
-}
-
-
-.img_sign {
-    display: flex;
-    justify-content: center;
-}
-
-.japan {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    border-radius: 150px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 2px solid;
-    margin-bottom: 20px;
-    align-items: center;
-
-}
-
-.class {
-    display: grid;
-    justify-content: center;
-}
-
-
-.input-title {
-    margin-bottom: 10px;
-    margin-top: 20px;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.input-title span {
-    color: red;
 }
