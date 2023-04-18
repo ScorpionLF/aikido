@@ -14,18 +14,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>О клубе</title>
-    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
-    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon">
+</head>
 </head>
 
 <body>
     <?php include 'header.html'; ?>
-    <div class="main">
-        <!-- <div class="i_title_div">
-            <div class="title_page_i">О клубе</div>
-            <div class="line_line"></div>
-        </div> -->
-        <div class="info-page">
+    <main>
+        <section class="club-information">
             <p>Федерация Айкидо Ametsuchi Dojo входит во Всестилевую Федерацию Айкидо России. Поэтому все ученики
                 проходят
                 ежегодную аттестацию в Москве или Санкт-Петербурге. Также
@@ -52,10 +48,11 @@
             <p>- детская (от 6 лет); </p>
             <p>- взрослая (для всех возрастов от 14 лет); <br>
                 Занятия проводятся 3 раза в неделю.</p>
-        </div>
-        <img class="img_about_school"  src="images/about_club.jpg"  onError="this.src='images/not_found.png'">
-    </div>
-    </div>
+        </section>
+        <section class="club-imgs">
+            <img class="club-img" src="images/about_club.jpg" onError="this.src='images/not_found.png'">
+        </section>
+    </main>
     <?php include 'footer.php'; ?>
 </body>
 

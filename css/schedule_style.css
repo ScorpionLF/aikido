@@ -1,43 +1,14 @@
 .schedule {
     display: flex;
-    /* align-items: center; */
     min-height: 400px;
     max-width: 1270px;
-    /* margin-top: 50px; */
-/* margin-bottom: 50px; */
 }
 
-.schedule_left_div {
-    float: left;
-    display: grid;
-    /* max-height: 400px; */
-}
-
-.img_tr {
-    width: 300px;
-    height: 400px;
-}
-
-.info_tr {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 25px;
-    color: white;
-    background-color: #000000;
-    text-align: center;
-    height: 80px;
-    align-items: center;
-    display: grid;
-    /* margin-top: 10px; */
-}
-
-.schedule_right_div {
+.block-schedule-information {
     float: right;
-    /* max-height: 400px; */
 }
 
-.table th {
+.block-schedule-information-table th {
     text-align: center;
     border: 2px solid black;
     padding-top: 15px;
@@ -46,8 +17,6 @@
 
 table {
     width: 920px;
-    /* margin-top: 50px; */
-    /* height: 20px; */
     border-collapse: collapse;
     border: 2px solid black;
     font-family: 'Roboto';
@@ -58,7 +27,3 @@ table {
     margin-left: 50px;
 
 }
-
-/* #table {
-
-} */

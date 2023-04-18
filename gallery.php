@@ -14,82 +14,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>Галерея</title>
-
-    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
-    <link type="Image/x-icon" href="images/favicon.png" rel="icon"></head>
-
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon">
+</head>
 </head>
 
 <body>
     <?php include 'header.html'; ?>
-    <div class="main">
-        <div class="photo_albums">
-            <div class="album">
-                <div class="album_block">
-                    <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
-
-                    <div class="album_title">Аттестация <br>
-                        Май, 2022</div>
-                </div>
+    <main>
+        <section class="albums">
+            <div class="block-album">
+                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-album-title">Аттестация <br>
+                    Май, 2022</div>
             </div>
-            <div class="album">
-                <div class="album_block">
-                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
-                    <div class="album_title">Аттестация <br>
-                        Май, 2022</div>
-                </div>
+            <div class="block-album">
+                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-album-title">Аттестация <br>
+                    Май, 2022</div>
             </div>
-            <div class="album">
-                <div class="album_block">
-                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
-                    <div class="album_title">Аттестация <br>
-                        Май, 2022</div>
-                </div>
+            <div class="block-album">
+                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-album-title">Аттестация <br>
+                    Май, 2022</div>
             </div>
-            <div class="album">
-                <div class="album_block">
-                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
-                    <div class="album_title">Аттестация <br>
-                        Май, 2022</div>
-                </div>
+            <div class="block-album">
+                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-album-title">Аттестация <br>
+                    Май, 2022</div>
             </div>
-            <div class="album">
-                <div class="album_block">
-                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
-                    <div class="album_title">Аттестация <br>
-                        Май, 2022</div>
-                </div>
+            <div class="block-album">
+                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-album-title">Аттестация <br>
+                    Май, 2022</div>
             </div>
-            <div class="album">
-                <div class="album_block">
-                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
-                    <div class="album_title">Аттестация <br>
-                        Май, 2022</div>
-                </div>
+            <div class="block-album">
+                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-album-title">Аттестация <br>
+                    Май, 2022</div>
             </div>
-            <div class="album">
-                <div class="album_block">
-                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
-                    <div class="album_title">Аттестация <br>
-                        Май, 2022</div>
-                </div>
+            <div class="block-album">
+                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-album-title">Аттестация <br>
+                    Май, 2022</div>
             </div>
-            <div class="album">
-                <div class="album_block">
-                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
-                    <div class="album_title">Аттестация <br>
-                        Май, 2022</div>
-                </div>
-            </div>
-            <div class="album">
-                <div class="album_block">
-                <img class="album_image_1" src="images/album_1.jpg"  onError="this.src='images/not_found.png'">
-                    <div class="album_title">Аттестация <br>
-                        Май, 2022</div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <?php include 'footer.php'; ?>
 </body>
 

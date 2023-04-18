@@ -9,21 +9,19 @@
     <link rel="stylesheet" href="css/header_style.css">
     <link rel="stylesheet" href="css/footer_style.css">
     <link rel="stylesheet" href="css/history.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>История</title>
-    <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
     <link type="Image/x-icon" href="images/favicon.png" rel="icon">
 </head>
 </head>
 
 <body>
     <?php include 'header.html'; ?>
-    <div class="main">
-        <div class="history">
+    <main>
+        <section class="history">
             <p class="history-paragraph">
                 Основателем искусства Айкидо был Величайший Мастер восточных единоборств, искатель и философ
                 Уэсиба Морихей.
@@ -73,8 +71,8 @@
                 этом мире. Я хочу призвать людей прислушаться к голосу айкидо. Это не служит исправлению других,
                 это ради
                 исправления вашего собственного разума. Это Айкидо."</p>
-        </div>
-    </div>
+        </section>
+    </main>
     <?php include 'footer.php'; ?>
 </body>
 

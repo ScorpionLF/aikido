@@ -1,31 +1,18 @@
 .documents {
-    /* justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap; */
     width: 1270px;
-    /* margin-bottom: 30px; */
-    margin-top: -25px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1270px;
 }
 
-.doc {
-    width: 300px;
-    height: 400px;
-    margin-top: 30px;
-    transition: 1s;
-    margin-left: 18px;
-}
-
-.doc_1 {
+.block-documents-img {
     width: 300px;
     height: 400px;
     margin-top: 30px;
     transition: 1s;
 }
 
-.doc:hover {
-    transform: scale(1.2); 
-}
-
-.doc_1:hover {
+.block-documents-img:hover {
     transform: scale(1.2); 
 }

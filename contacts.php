@@ -20,7 +20,7 @@
 
 <body>
     <?php include 'header.html'; ?>
-    <div class="main">
+    <main>
         <section class="contacts">
             <div class="block-contacts-informations">
                 <div class="contacts-information-line"><strong>Адрес:</strong> ул. Ямашева, д. 36</div>
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </section>
-    </div>
+    </main>
     <?php include 'footer.php'; ?>
 </body>
 
