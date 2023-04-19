@@ -33,13 +33,13 @@
                     <?php
                     if (isset($_SESSION['login'])) {
                         ?>
-                        <a href="index.php" class="block-footer-buttons-element-button">Выйти</a>
+                        <a href="index" class="block-footer-buttons-element-button">Выйти</a>
                         <?php
                     } else {
                         ?>
-                        <a href="#login_page.php" class="block-footer-buttons-element-button">Вход</a>
+                        <a href="#login_page" class="block-footer-buttons-element-button">Вход</a>
 
-                        <div class="block-footer-modalWindow" id="login_page.php" aria-hidden="true">
+                        <div class="block-footer-modalWindow" id="login_page" aria-hidden="true">
                             <div class="block-footer-modalWindow-dialog">
                                 <div class="block-footer-modalWindow-dialog-header">
                                     <div class="block-footer-modalWindow-dialog-header-imgs">
