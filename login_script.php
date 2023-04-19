@@ -3,9 +3,9 @@
 	if (isset($_SESSION['login'])) {
 		$login = $_SESSION['login'];
 		if ($login == "admin") {
-			header('Location:admin_page.php');
+			header('Location:admin_page');
 		} else {
-			header('Location:personal_page.php');
+			header('Location:personal_page');
 		}
 	} else {
 		extract($_POST);
@@ -37,9 +37,9 @@
 							$_SESSION['login']=$login;
 
 							if ($login == "admin") {
-								header('Location:admin_page.php');
+								header('Location:admin_page');
 							} else {
-								header('Location:personal_page.php');
+								header('Location:personal_page');
 							}
 						}
 					}

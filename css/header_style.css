@@ -80,7 +80,7 @@ header {
 }
 
 .header-navigation-button {
-    z-index: 1;
+    z-index: 5;
 }
 
 .header-navigation-button-element {

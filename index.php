@@ -60,7 +60,7 @@
                 <img class="block-index-news-img" src="images/new_1.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-index-news-title">Константиновка, набор в новую детскую группу айкидо!</div>
                 <div class="block-index-news-news">
-                    <?php echo (file_get_contents('./news/new_1.txt')); ?>
+                    <?php echo (file_get_contents('./all_news/new_1.txt')); ?>
                 </div>
             </div>
             <div class="block-index-news">
