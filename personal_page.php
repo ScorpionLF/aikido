@@ -48,7 +48,7 @@ if ($_SESSION['login'] == 'admin') {
             <main>
                 <section class="personal_page">
                     <div class="block_personal_page-photo">
-                        <img class="block_personal_page-photo-img" onError="this.src='images/not_found.png'" src=<?php echo $certificate_src ?>">
+                        <img class="block_personal_page-photo-img" onError="this.src='images/not_found.png'" src=<?php echo $certificate_src ?>>
             </div>
             <div class="block_personal_page-information">
                         <div class="block_personal_page-information-line">

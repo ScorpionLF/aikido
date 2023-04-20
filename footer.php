@@ -37,9 +37,8 @@
                         <?php
                     } else {
                         ?>
-                        <a href="#login_page" class="block-footer-buttons-element-button">Вход</a>
-
-                        <div class="block-footer-modalWindow" id="login_page" aria-hidden="true">
+                        <a href="#open" class="block-footer-buttons-element-button">Вход</a>
+                        <div class="block-footer-modalWindow" id="open" aria-hidden="true">
                             <div class="block-footer-modalWindow-dialog">
                                 <div class="block-footer-modalWindow-dialog-header">
                                     <div class="block-footer-modalWindow-dialog-header-imgs">

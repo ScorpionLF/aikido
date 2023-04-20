@@ -1,4 +1,4 @@
-.club-information {
+.block-club-information {
     position: relative;
     width: 1270px;
     min-height: 680px;
@@ -12,6 +12,6 @@
     margin-top: -20px;
 }
 
-.club-img {
+.block-club-imgs {
     margin-top: 50px;
 }
