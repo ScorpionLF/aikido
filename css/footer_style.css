@@ -29,7 +29,7 @@ footer {
     margin-top: 50px;
 }
 
-.block-footer-indormation-text-2{
+.block-footer-indormation-text-2 {
     width: 700px;
     font-family: 'Roboto';
     font-style: normal;
@@ -85,35 +85,44 @@ footer {
 
 /*---------------------modal window-----------------*/
 
-.block-footer-modalWindow:before {
-    content: "";
-    display: none;
-    background: rgba(0, 0, 0, 0.8);
+
+.block-footer-modalWindow {
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 15;
 }
 
-.block-footer-modalWindow:target:before {
-    display: block
+.block-footer-modalWindow:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.block-footer-modalWindow-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: default;
 }
 
 .block-footer-modalWindow-dialog {
     background: #FFFFFF;
     border-radius: 5px;
     position: fixed;
-    left: 40%;
-    top: -100%;
-    z-index: 10;
-    /* width: 20%; */
+    left: 39.5%;
     width: 500px;
 }
 
-.block-footer-modalWindow:target .block-footer-modalWindow-dialog {
-    top: 25%
+.block-footer-modalWindow-dialog {
+    top: 20%;
 }
 
 .block-footer-modalWindow-dialog-header,

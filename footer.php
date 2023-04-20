@@ -19,11 +19,13 @@
     <footer>
         <section class="footer">
             <div class="block-footer-indormation">
-                <div class="block-footer-indormation-text-1">Региональная общественная организация “Федерация Айкидо “Аметсучи” по
+                <div class="block-footer-indormation-text-1">Региональная общественная организация “Федерация Айкидо
+                    “Аметсучи” по
                     республике
                     Татарстан”
                 </div>
-                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © 2023. Все права
+                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © 2023.
+                    Все права
                     защищены.</div>
             </div>
             <div class="block-footer-buttons">
@@ -38,7 +40,8 @@
                     } else {
                         ?>
                         <a href="#open" class="block-footer-buttons-element-button">Вход</a>
-                        <div class="block-footer-modalWindow" id="open" aria-hidden="true">
+                        <div id="open" class="block-footer-modalWindow">
+                            <a href="#" class="block-footer-modalWindow-overlay"></a>
                             <div class="block-footer-modalWindow-dialog">
                                 <div class="block-footer-modalWindow-dialog-header">
                                     <div class="block-footer-modalWindow-dialog-header-imgs">
