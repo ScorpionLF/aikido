@@ -19,7 +19,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="club">
+        <div class="club">
             <div class="block-club-information">
                 <p>Федерация Айкидо Ametsuchi Dojo входит во Всестилевую Федерацию Айкидо России. Поэтому все ученики
                     проходят
@@ -55,8 +55,7 @@
             <div class="block-club-imgs">
                 <img class="club-img" src="images/about_club.jpg" onError="this.src='images/not_found.png'">
             </div>
-        </section>
-
+        </div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

@@ -19,7 +19,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="schedule">
+        <div class="schedule">
             <div class="block-trener">
                 <img class="block-trener-photo" src="images/instructor_1.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-trener-information">
@@ -53,7 +53,7 @@
                     </table>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

@@ -44,11 +44,11 @@ if ($_SESSION['login'] == 'admin') {
             $certificate_src = "users/" . strval($id) . ".jpg";
             ?>
             <main>
-                <section class="personal_page">
+                <div class="personal_page">
                     <div class="block_personal_page-photo">
                         <img class="block_personal_page-photo-img" onError="this.src='images/not_found.png'" src=<?php echo $certificate_src ?>>
-            </div>
-            <div class="block_personal_page-information">
+                    </div>
+                    <div class="block_personal_page-information">
                         <div class="block_personal_page-information-line">
                             <div class="block_personal_page-information-line-request">ФИО:</div>
                             <div class="block_personal_page-information-line-info">
@@ -87,8 +87,7 @@ if ($_SESSION['login'] == 'admin') {
                     </div>
                 </div>
             </div>
-            </div>
-        </section>
+        </div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

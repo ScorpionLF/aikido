@@ -1,5 +1,10 @@
 /* --------------style for section index-composition------------ */
 
+section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 @font-face {
     font-family: Kashima;
     src: url(../fonts/Kashima.otf);
@@ -19,7 +24,6 @@
 
 .block-composition-left-img {
     height: inherit;
-    top: 445px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 300px;
 }
@@ -64,7 +68,6 @@
 .block-composition-right-img {
     height: inherit;
     left: 1560px;
-    top: 420px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
 }
 
@@ -72,8 +75,6 @@
 
 
 .index-information-title {
-    height: 60px;
-    margin-top: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -92,23 +93,22 @@
     font-weight: 400;
     font-size: 24px;
     position: relative;
-    align-items: center;
     text-align: justify;
     color: #000000;
+    line-height: 35px;
+    margin-top: 25px;
 }
 
 /* --------------style for section index-news------------ */
 
 .index-news {
     display: flex;
-    margin-bottom: 50px;
     justify-content: space-between;
     width: 1270px;
 }
 
 .block-index-news {
     width: 400px;
-    margin-top: 50px;
     background-image: url("../images/rectangle.png");
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 5px;
@@ -159,28 +159,4 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     hyphens: auto;
-}
-
-
-
-
-
-.transition {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 2300px;
-    display: flex;
-}
-
-.e_1 {
-    margin-left: 900px;
-}
-
-.e_2 {
-    margin-left: 20px;
-}
-
-.e_3 {
-    margin-left: 20px;
 }

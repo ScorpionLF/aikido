@@ -2,6 +2,8 @@
     justify-content: left;
     display: flex;
     width: 1270px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .block_personal_page-photo {

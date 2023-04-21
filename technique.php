@@ -19,32 +19,38 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="techique">
+        <div class="techique">
             <details>
                 <summary class="terms-and-technique-element-button">Падения / Страховки</summary>
                 <div class="block-techique">
                     <div class="block-techique-video">
-                        <img class="block-techique-video-video" src="images/video_1.jpg" onError="this.src='images/not_found.png'">
+                        <img class="block-techique-video-video" src="images/video_1.jpg"
+                            onError="this.src='images/not_found.png'">
                         <div class="block-techique-video-title">Маэ укэми (Сувари Вадза)</div>
                     </div>
                     <div class="block-techique-video">
-                        <img class="block-techique-video-video" src="images/video_2.jpg" onError="this.src='images/not_found.png'">
+                        <img class="block-techique-video-video" src="images/video_2.jpg"
+                            onError="this.src='images/not_found.png'">
                         <div class="block-techique-video-title">Маэ укэми (Сувари Вадза)</div>
                     </div>
                     <div class="block-techique-video">
-                        <img class="block-techique-video-video" src="images/video_3.jpg" onError="this.src='images/not_found.png'">
+                        <img class="block-techique-video-video" src="images/video_3.jpg"
+                            onError="this.src='images/not_found.png'">
                         <div class="block-techique-video-title">Маэ укэми (Сувари Вадза)</div>
                     </div>
                     <div class="block-techique-video">
-                        <img class="block-techique-video-video" src="images/video_4.jpg" onError="this.src='images/not_found.png'">
+                        <img class="block-techique-video-video" src="images/video_4.jpg"
+                            onError="this.src='images/not_found.png'">
                         <div class="block-techique-video-title">Маэ укэми (Сувари Вадза)</div>
                     </div>
                     <div class="block-techique-video">
-                        <img class="block-techique-video-video" src="images/video_5.jpg" onError="this.src='images/not_found.png'">
+                        <img class="block-techique-video-video" src="images/video_5.jpg"
+                            onError="this.src='images/not_found.png'">
                         <div class="block-techique-video-title">Маэ укэми (Сувари Вадза)</div>
                     </div>
                     <div class="block-techique-video">
-                        <img class="block-techique-video-video" src="images/video_6.jpg" onError="this.src='images/not_found.png'">
+                        <img class="block-techique-video-video" src="images/video_6.jpg"
+                            onError="this.src='images/not_found.png'">
                         <div class="block-techique-video-title">Маэ укэми (Сувари Вадза)</div>
                     </div>
                 </div>
@@ -88,7 +94,7 @@
 
                 </details>
             </details>
-        </section>
+        </div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

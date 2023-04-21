@@ -1,8 +1,12 @@
+.etiquette {
+    width: 1270px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
 .etiquette-information {
     position: relative;
-    width: 1270px;
-    min-height: 1232px;
-    display: flex;
+    display: grid;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -10,10 +14,10 @@
     align-items: center;
     text-align: justify;
     color: #000000;
-    margin-top: 25px;
+    line-height: 35px;
 }
 
-.etiquette-imgs{
+.etiquette-imgs {
     display: flex;
     justify-content: center;
 }

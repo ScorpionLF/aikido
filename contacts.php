@@ -19,7 +19,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="contacts">
+        <div class="contacts">
             <div class="block-contacts-informations">
                 <div class="contacts-information-line"><strong>Адрес:</strong> ул. Ямашева, д. 36</div>
                 <div class="contacts-information-line"><strong>Телефон:</strong> +7 (999) 999-99-99</div>
@@ -35,7 +35,7 @@
                         style="position:relative; border: none; height: 330px; width: 100%;"></iframe>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

@@ -16,7 +16,7 @@
 }
 
 .contacts-information-line {
-    margin-top: 20px;
+    margin-top: 25px;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 28px;
@@ -28,12 +28,12 @@
     width: 100%;
     height: 330px;
     z-index: -1;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .contacts-map {
     width: 745px;
     z-index: 1;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 25px;
 }

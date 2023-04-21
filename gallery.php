@@ -19,7 +19,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="albums">
+        <div class="albums">
             <div class="block-album">
                 <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-album-title">Аттестация <br>
@@ -55,7 +55,7 @@
                 <div class="block-album-title">Аттестация <br>
                     Май, 2022</div>
             </div>
-        </section>
+        </div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

@@ -19,7 +19,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="documents">
+        <div class="documents">
             <div class="block-documents">
                 <img class="block-documents-img" src="images/documents-img-1.jpg" onError="this.src='images/not_found.png'">
             </div>
@@ -44,7 +44,7 @@
             <div class="block-documents">
                 <img class="block-documents-img" src="images/documents-img-6.jpg" onError="this.src='images/not_found.png'">
             </div>
-        </section>
+        </div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

@@ -18,7 +18,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="terms">
+        <div class="terms">
             <details>
                 <summary class="terms-and-technique-element-button">Общее</summary>
                 <div class="block-terms-text">
@@ -151,7 +151,7 @@
                     </ul>
                 </div>
             </details>
-        </section>
+</div>
     </main>
     <?php include 'footer.php'; ?>
 

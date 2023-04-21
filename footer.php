@@ -15,7 +15,7 @@
 
 <body>
     <footer>
-        <section class="footer">
+        <div class="footer">
             <div class="block-footer-indormation">
                 <div class="block-footer-indormation-text-1">Региональная общественная организация “Федерация Айкидо
                     “Аметсучи” по
@@ -68,7 +68,7 @@
                     ?>
                 </div>
             </div>
-        </section>
+        </div>
     </footer>
 </body>
 
