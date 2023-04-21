@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header_style.css">
-    <link rel="stylesheet" href="css/footer_style.css">
     <link rel="stylesheet" href="css/schedule_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +19,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="schedule">
+        <div class="schedule">
             <div class="block-trener">
                 <img class="block-trener-photo" src="images/instructor_1.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-trener-information">
@@ -55,7 +53,7 @@
                     </table>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

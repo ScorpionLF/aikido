@@ -6,10 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header_style.css">
-    <link rel="stylesheet" href="css/footer_style.css">
     <link rel="stylesheet" href="css/terms_style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
@@ -21,7 +18,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="terms">
+        <div class="terms">
             <details>
                 <summary class="terms-and-technique-element-button">Общее</summary>
                 <div class="block-terms-text">
@@ -154,7 +151,7 @@
                     </ul>
                 </div>
             </details>
-        </section>
+</div>
     </main>
     <?php include 'footer.php'; ?>
 

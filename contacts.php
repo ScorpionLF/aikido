@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header_style.css">
-    <link rel="stylesheet" href="css/footer_style.css">
     <link rel="stylesheet" href="css/contacts.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +19,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="contacts">
+        <div class="contacts">
             <div class="block-contacts-informations">
                 <div class="contacts-information-line"><strong>Адрес:</strong> ул. Ямашева, д. 36</div>
                 <div class="contacts-information-line"><strong>Телефон:</strong> +7 (999) 999-99-99</div>
@@ -37,7 +35,7 @@
                         style="position:relative; border: none; height: 330px; width: 100%;"></iframe>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

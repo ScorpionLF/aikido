@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer_style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
@@ -17,13 +15,15 @@
 
 <body>
     <footer>
-        <section class="footer">
+        <div class="footer">
             <div class="block-footer-indormation">
-                <div class="block-footer-indormation-text-1">Региональная общественная организация “Федерация Айкидо “Аметсучи” по
+                <div class="block-footer-indormation-text-1">Региональная общественная организация “Федерация Айкидо
+                    “Аметсучи” по
                     республике
                     Татарстан”
                 </div>
-                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © 2023. Все права
+                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © 2023.
+                    Все права
                     защищены.</div>
             </div>
             <div class="block-footer-buttons">
@@ -37,9 +37,9 @@
                         <?php
                     } else {
                         ?>
-                        <a href="#login_page" class="block-footer-buttons-element-button">Вход</a>
-
-                        <div class="block-footer-modalWindow" id="login_page" aria-hidden="true">
+                        <a href="#open" class="block-footer-buttons-element-button">Вход</a>
+                        <div id="open" class="block-footer-modalWindow">
+                            <a href="index" class="block-footer-modalWindow-overlay"></a>
                             <div class="block-footer-modalWindow-dialog">
                                 <div class="block-footer-modalWindow-dialog-header">
                                     <div class="block-footer-modalWindow-dialog-header-imgs">
@@ -68,7 +68,7 @@
                     ?>
                 </div>
             </div>
-        </section>
+        </div>
     </footer>
 </body>
 

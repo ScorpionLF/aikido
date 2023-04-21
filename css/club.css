@@ -1,6 +1,10 @@
-.club-information {
-    position: relative;
+.club {
+    margin-bottom: 25px;
     width: 1270px;
+}
+
+.block-club-information {
+    position: relative;
     min-height: 680px;
     font-family: 'Roboto';
     font-style: normal;
@@ -9,9 +13,9 @@
     align-items: center;
     color: #000000;
     text-align: justify;
-    margin-top: -20px;
+    line-height: 35px;
 }
 
-.club-img {
+.block-club-imgs {
     margin-top: 50px;
 }

@@ -3,7 +3,7 @@
 	if (isset($_SESSION['login'])) {
 		$login = $_SESSION['login'];
 		if ($login == "admin") {
-			header('Location:admin_page');
+			header('Location: admin_page');
 		} else {
 			header('Location:personal_page');
 		}

@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header_style.css">
-    <link rel="stylesheet" href="css/footer_style.css">
     <link rel="stylesheet" href="css/news.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +19,7 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="news">
+        <div class="news">
             <div class="block-news">
                 <img class="block-news-img" src="images/new_1.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-news-title">Аттестованы!</div>
@@ -125,14 +123,14 @@
                     <div class="block-news-date">30.12.2022</div>
                 </div>
             </div>
-        </section>
-        <section class="block-news-transitions">
-            <div class="block-news-transitions-arrow"><</div>
+        </div>
+        <div class="block-news-transitions">
+            <div class="block-news-transitions-arrow">< </div>
             <div class="block-news-transitions-number-page">1 </div>
             <div class="block-news-transitions-number-page">2 </div>
             <div class="block-news-transitions-number-page">3 </div>
             <div class="block-news-transitions-arrow">></div>
-        </section>
+        </div>
     </main>
 
     <?php include 'footer.php'; ?>
