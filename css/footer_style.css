@@ -41,8 +41,6 @@ footer {
 }
 
 .block-footer-buttons {
-    align-items: center;
-    justify-items: right;
     float: right;
     width: 660%;
     margin-top: 50px;
@@ -94,7 +92,6 @@ footer {
     height: 100%;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 1s ease-in-out;
     z-index: 15;
 }
 
