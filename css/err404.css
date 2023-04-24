@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.error__404 {
+    display: grid; 
+    align-items: center;
+    justify-items: center;
+    margin-top: 7%;
+}
+
+.block-error__404-imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.block-error__404-imgs-img {
+    width: 600px;
+    height: 300px;
+}
+
+.block-error__404-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+
+.block-error__404-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+    width: 1270px;
+}
+
+.block-error__404-button {
+    margin-top: 50px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.block-error__404-button:hover {
+	background-color: #f3f3f3;
+}

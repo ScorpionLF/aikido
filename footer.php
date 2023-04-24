@@ -37,14 +37,14 @@
                         <?php
                     } else {
                         ?>
-                        <a href="#open" class="block-footer-buttons-element-button">Вход</a>
-                        <div id="open" class="block-footer-modalWindow">
+                        <a href="#sign_in" class="block-footer-buttons-element-button">Вход</a>
+                        <div id="sign_in" class="block-footer-modalWindow">
                             <a href="index" class="block-footer-modalWindow-overlay"></a>
                             <div class="block-footer-modalWindow-dialog">
                                 <div class="block-footer-modalWindow-dialog-header">
                                     <div class="block-footer-modalWindow-dialog-header-imgs">
                                         <img class="block-footer-modalWindow-dialog-header-imgs-img" src="images/japan.jpg" onError="this.src='images/not_found.png'">
-                                        <a href="#close" class="block-footer-modalWindow-dialog-header-imgs-close" aria-hidden="true">×</a>
+                                        <a href="index" class="block-footer-modalWindow-dialog-header-imgs-close" aria-hidden="true">×</a>
                                     </div>
                                 </div>
                                 <div class="block-footer-modalWindow-dialog-body">
