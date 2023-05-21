@@ -3,6 +3,7 @@
 section {
     margin-top: 25px;
     margin-bottom: 25px;
+    width: 1270px;
 }
 
 @font-face {
@@ -12,7 +13,6 @@ section {
 
 .index-composition {
     height: 400px;
-    max-width: 1270px;
     display: flex;
 }
 
@@ -86,7 +86,6 @@ section {
 }
 
 .index-information-text {
-    width: 1270px;
     min-height: 245px;
     font-family: 'Roboto';
     font-style: normal;
@@ -104,7 +103,6 @@ section {
 .index-news {
     display: flex;
     justify-content: space-between;
-    width: 1270px;
 }
 
 .block-index-news {
