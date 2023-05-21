@@ -1,5 +1,8 @@
+
+
 html {
     min-height: 100%;
+    position: relative;
 }
 
 body {
@@ -11,7 +14,6 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     align-items: first baseline;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -44,7 +46,7 @@ p {
     text-align: center;
     justify-content: center;
     color: #000000;
-    cursor: default; 
+    cursor: default;
     margin-top: 25px;
 }
 

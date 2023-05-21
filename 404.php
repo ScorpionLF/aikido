@@ -25,7 +25,7 @@ header("HTTP/1.0 404 Not Found");
             <img class="block-error__404-imgs-img" src="images/error.png" onError="this.src='images/not_found.png'">
         </div>
         <div class="block-error__404-text">Запрашиваемая страница не существует.<br> Возможно, страница еще не создана или в запросе был указан неверный адрес.</div>
-        <a href="index.php" class="block-error__404-button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+        <a href="index" class="block-error__404-button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
     </div>
 </body>
 
