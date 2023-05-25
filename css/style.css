@@ -89,3 +89,48 @@ p {
     color: white;
     margin-bottom: 10px;
 }
+
+@media (max-width: 1420px) {
+    .terms-and-technique-element-button {
+        width: 1066px;
+        height: 50px;
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+    .block-trener {
+        height: 400px;
+        width: 250px;
+    }
+
+    .block-trener-photo {
+        height: 320px;
+        width: 250px;
+    }
+
+    .block-trener-information {
+        height: 80px;
+    }
+
+    .block-trener-information-name {
+        font-size: 16px;
+    }
+
+    .block-trener-information-dan {
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media (max-width: 1120px) {
+
+    .terms-and-technique-element-button {
+        width: 766px;
+        height: 40px;
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    
+}

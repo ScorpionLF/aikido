@@ -26,3 +26,31 @@
     color: #000000;
     line-height: 35px;
 }
+
+@media (max-width: 1420px) {
+    .principle {
+        width: 1070px;
+    }
+    
+    .principle-title {
+        font-size: 26px;
+    }
+    
+    .principle-information {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .principle {
+        width: 770px;
+    }
+    
+    .principle-title {
+        font-size: 22px;
+    }
+    
+    .principle-information {
+        font-size: 20px;
+    }
+}

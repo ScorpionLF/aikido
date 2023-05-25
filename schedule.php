@@ -20,12 +20,15 @@
     <?php include 'header.html'; ?>
     <main>
         <div class="schedule">
-            <div class="block-trener">
-                <img class="block-trener-photo" src="images/instructor_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-trener-information">
-                    <div class="block-trener-information-name"><strong>Белоусов Евгений Набиевич</strong></div>
-                    <div class="block-trener-information-dan">
-                        4 дан Айкидо Айкикай
+            <div class="schedule-trener">
+                <div class="block-trener">
+                    <img class="block-trener-photo" src="images/instructor_1.jpg"
+                        onError="this.src='images/not_found.png'">
+                    <div class="block-trener-information">
+                        <div class="block-trener-information-name"><strong>Белоусов Евгений Набиевич</strong></div>
+                        <div class="block-trener-information-dan">
+                            4 дан Айкидо Айкикай
+                        </div>
                     </div>
                 </div>
             </div>

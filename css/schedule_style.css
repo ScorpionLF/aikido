@@ -1,5 +1,6 @@
 .schedule {
     display: flex;
+    justify-content: space-between;
     min-height: 400px;
     max-width: 1270px;
     margin-top: 25px;
@@ -28,4 +29,51 @@ table {
     color: #000000;
     margin-left: 50px;
 
+}
+
+@media (max-width: 1420px) {
+    .schedule {
+        max-width: 1070px;
+    }
+
+    table {
+        width: 770px;
+        border-collapse: collapse;
+        border: 2px solid black;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 25px;
+        color: #000000;
+        margin-left: 50px;
+
+    }
+}
+
+@media (max-width: 1120px) {
+    .schedule {
+        display: grid;
+        justify-content: space-between;
+        min-height: 400px;
+        max-width: 1270px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .schedule {
+        max-width: 770px;
+    }
+
+    table {
+        width: 770px;
+        font-weight: 200;
+        font-size: 22px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .schedule-trener {
+        display: flex;
+        justify-content: center;
+    }
 }

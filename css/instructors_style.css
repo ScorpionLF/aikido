@@ -1,7 +1,21 @@
 .treners {
     width: 1270px;
     display: flex;
+    flex-wrap: wrap;
+
     justify-content: space-between;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+@media (max-width: 1420px) {
+    .treners {
+        width: 1070px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .treners {
+        width: 770px;
+    }
 }

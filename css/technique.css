@@ -22,7 +22,6 @@ details {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    width: 1270px;
     margin-bottom: 25px;
 }
 
@@ -62,4 +61,73 @@ details {
     color: #000000;
     margin-top: 50px;
     cursor: default; 
+}
+
+@media (max-width: 1420px) {
+    .techique {
+        width: 1070px;
+        margin-bottom: 25px;
+    }
+    
+    details {
+        width: 1070px;
+        font-size: 26px;
+    }
+    
+    .block-techique {
+        width: 1070px;
+    }
+    
+    .block-techique-video {
+        width: 520px;
+    }
+    
+    .block-techique-video-video {
+        height: 300px;
+    }
+    
+    .block-techique-video-title {
+        font-size: 26px;
+    }
+    
+    .technique-element-exam-button {
+        width: 1070px;
+        height: 50px;
+        font-size: 26px;
+    }
+    
+}
+
+@media (max-width: 1120px) {
+    .techique {
+        width: 770px;
+    }
+    
+    details {
+        width: 770px;
+        font-size: 22px;
+    }
+    
+    .block-techique {
+        width: 770px;
+    }
+    
+    .block-techique-video {
+        width: 385px;
+    }
+    
+    .block-techique-video-video {
+        height: 270px;
+    }
+    
+    .block-techique-video-title {
+        font-size: 22px;
+    }
+    
+    .technique-element-exam-button {
+        width: 770px;
+        height: 50px;
+        font-size: 22px;
+    }
+    
 }
