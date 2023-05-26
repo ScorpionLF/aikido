@@ -41,6 +41,10 @@ ul {
     .block-terms-text {
         font-size: 26px;
     }
+
+    .block-terms-text {
+        width: 600px;
+    }
 }
 
 @media (max-width: 1120px) {
@@ -57,5 +61,10 @@ ul {
     
     .block-terms-text {
         font-size: 22px;
+    }
+
+    .block-terms-text {
+        width: 400px;
+        margin-left: 200px;
     }
 }
