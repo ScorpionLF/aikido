@@ -37,3 +37,70 @@
     position: absolute;
     margin-top: 25px;
 }
+
+@media (max-width: 1420px) {
+    .contacts {
+        width: 1070px;
+    }
+    
+    .block-contacts-informations {
+        width: 70%;
+    }
+    
+    .block-contacts-map {
+        float: right;
+        width: 80%;
+        display: grid;
+    
+    }
+    
+    .contacts-information-line {
+        margin-top: 25px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 26px;
+        color: black;
+        text-align: left;
+    }
+    
+    .contacts-map {
+        width: 570px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .contacts {
+        width: 770px;
+    }
+    
+    .block-contacts-informations {
+        width: 70%;
+    }
+    
+    .block-contacts-map {
+        float: right;
+        width: 60%;
+        display: grid;
+    
+    }
+    
+    .block-contacts-informations {
+        float: left;
+        width: 50%;
+    }
+
+    .contacts-information-line {
+        font-size: 22px;
+    }
+    
+    .contacts-map {
+        width: 420px;
+    }
+
+    .contacts-img-map {
+        width: 100%;
+        height: 300px;
+        z-index: -1;
+        margin-top: 25px;
+    }
+}

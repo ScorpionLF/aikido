@@ -74,7 +74,7 @@
 
                 </details>
                 <details>
-                    <summary class="technique-element-exam-buttonn">6 кю</summary>
+                    <summary class="technique-element-exam-button">6 кю</summary>
 
                 </details>
                 <details>

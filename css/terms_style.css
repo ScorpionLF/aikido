@@ -25,3 +25,46 @@ details {
 ul {
     list-style-type: circle solid black;
 }
+
+@media (max-width: 1420px) {
+
+    .terms {
+        max-width: 1070px;
+        margin-bottom: 25px;
+    }
+    
+    details {
+        width: 1070px;
+        min-height: 50px;
+    }
+    
+    .block-terms-text {
+        font-size: 26px;
+    }
+
+    .block-terms-text {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1120px) {
+
+    .terms {
+        max-width: 770px;
+        margin-bottom: 20px;
+    }
+    
+    details {
+        width: 770px;
+        min-height: 40px;
+    }
+    
+    .block-terms-text {
+        font-size: 22px;
+    }
+
+    .block-terms-text {
+        width: 400px;
+        margin-left: 200px;
+    }
+}

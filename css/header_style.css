@@ -130,3 +130,130 @@ header {
 .header-navigation .header-navigation-button-dropdown:hover .header-navigation-button-dropdown-content {
     display: block;
 }
+
+@media (max-width: 1420px) {
+
+    header {
+        height: 255px;
+    }
+
+    .header-navigation,
+    .header-information {
+        width: 1070px;
+    }
+    
+    .header-information {
+        width: 1070px;
+        height: 145px;
+        margin-top: 45px;
+    }
+    
+    .header-information-line {
+        height: 45px;
+    }
+    
+    .header-information-logo-img {
+        height: 105px;
+        width: 135px;
+    }
+    
+    .header-information-title {
+        font-size: 38px;
+    }
+    
+    .header-information-contacts {
+        font-size: 22px;
+    }
+    
+    /* --------------header navigation------------ */
+    
+    .header-navigation-line {
+        height: 65px;
+        top: 190px;
+    }
+    
+    .header-navigation {
+        height: 65px;
+        width: 1070px;
+    }
+    
+    .header-navigation-button-element {
+        font-size: 22px;
+    }
+    
+    .header-navigation-button-dropdown {
+        font-size: 22px;
+    }
+    
+    .header-navigation-button-dropdown-content {
+        width: 175px;
+    }
+    
+    .header-navigation .header-navigation-button-dropdown-content a {
+        padding: 10px 15px;
+    }
+}
+
+
+@media (max-width: 1120px) {
+
+    header {
+        height: 235px;
+    }
+
+    .header-navigation,
+    .header-information {
+        width: 770px;
+    }
+    
+    .header-information {
+        width: 770px;
+        height: 145px;
+        margin-top: 35px;
+    }
+    
+    .header-information-line {
+        height: 35px;
+    }
+    
+    .header-information-logo-img {
+        height: 95px;
+        width: 125px;
+    }
+    
+    .header-information-title {
+        font-size: 32px;
+    }
+    
+    .header-information-contacts {
+        font-size: 20px;
+    }
+    
+    /* --------------header navigation------------ */
+    
+    .header-navigation-line {
+        height: 55px;
+        top: 180px;
+    }
+    
+    .header-navigation {
+        height: 55px;
+        width: 770px;
+    }
+    
+    .header-navigation-button-element {
+        font-size: 20px;
+    }
+    
+    .header-navigation-button-dropdown {
+        font-size: 20px;
+    }
+    
+    .header-navigation-button-dropdown-content {
+        width: 165px;
+    }
+    
+    .header-navigation .header-navigation-button-dropdown-content a {
+        padding: 5px 10px;
+    }
+}
