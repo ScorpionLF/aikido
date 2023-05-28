@@ -21,12 +21,12 @@
     <main>
         <div class="schedule">
             <div class="schedule-trener">
-                <div class="block-trener">
-                    <img class="block-trener-photo" src="images/instructor_1.jpg"
+                <div class="schedule-trener-block">
+                    <img class="schedule-trener-block-photo" src="images/instructor_1.jpg"
                         onError="this.src='images/not_found.png'">
-                    <div class="block-trener-information">
-                        <div class="block-trener-information-name"><strong>Белоусов Евгений Набиевич</strong></div>
-                        <div class="block-trener-information-dan">
+                    <div class="schedule-trener-block-information">
+                        <div class="schedule-trener-block-information-name"><strong>Белоусов Евгений Набиевич</strong></div>
+                        <div class="schedule-trener-block-information-dan">
                             4 дан Айкидо Айкикай
                         </div>
                     </div>
