@@ -82,25 +82,24 @@
     }
 
     .block-trener {
-        display: grid;
-        height: 600px;
-        width: 380px;
+        height: 430px;
+        width: 250px;
     }
     
     .block-trener-photo {
-        height: 500px;
-        width: 380px;
+        height: 350px;
+        width: 250px;
     }
     
     .block-trener-information {
-        height: 100px;
+        height: 80px;
     } 
 
     .block-trener-information-name {
-        font-size: 22px;
+        font-size: 16px;
     }
     
     .block-trener-information-dan {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
