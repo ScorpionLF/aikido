@@ -110,7 +110,7 @@
     
     .block-news {
         width: 380px;
-        height: 700px;
+        height: 500px;
     }
     
     .block-news-img {
@@ -120,12 +120,11 @@
     
     .block-news-title {
         width: 370px;
-        min-height: 40px;
-        font-size: 22px;
+        font-size: 18px;
     }
     
     .block-news-news {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .block-news-date {

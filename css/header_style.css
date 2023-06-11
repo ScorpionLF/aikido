@@ -73,8 +73,6 @@ header {
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    /*! margin-top: 0px; */
-    /*! margin-bottom: 50px; */
 }
 
 .header-navigation a {
@@ -161,11 +159,11 @@ header {
     }
     
     .header-information-title {
-        font-size: 32px;
+        font-size: 28px;
     }
     
     .header-information-contacts {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     /* --------------header navigation------------ */
@@ -181,11 +179,11 @@ header {
     }
     
     .header-navigation-button-element {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .header-navigation-button-dropdown {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .header-navigation-button-dropdown-content {

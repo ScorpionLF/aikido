@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    <div class="error__404">
-        <div class="block-error__404-title">Страница не найдена<br>404</div>
-        <div class="block-error__404-imgs">
-            <img class="block-error__404-imgs-img" src="images/error.png" onError="this.src='images/not_found.png'">
+    <div class="error">
+        <div class="block-error__title">Страница не найдена<br>404</div>
+        <div class="block-error__imgs">
+            <img class="block-error__imgs-img" src="images/error.png" onError="this.src='images/not_found.png'">
         </div>
-        <div class="block-error__404-text">Запрашиваемая страница не существует.<br> Возможно, страница еще не создана или в запросе был указан неверный адрес.</div>
-        <a href="index" class="block-error__404-button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+        <div class="block-error__text">Запрашиваемая страница не существует.<br> Возможно, страница еще не создана или в запросе был указан неверный адрес.</div>
+        <a href="index" class="block-error__button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
     </div>
 </body>
 
