@@ -44,7 +44,7 @@
     }
     
     .block-contacts-informations {
-        width: 70%;
+        width: 350px;
     }
     
     .block-contacts-map {
@@ -60,7 +60,7 @@
     }
 
     .contacts-information-line {
-        font-size: 22px;
+        font-size: 18px;
     }
     
     .contacts-map {
