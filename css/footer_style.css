@@ -1,6 +1,5 @@
 footer {
     width: 100%;
-    height: 180px;
     background: #000000;
     justify-items: center;
     display: grid;
@@ -10,12 +9,12 @@ footer {
 .footer {
     display: flex;
     justify-content: center;
-    width: 1270px;
+    width: 1000px;
 }
 
 .block-footer-indormation {
     display: grid;
-    width: 100%;
+    /*! width: 0%; */
     float: left;
 }
 
@@ -23,21 +22,22 @@ footer {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     text-align: left;
     color: #FFFFFF;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .block-footer-indormation-text-2 {
-    width: 700px;
+    width: 600px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
     font-size: 12px;
     text-align: left;
     color: #706f6f;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: 5px;
 }
 
 .block-footer-buttons {
@@ -54,24 +54,24 @@ footer {
 }
 
 .block-footer-buttons-element-1 {
-    width: 35px;
-    height: 30px;
+    width: 33px;
+    height: 28px;
 }
 
 .block-footer-buttons-element-2 {
-    margin-left: 10px;
-    width: 35px;
-    height: 34px;
+    margin-left: 7px;
+    width: 30px;
+    height: 29px;
 }
 
 .block-footer-buttons-element-button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     color: #FFFFFF;
     background: none;
-    margin-left: 10px;
+    margin-left: 7px;
     border: 0px;
     text-decoration: none;
 }
@@ -214,47 +214,6 @@ footer {
     margin-bottom: 20px;
     height: 60px;
 }
-
-@media (max-width: 1420px) {
-
-    footer {
-        height: 170px;
-    }
-
-    .footer {
-        width: 1070px;
-    }
-
-    .block-footer-indormation-text-1 {
-        font-size: 20px;
-        margin-top: 40px;
-    }
-
-    .block-footer-indormation-text-2 {
-        font-size: 12px;
-        margin-bottom: 40px;
-    }
-
-    .block-footer-buttons {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    .block-footer-buttons-element-1 {
-        width: 30px;
-        height: 25px;
-    }
-
-    .block-footer-buttons-element-2 {
-        width: 30px;
-        height: 29px;
-    }
-
-    .block-footer-buttons-element-button {
-        font-size: 22px;
-    }
-}
-
 
 @media (max-width: 1120px) {
 

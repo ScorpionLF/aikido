@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/technique.css">
+    <link rel="stylesheet" href="css/err404.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
@@ -20,7 +21,17 @@
     <?php include 'header.html'; ?>
     <main>
         <div class="techique">
-            <details>
+            <div class="error__404">
+                <div class="block-error__404-title">Страница в разработке.</div>
+                <div class="block-error__404-imgs">
+                    <img class="block-error__404-imgs-img" src="images/error.png"
+                        onError="this.src='images/not_found.png'">
+                </div>
+                <div class="block-error__404-text">Запрашиваемая страница не существует.<br> Возможно, страница еще не
+                    создана или в запросе был указан неверный адрес.</div>
+                <a href="index" class="block-error__404-button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+            </div>
+            <!-- <details>
                 <summary class="terms-and-technique-element-button">Падения / Страховки</summary>
                 <div class="block-techique">
                     <div class="block-techique-video">
@@ -93,7 +104,7 @@
                     <summary class="technique-element-exam-button">10 кю</summary>
 
                 </details>
-            </details>
+            </details> -->
         </div>
     </main>
     <?php include 'footer.php'; ?>

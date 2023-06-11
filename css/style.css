@@ -26,6 +26,7 @@ main {
 p {
     text-indent: 55px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 /* -------------------style for button in technique and terms pages summary--------------- */
@@ -33,12 +34,12 @@ p {
 .terms-and-technique-element-button {
     background-color: rgb(222, 223, 224);
     border: 2px solid black;
-    width: 1266px;
-    height: 60px;
+    width: 996px;
+    height: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 22px;
     display: flex;
     align-items: center;
     text-align: center;

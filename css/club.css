@@ -1,6 +1,7 @@
 .club {
     margin-bottom: 25px;
-    width: 1270px;
+    margin-top: 25px;
+    width: 1000px;
 }
 
 .block-club-information {
@@ -8,11 +9,11 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     align-items: center;
     color: #000000;
     text-align: justify;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .block-club-imgs {
@@ -20,23 +21,9 @@
 }
 
 .club-img {
-    width: 1270px;
+    width: 1000px;
 }
 
-@media (max-width: 1420px) {
-    .club {
-        width: 1070px;
-    }
-    
-    .block-club-information {
-        font-size: 22px;
-        line-height: 33px;
-    }
-
-    .club-img {
-        width: 1070px;
-    }
-}
 
 @media (max-width: 1120px) {
     .club {

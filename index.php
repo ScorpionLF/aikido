@@ -56,32 +56,23 @@
         <section class="index-news">
             <div class="block-index-news">
                 <img class="block-index-news-img" src="images/new_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-index-news-title">Константиновка, набор в новую детскую группу айкидо!</div>
+                <div class="block-index-news-title">Аттестованы!</div>
                 <div class="block-index-news-news">
                     <?php echo (file_get_contents('./all_news/new_1.txt')); ?>
                 </div>
             </div>
             <div class="block-index-news">
                 <img class="block-index-news-img" src="images/new_2.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-index-news-title">Аттестованы!</div>
+                <div class="block-index-news-title">Семинар Сенсея Халидова!</div>
                 <div class="block-index-news-news">
-                    В конце мая прошла плановая аттестация учеников Ametsuchi Dojo. Сенсеи федерации во главе с
-                    Белоусовым Евгением Набиевичем были очень строги и "сдать на пояс" удалось единицам. Хотя число
-                    участников было небывало большим - мероприятия заняло весь день. Мы поздравляем всех: и тех кто
-                    "защитил свой пояс" и тех, кто получил новый. Вы и есть Ametsuchi. На вас равняется федерация.
-                    До новых побед!
-
+                    <?php echo (file_get_contents('./all_news/new_2.txt')); ?>
                 </div>
             </div>
             <div class="block-index-news">
                 <img class="block-index-news-img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-index-news-title">Семинар Айкидо прошел успешно! </div>
+                <div class="block-index-news-title">Ушел Великий Мастер...</div>
                 <div class="block-index-news-news">
-                    В декабре прошел семинар Айкидо федерации Ametsuchi. Традиционно был выбран зал Ак Барс,
-                    поскольку число участников снова бьет наши рекорды. Поздравляем всех успешно сдавших на пояс, а
-                    тем, кому это не удалось желаем упорства и целеустремленности, ведь истинная сила рождается
-                    именно здесь.
-
+                    <?php echo (file_get_contents('./all_news/new_3.txt')); ?>
                 </div>
             </div>
         </section>

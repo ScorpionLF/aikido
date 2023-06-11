@@ -23,7 +23,7 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -31,10 +31,10 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 50px;
     text-align: center;
-    width: 1270px;
+    width: 1000px;
 }
 
 .block-error__404-button {
@@ -55,4 +55,45 @@ body {
 
 .block-error__404-button:hover {
 	background-color: #f3f3f3;
+}
+
+@media (max-width: 1120px) {
+    .block-error__404-imgs-img {
+        width: 500px;
+        height: 200px;
+    }
+    
+    .block-error__404-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .block-error__404-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: center;
+        width: 1270px;
+    }
+    
+    .block-error__404-button {
+        margin-top: 50px;
+        width: 200px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 5px;
+        border: 2px solid black;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
 }

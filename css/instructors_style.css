@@ -1,5 +1,5 @@
 .treners {
-    width: 1270px;
+    width: 1000px;
     display: flex;
     flex-wrap: wrap;
 
@@ -10,13 +10,12 @@
 
 .block-trener {
     display: grid;
-    height: 500px;
-    width: 300px;
+    width: 240px;
 }
 
 .block-trener-photo {
-    height: 400px;
-    width: 300px;
+    height: 320px;
+    width: 240px;
 }
 
 .block-trener-information {
@@ -30,51 +29,22 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     text-align: center;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 .block-trener-information-dan {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     color: white;
     margin-bottom: 10px;
 }
 
-@media (max-width: 1420px) {
-    .treners {
-        width: 1070px;
-    }
-
-    .block-trener {
-        height: 400px;
-        width: 250px;
-    }
-
-    .block-trener-photo {
-        height: 320px;
-        width: 250px;
-    }
-
-    .block-trener-information {
-        height: 80px;
-    }
-
-    .block-trener-information-name {
-        font-size: 16px;
-    }
-
-    .block-trener-information-dan {
-        font-size: 14px;
-    }
-}
 
 @media (max-width: 1120px) {
     .treners {
