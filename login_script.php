@@ -26,7 +26,7 @@
 					$line = explode(';', $file_arr[$i]);
 					if (strval($line[1]) != strval($login)) {
 						if ($i + 1 == $lines) {
-							die("Неверный логин.");
+							header('Location:404');;
 						}
 					} else {
 						if (strval($line[2]) != strval($password)) {

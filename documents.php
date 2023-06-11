@@ -21,15 +21,15 @@
     <?php include 'header.html'; ?>
     <main>
         <div class="documents">
-            <div class="error__404">
-                <div class="block-error__404-title">Страница в разработке.</div>
-                <div class="block-error__404-imgs">
-                    <img class="block-error__404-imgs-img" src="images/error.png"
+            <div class="error">
+                <div class="block-error__title">Страница в разработке.</div>
+                <div class="block-error__imgs">
+                    <img class="block-error__imgs-img" src="images/error.png"
                         onError="this.src='images/not_found.png'">
                 </div>
-                <div class="block-error__404-text">Запрашиваемая страница не существует.<br> Возможно, страница еще не
+                <div class="block-error__text">Запрашиваемая страница не существует.<br> Возможно, страница еще не
                     создана или в запросе был указан неверный адрес.</div>
-                <a href="index" class="block-error__404-button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+                <a href="index" class="block-error__button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
             </div>
             <!-- <div class="block-documents">
                 <img class="block-documents-img" src="images/documents-img-1.jpg" onError="this.src='images/not_found.png'">

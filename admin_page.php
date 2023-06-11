@@ -3,9 +3,11 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
         <title>admin page</title>
     </head>
     <body>
+    <?php include 'header.html'; ?>
         <div style="text-align:center">
             <?php if(!empty($_SESSION['login']) and $_SESSION['login'] == 'admin'): ?>
             <?php echo "Административная панель."; ?>
@@ -16,5 +18,7 @@
         ?>
     <?php endif ?>
         </div>
+        <?php include 'footer.php'; ?>
+
     </body>
 </html>

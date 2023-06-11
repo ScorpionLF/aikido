@@ -73,8 +73,6 @@ header {
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    /*! margin-top: 0px; */
-    /*! margin-bottom: 50px; */
 }
 
 .header-navigation a {

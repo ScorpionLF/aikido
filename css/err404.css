@@ -2,24 +2,24 @@ body {
     margin: 0;
 }
 
-.error__404 {
+.error {
     display: grid; 
     align-items: center;
     justify-items: center;
     margin-top: 7%;
 }
 
-.block-error__404-imgs {
+.block-error__imgs {
     display: flex;
     justify-content: center;
 }
 
-.block-error__404-imgs-img {
+.block-error__imgs-img {
     width: 600px;
     height: 300px;
 }
 
-.block-error__404-title {
+.block-error__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
@@ -27,7 +27,7 @@ body {
     text-align: center;
 }
 
-.block-error__404-text {
+.block-error__text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -37,7 +37,7 @@ body {
     width: 1000px;
 }
 
-.block-error__404-button {
+.block-error__button {
     margin-top: 50px;
     width: 300px;
     padding: 10px;
@@ -53,17 +53,17 @@ body {
     color: black;
 }
 
-.block-error__404-button:hover {
+.block-error__button:hover {
 	background-color: #f3f3f3;
 }
 
 @media (max-width: 1120px) {
-    .block-error__404-imgs-img {
+    .block-error__imgs-img {
         width: 500px;
         height: 200px;
     }
     
-    .block-error__404-title {
+    .block-error__title {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: bold;
@@ -71,7 +71,7 @@ body {
         text-align: center;
     }
     
-    .block-error__404-text {
+    .block-error__text {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -81,7 +81,7 @@ body {
         width: 1270px;
     }
     
-    .block-error__404-button {
+    .block-error__button {
         margin-top: 50px;
         width: 200px;
         padding: 10px;
