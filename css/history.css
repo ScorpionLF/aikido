@@ -1,6 +1,6 @@
 .history {
     display: grid;
-    width: 1270px;
+    width: 1000px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -9,13 +9,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     align-items: center;
     text-align: justify;
     color: #000000;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .history-imgs {
@@ -24,8 +24,8 @@
 }
 
 .history_img_1 {
-    width: 650px;
-    height: 350px;
+    width: 550px;
+    height: 300px;
     position: relative;
     margin-top: 25px;
     margin-bottom: 25px;

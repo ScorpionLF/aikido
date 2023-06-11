@@ -1,10 +1,10 @@
 .terms {
-    max-width: 1270px;
+    max-width: 1000px;
     margin-bottom: 25px;
 }
 
 details {
-    width: 1270px;
+    width: 1000px;
     min-height: 50px;
 }
 
@@ -12,13 +12,13 @@ details {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 20px;
     align-items: center;
     text-align: left;
     justify-content: center;
     color: #000000;
-    width: 800px;
-    margin-left: 235px;
+    width: 600px;
+    margin-left: 220px;
     margin-top: 50px;
 }
 
@@ -26,26 +26,6 @@ ul {
     list-style-type: circle solid black;
 }
 
-@media (max-width: 1420px) {
-
-    .terms {
-        max-width: 1070px;
-        margin-bottom: 25px;
-    }
-    
-    details {
-        width: 1070px;
-        min-height: 50px;
-    }
-    
-    .block-terms-text {
-        font-size: 26px;
-    }
-
-    .block-terms-text {
-        width: 600px;
-    }
-}
 
 @media (max-width: 1120px) {
 

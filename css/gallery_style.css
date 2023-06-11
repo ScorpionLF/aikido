@@ -2,12 +2,12 @@
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    width: 1270px;
+    width: 1000px;
     margin-bottom: 25px;
 }
 
 .block-album {
-    width: 400px;
+    width: 320px;
     background-image: url("../images/rectangle.png");
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 5px;
@@ -15,38 +15,24 @@
 }
 
 .block-album-img {
-    height: 350px;
-    width: 390px;
+    height: 250px;
+    width: 320px;
     border-radius: 3px;
-    padding: 5px;
 }
 
 .block-album-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     align-items: center;
     text-align: center;
     color: #000000;
     padding: 10px;
+    line-height: 30px;
+    
 }
 
-@media (max-width: 1420px) {
-
-    .albums {
-        width: 1070px;
-    }
-
-    .block-album {
-        width: 350px;
-    }
-
-    .block-album-img {
-        height: 350px;
-        width: 340px;
-    }
-}
 
 @media (max-width: 1120px) {
 

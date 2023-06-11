@@ -1,16 +1,15 @@
 .contacts {
-    width: 1270px;
+    width: 1000px;
     display: flex;
 }
 
 .block-contacts-informations {
     float: left;
-    width: 70%;
+    width: 350px
 }
 
 .block-contacts-map {
     float: right;
-    width: 100%;
     display: grid;
 
 }
@@ -19,7 +18,7 @@
     margin-top: 25px;
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 28px;
+    font-size: 20px;
     color: black;
     text-align: left;
 }
@@ -32,41 +31,12 @@
 }
 
 .contacts-map {
-    width: 745px;
+    width: 680px;
     z-index: 1;
     position: absolute;
     margin-top: 25px;
 }
 
-@media (max-width: 1420px) {
-    .contacts {
-        width: 1070px;
-    }
-    
-    .block-contacts-informations {
-        width: 70%;
-    }
-    
-    .block-contacts-map {
-        float: right;
-        width: 80%;
-        display: grid;
-    
-    }
-    
-    .contacts-information-line {
-        margin-top: 25px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-size: 26px;
-        color: black;
-        text-align: left;
-    }
-    
-    .contacts-map {
-        width: 570px;
-    }
-}
 
 @media (max-width: 1120px) {
     .contacts {

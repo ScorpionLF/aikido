@@ -1,5 +1,5 @@
 .principle {
-    width: 1270px;
+    width: 1000px;
     margin-bottom: 25px;
     margin-top: 25px;
 }
@@ -9,7 +9,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     display: flex;
     color: #000000;
 }
@@ -20,25 +20,11 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     align-items: center;
     text-align: justify;
     color: #000000;
-    line-height: 35px;
-}
-
-@media (max-width: 1420px) {
-    .principle {
-        width: 1070px;
-    }
-    
-    .principle-title {
-        font-size: 26px;
-    }
-    
-    .principle-information {
-        font-size: 22px;
-    }
+    line-height: 40px;
 }
 
 @media (max-width: 1120px) {

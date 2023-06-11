@@ -1,10 +1,10 @@
 .techique {
-    width: 1270px;
+    width: 1000px;
     margin-bottom: 25px;
 }
 
 details {
-    width: 1270px;
+    width: 1000px;
     min-height: 50px;
     margin-top: 20px;
     font-family: 'Roboto';
@@ -18,7 +18,7 @@ details {
 }
 
 .block-techique {
-    width: 1270px;
+    width: 1000px;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -26,12 +26,12 @@ details {
 }
 
 .block-techique-video {
-    width: 420px;
+    width: 330px;
     margin-top: 25px;
 }
 
 .block-techique-video-video {
-    height: 250px;
+    height: 200px;
     width: 100%;
 }
 
@@ -39,7 +39,7 @@ details {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     align-items: center;
     text-align: center;
     color: #000000;
@@ -48,88 +48,54 @@ details {
 .technique-element-exam-button {
     background-color: rgb(244, 245, 246);
     border: 1px solid black;
-    width: 1270px;
-    height: 60px;
+    width: 1000px;
+    height: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 22px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     color: #000000;
-    margin-top: 50px;
-    cursor: default; 
+    margin-top: 25px;
+    cursor: default;
 }
 
-@media (max-width: 1420px) {
-    .techique {
-        width: 1070px;
-        margin-bottom: 25px;
-    }
-    
-    details {
-        width: 1070px;
-        font-size: 26px;
-    }
-    
-    .block-techique {
-        width: 1070px;
-    }
-    
-    .block-techique-video {
-        width: 520px;
-    }
-    
-    .block-techique-video-video {
-        height: 300px;
-    }
-    
-    .block-techique-video-title {
-        font-size: 26px;
-    }
-    
-    .technique-element-exam-button {
-        width: 1070px;
-        height: 50px;
-        font-size: 26px;
-    }
-    
-}
 
 @media (max-width: 1120px) {
     .techique {
         width: 770px;
     }
-    
+
     details {
         width: 770px;
         font-size: 22px;
     }
-    
+
     .block-techique {
         width: 770px;
     }
-    
+
     .block-techique-video {
         width: 385px;
     }
-    
+
     .block-techique-video-video {
         height: 270px;
     }
-    
+
     .block-techique-video-title {
         font-size: 22px;
     }
-    
+
     .technique-element-exam-button {
         width: 770px;
         height: 50px;
         font-size: 22px;
     }
-    
+
     .technique-element-exam-button {
         margin-top: 20px;
     }
