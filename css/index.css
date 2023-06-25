@@ -109,7 +109,7 @@ section {
     background-image: url("../images/rectangle.png");
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-bottom: 15px;
-    height: 400px;
+    height: 420px;
 }
 
 .block-index-news-img {
@@ -144,7 +144,6 @@ section {
     display: flex;
     text-align: left;
     color: #000000;
-    /*! padding-top: 15px; */
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;

@@ -54,27 +54,33 @@
             </div>
         </section>
         <section class="index-news">
-            <div class="block-index-news">
-                <img class="block-index-news-img" src="images/new_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-index-news-title">Аттестованы!</div>
-                <div class="block-index-news-news">
-                    <?php echo (file_get_contents('./all_news/new_1.txt')); ?>
+            <a href="news_page" style="text-decoration: none;">
+                <div class="block-index-news">
+                    <img class="block-index-news-img" src="images/new_4.jpg" onError="this.src='images/not_found.png'">
+                    <div class="block-index-news-title">Ametsuchi посетил Сенсей Сергей Флоренко.</div>
+                    <div class="block-index-news-news">
+                        <?php echo (file_get_contents('./all_news/new_3.txt')); ?>
+                    </div>
                 </div>
-            </div>
-            <div class="block-index-news">
-                <img class="block-index-news-img" src="images/new_2.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-index-news-title">Семинар Сенсея Халидова!</div>
-                <div class="block-index-news-news">
-                    <?php echo (file_get_contents('./all_news/new_2.txt')); ?>
+            </a>
+            <a href="news_page" style="text-decoration: none;">
+                <div class="block-index-news">
+                    <img class="block-index-news-img" src="images/new_1.jpg" onError="this.src='images/not_found.png'">
+                    <div class="block-index-news-title">Аттестованы!</div>
+                    <div class="block-index-news-news">
+                        <?php echo (file_get_contents('./all_news/new_1.txt')); ?>
+                    </div>
                 </div>
-            </div>
-            <div class="block-index-news">
-                <img class="block-index-news-img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-index-news-title">Ушел Великий Мастер...</div>
-                <div class="block-index-news-news">
-                    <?php echo (file_get_contents('./all_news/new_3.txt')); ?>
+            </a>
+            <a href="news_page" style="text-decoration: none;">
+                <div class="block-index-news">
+                    <img class="block-index-news-img" src="images/new_2.jpg" onError="this.src='images/not_found.png'">
+                    <div class="block-index-news-title">Семинар Сенсея Халидова!</div>
+                    <div class="block-index-news-news">
+                        <?php echo (file_get_contents('./all_news/new_2.txt')); ?>
+                    </div>
                 </div>
-            </div>
+            </a>
         </section>
     </main>
     <?php include 'footer.php'; ?>
