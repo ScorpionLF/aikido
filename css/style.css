@@ -45,7 +45,7 @@ p {
     text-align: center;
     justify-content: center;
     color: #000000;
-    cursor: default;
+    cursor: pointer;
     margin-top: 25px;
 }
 

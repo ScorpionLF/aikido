@@ -22,7 +22,7 @@
                     республике
                     Татарстан”
                 </div>
-                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © 2023.
+                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © <?php echo date("Y"); ?>.
                     Все права
                     защищены.</div>
             </div>
