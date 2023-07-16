@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -86,5 +87,9 @@
     <?php include 'footer.php'; ?>
 
 </body>
-
+<script>
+    if (document.documentElement.clientWidth < 481) {
+        <?php include 'index_mob.php'; ?>
+}
+</script>
 </html>
