@@ -29,6 +29,10 @@ p {
     margin-top: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* -------------------style for button in technique and terms pages summary--------------- */
 
 .terms-and-technique-element-button {
@@ -49,6 +53,10 @@ p {
     margin-top: 25px;
 }
 
+.mobile-title {
+    display: none;
+}
+
 @media (max-width: 1120px) {
 
     .terms-and-technique-element-button {
@@ -57,4 +65,80 @@ p {
         font-size: 20px;
         margin-top: 20px;
     }
+}
+
+@media (max-width: 480px) {
+
+    html {
+        height: 100%;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    main {
+        justify-items: center;
+        display: grid;
+    }
+    
+    p {
+        margin: 0;
+        padding: 0 0 10px 0;;
+        text-indent: 20px;
+    }
+    
+    a {
+        color: #ffffff;
+    }
+
+    
+    .mobile-title {
+        display: block;
+    }
+    
+    .title-block {
+        width: 330px;
+        height: 34px;
+        display: grid;
+        margin-bottom: 10px;
+    }
+    
+    .title-block-line {
+        width: 330px;
+        background-color: black;
+        height: 2px;
+        margin-top: 5px;
+    }
+    
+    .title {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+    }
+    
+    
+    .terms-and-technique-element-button {
+        border-bottom: 2px solid rgb(152, 152, 152);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 330px;
+        height: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: space-between;
+        color: #000000;
+        margin-top: 10px;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
+        background: none;
+    }
+
 }

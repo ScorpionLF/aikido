@@ -18,9 +18,18 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
+        <div class="mobile-title">
+            <div class="title-block">
+                <div class="title">Словарь терминов</div>
+                <div class="title-block-line"></div>
+            </div>
+        </div>
         <div class="terms">
             <details>
-                <summary class="terms-and-technique-element-button">Общее</summary>
+                <summary class="terms-and-technique-element-button">Общее
+                <!-- <div id="terms-and-technique-element-button-arrow-open">▽</div>
+                <div id="terms-and-technique-element-button-arrow-close">△</div> -->
+                </summary>
                 <div class="block-terms-text">
                     <ul>
                         <li><strong>Ай</strong> - Любовь, гармония</li> <br>
@@ -65,7 +74,10 @@
                 </div>
             </details>
             <details>
-                <summary class="terms-and-technique-element-button">Счет</summary>
+                <summary class="terms-and-technique-element-button">Счет
+                <!-- <div id="terms-and-technique-element-button-arrow-open">▽</div>
+                <div id="terms-and-technique-element-button-arrow-close">△</div> -->
+                </summary>
                 <div class="block-terms-text">
                     <ul>
                         <li><strong>Ити</strong> - Один </li><br>
@@ -82,7 +94,10 @@
                 </div>
             </details>
             <details>
-                <summary class="terms-and-technique-element-button">Стороны и части тела</summary>
+                <summary class="terms-and-technique-element-button">Стороны и части тела
+                <!-- <div id="terms-and-technique-element-button-arrow-open">▽</div>
+                <div id="terms-and-technique-element-button-arrow-close">△</div> -->
+                </summary>
                 <div class="block-terms-text">
                     <ul>
                         <li><strong>Те</strong> - рука</li> <br>
@@ -113,7 +128,10 @@
                 </div>
             </details>
             <details>
-                <summary class="terms-and-technique-element-button">Стойки</summary>
+                <summary class="terms-and-technique-element-button">Стойки
+                <!-- <div id="terms-and-technique-element-button-arrow-open">▽</div>
+                <div id="terms-and-technique-element-button-arrow-close">△</div> -->
+                </summary>
                 <div class="block-terms-text">
                     <ul>
                         <li><strong>Камаэ</strong> - основная стойка </li><br>
@@ -127,7 +145,10 @@
                 </div>
             </details>
             <details>
-                <summary class="terms-and-technique-element-button">Удары</summary>
+                <summary class="terms-and-technique-element-button">Удары
+                <!-- <div id="terms-and-technique-element-button-arrow-open">▽</div>
+                <div id="terms-and-technique-element-button-arrow-close">△</div> -->
+                </summary>
                 <div class="block-terms-text">
                     <ul>
                         <li><strong>Цки (Цуки)</strong> - прямой удар </li><br>

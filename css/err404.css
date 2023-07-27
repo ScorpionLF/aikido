@@ -57,7 +57,7 @@ body {
 	background-color: #f3f3f3;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1024px) {
     .block-error__imgs-img {
         width: 400px;
         height: 200px;
@@ -74,5 +74,33 @@ body {
     
     .block-error__button {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    
+    .error {
+        width: 330px;
+    }
+    
+    .block-error__imgs-img {
+        width: 330px;
+        margin-top: 25px;
+    }
+    
+    .block-error__title {
+        font-size: 20px;
+    }
+    
+    .block-error__text {
+        font-size: 16px;
+        width: 330px;
+    }
+    
+    .block-error__button {
+        border: 1px solid black;
+        font-size: 16px;
+        margin-top: 25px;
     }
 }

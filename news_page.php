@@ -19,7 +19,23 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
+    <div class="mobile-title">
+            <div class="title-block">
+                <div class="title">Новости</div>
+                <div class="title-block-line"></div>
+            </div>
+        </div>
         <div class="news">
+        <a href="https://m.vk.com/wall-22839781_392" style="text-decoration: none;">
+                <div class="block-news">
+                    <img class="block-news-img" src="images/new_5.jpg" onError="this.src='images/not_found.png'">
+                    <div class="block-news-title">Ученики Ametsuchi отдыхают в Анапе</div>
+                    <div class="block-news-news">
+                        <?php echo (file_get_contents('./all_news/new_5.txt')); ?>
+                        <div class="block-news-date">18.07.2022</div>
+                    </div>
+                </div>
+            </a>
         <a href="https://m.vk.com/wall-22839781_390" style="text-decoration: none;">
                 <div class="block-news">
                     <img class="block-news-img" src="images/new_4.jpg" onError="this.src='images/not_found.png'">
@@ -60,13 +76,6 @@
                     </div>
                 </div>
             </a>
-            <div class="block-news">
-                <img class="block-news-img" src="images/new_5.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-news-title">Президент Федерации Айкидо Узбекистана...</div>
-                <div class="block-news-news">
-                    <div class="block-news-date">07.03.2023</div>
-                </div>
-            </div>
             <div class="block-news">
                 <img class="block-news-img" src="images/new_6.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-news-title">С днем Защитника Отечества!</div>

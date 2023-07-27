@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
-    <title>Галерея</title>
+    <title>Фото</title>
     <link type="Image/x-icon" href="images/favicon.png" rel="icon">
 </head>
 </head>
@@ -20,7 +20,11 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <div class="albums">
+    <!-- <div class="title-block">
+            <div class="title">Фото</div>
+            <div class="title-block-line"></div>
+        </div> -->
+        <div class="gallery">
             <div class="error">
                 <div class="block-error__title">Страница в разработке.</div>
                 <div class="block-error__imgs">
@@ -30,41 +34,36 @@
                     создана или в запросе был указан неверный адрес.</div>
                 <a href="index" class="block-error__button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
             </div>
-            <!-- <div class="block-album">
-                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-album-title">Аттестация <br>
-                    Май, 2022</div>
-            </div>
-            <div class="block-album">
-                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-album-title">Аттестация <br>
-                    Май, 2022</div>
-            </div>
-            <div class="block-album">
-                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-album-title">Аттестация <br>
-                    Май, 2022</div>
-            </div>
-            <div class="block-album">
-                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-album-title">Аттестация <br>
-                    Май, 2022</div>
-            </div>
-            <div class="block-album">
-                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-album-title">Аттестация <br>
-                    Май, 2022</div>
-            </div>
-            <div class="block-album">
-                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-album-title">Аттестация <br>
-                    Май, 2022</div>
-            </div>
-            <div class="block-album">
-                <img class="block-album-img" src="images/album_1.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-album-title">Аттестация <br>
-                    Май, 2022</div>
-            </div> -->
+            <!-- <a href="#" class="gallery-album">
+                <img src="images/new_1.jpg" onError="this.src='images/not_found.png'"/>
+	            <div class="gallery-album-info">
+                    <span>
+                        <div class="gallery-album-info-line">DD.MM.YYY</div>
+                        <div class="gallery-disign-line"></div>
+                        <div class="gallery-album-info-line">Album Title</div>
+                    </span>
+                </div>
+            </a>
+            <a href="#" class="gallery-album">
+                <img src="images/new_2.jpg" onError="this.src='images/not_found.png'"/>
+	            <div class="gallery-album-info">
+                    <span>
+                        <div class="gallery-album-info-line">DD.MM.YYY</div>
+                        <div class="gallery-disign-line"></div>
+                        <div class="gallery-album-info-line">Album Title</div>
+                    </span>
+                </div>
+            </a>
+            <a href="#" class="gallery-album">
+                <img src="images/new_3.jpg" onError="this.src='images/not_found.png'"/>
+	            <div class="gallery-album-info">
+                    <span>
+                        <div class="gallery-album-info-line">DD.MM.YYY</div>
+                        <div class="gallery-disign-line"></div>
+                        <div class="gallery-album-info-line">Album Title</div>
+                    </span>
+                </div>
+            </a> -->
         </div>
     </main>
     <?php include 'footer.php'; ?>

@@ -214,6 +214,10 @@ footer {
     height: 60px;
 }
 
+.footer-block-contacts-infoline {
+    display: none;
+}
+
 @media (max-width: 1120px) {
 
     footer {
@@ -291,4 +295,67 @@ footer {
         height: 50px;
     }
 
+}
+
+@media (max-width: 480px) {
+
+    .block-footer-buttons {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+        background: #000000;
+        justify-items: center;
+        display: grid;
+        position: relative;
+        height: 350px;
+    }
+    
+    .footer {
+        width: 480px;
+    }
+
+    .block-footer-indormation {
+        width: 330px;
+    }
+    
+    .block-footer-indormation-text-1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 30px;
+        width: 330px;
+    }
+    
+    .footer-block-contacts-infoline {
+        display: flex;
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    
+    .footer-block-contacts-text {
+        margin-left: 10px;
+    }
+    
+    .block-footer-indormation-text-2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        width: 330px;
+    }
 }

@@ -21,7 +21,11 @@
     <?php include 'header.html'; ?>
     <main>
         <div class="techique">
-        <div class="error">
+        <div class="title-block">
+            <div class="title">Техники</div>
+            <div class="title-block-line"></div>
+        </div>
+        <!-- <div class="error">
                 <div class="block-error__title">Страница в разработке.</div>
                 <div class="block-error__imgs">
                     <img class="block-error__imgs-img" src="images/error.png"
@@ -30,8 +34,8 @@
                 <div class="block-error__text">Запрашиваемая страница не существует.<br> Возможно, страница еще не
                     создана или в запросе был указан неверный адрес.</div>
                 <a href="index" class="block-error__button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
-            </div>
-            <!-- <details>
+            </div> -->
+            <details>
                 <summary class="terms-and-technique-element-button">Падения / Страховки</summary>
                 <div class="block-techique">
                     <div class="block-techique-video">
@@ -104,7 +108,7 @@
                     <summary class="technique-element-exam-button">10 кю</summary>
 
                 </details>
-            </details> -->
+            </details>
         </div>
     </main>
     <?php include 'footer.php'; ?>

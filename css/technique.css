@@ -6,13 +6,11 @@
 details {
     width: 1000px;
     min-height: 50px;
-    margin-top: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
     align-items: center;
-    text-align: center;
     justify-content: center;
     color: #000000;
 }
@@ -31,7 +29,7 @@ details {
 }
 
 .block-techique-video-video {
-    height: 200px;
+    height: 230px;
     width: 100%;
 }
 
@@ -43,6 +41,7 @@ details {
     align-items: center;
     text-align: center;
     color: #000000;
+    margin-top: 15px;
 }
 
 .technique-element-exam-button {
@@ -63,8 +62,11 @@ details {
     cursor: default;
 }
 
+.title-block {
+    display: none;    
+}
 
-@media (max-width: 1120px) {
+@media (max-width: 1024px) {
     .techique {
         width: 770px;
     }
@@ -98,5 +100,65 @@ details {
 
     .technique-element-exam-button {
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .title-block {
+        display: block;    
+    }
+
+    .techique {
+        width: 330px;
+        display: grid;
+        margin-bottom: 15px;
+    }
+
+    details {
+        width: 330px;
+        font-size: 22px;
+    }
+    
+    .block-techique {
+        width: 330px;
+        margin-bottom: 15px;
+    }
+    
+    .block-techique-video {
+        width: 330px;
+        margin-top: 15px;
+    }
+    
+    .block-techique-video-video {
+        height: 230px;
+        width: 330px;
+    }
+    
+    .block-techique-video-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        align-items: center;
+        text-align: left;
+        color: #000000;
+        margin-top: 10px;
+    }
+    
+    .technique-element-exam-button {
+        border-bottom: 2px solid rgb(186, 186, 186);
+        width: 330px;
+        height: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin-top: 10px;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
     }
 }

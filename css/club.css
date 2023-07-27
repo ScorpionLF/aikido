@@ -25,7 +25,7 @@
 }
 
 
-@media (max-width: 1120px) {
+@media (max-width: 1024px) {
     .club {
         width: 770px;
     }
@@ -37,5 +37,28 @@
 
     .club-img {
         width: 770px;
+    }
+}
+
+@media (max-width: 480px) {
+    .club {
+        width: 330px;
+        margin: 15px 0 15px 0;      
+    }
+
+    .block-club-information {
+        width: 330px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+    
+    .block-club-imgs {
+        width: 330px;
+        margin-top: 15px;
+    }
+    
+    .club-img {
+        width: 330px;
     }
 }

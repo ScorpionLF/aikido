@@ -68,6 +68,11 @@ table {
     margin-bottom: 10px;
 }
 
+.schedule-information,
+.title-block {
+    display: none;
+}
+
 @media (max-width: 1120px) {
     .schedule {
         margin-top: 20px;
@@ -107,5 +112,61 @@ table {
 
     .schedule-trener-block-information-dan {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .schedule-trener,
+    .block-schedule-information {
+        display: none;
+    }
+
+    .schedule-information,
+    .title-block {
+        display: block;
+    }
+
+    .schedule {
+        width: 330px;
+        display: grid;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .schedule-information {
+        margin-top: 15px;
+        width: 330px;
+        font-family: 'Roboto';
+        font-style: normal;
+        line-height: 25px;
+        font-weight: 300;
+        color: black;
+        text-align: left;
+    }
+    
+    .schedule-information-address, 
+    .schedule-information-trener {
+        font-size: 16px;
+        padding: 2px 0 2px 0;
+    }
+    
+    .schedule-information-time {
+        font-size: 14px;
+        padding: 20px 0 20px 0;
+    }
+    
+    .schedule-information-disign-line {
+        position: absolute;
+        height: 2px;
+        background: #d9d9d9;
+        width: 330px;
+    }
+    
+    .schedule-information-time-title {
+        font-weight: 700;
+        padding: 20px 0  0;
+        font-size: 14px;
+    
     }
 }
