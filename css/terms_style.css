@@ -27,7 +27,7 @@ ul {
 }
 
 
-@media (max-width: 1120px) {
+@media (max-width: 1024px) {
 
     .terms {
         max-width: 770px;
@@ -46,5 +46,34 @@ ul {
     .block-terms-text {
         width: 400px;
         margin-left: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .terms {
+        width: 330px;
+        display: grid;
+    }
+
+    details {
+        width: 330px;
+        min-height: 20px;
+    }
+    
+    .block-terms-text {
+        font-size: 18px;
+    }
+    
+    .block-terms-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        color: #000000;
+        width: 300px;
+        margin: 15px 0 15px 20px;
     }
 }

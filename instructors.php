@@ -19,7 +19,13 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <section class="treners">
+        <div class="mobile-title">
+            <div class="title-block">
+                <div class="title">Тренеры</div>
+                <div class="title-block-line"></div>
+            </div>
+        </div>
+        <div class="treners">
             <div class="block-trener">
                 <img class="block-trener-photo" src="images/instructor_1.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-trener-information">
@@ -59,7 +65,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+</div>
     </main>
     <?php include 'footer.php'; ?>
 </body>

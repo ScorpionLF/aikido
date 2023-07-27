@@ -27,7 +27,7 @@
     line-height: 40px;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1024px) {
     .principle {
         width: 770px;
     }
@@ -38,5 +38,25 @@
     
     .principle-information {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .principle-title {
+        display: none;
+    }
+
+    .principle {
+        width: 330px;
+        margin-top: 0;
+    }
+    
+    .principle-information {
+        width: 330px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        color: black;
     }
 }

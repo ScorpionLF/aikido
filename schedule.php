@@ -19,7 +19,36 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
+    <div class="title-block">
+            <div class="title">Расписание</div>
+            <div class="title-block-line"></div>
+        </div>
         <div class="schedule">
+        <div class="schedule-information">
+                <div class="schedule-information-address">
+                г. Казань, ул. Яруллина, д. 6
+                </div>
+                <div class="schedule-information-trener">
+                Белоусов Е. Н.
+                </div>
+                <div class="schedule-information-time">
+                Время тренировок:
+                </div>
+                <div class="schedule-information-disign-line"></div>
+                <div class="schedule-information-time-title">
+                Детская группа от 5-12 лет:
+                </div>
+                <div class="schedule-information-time">
+                ПН, СР, ПТ.<br>18:00 - 19:00
+                </div>
+                <div class="schedule-information-disign-line"></div>
+                <div class="schedule-information-time-title">
+                Взрослая группа от 12 лет:
+                </div>
+                <div class="schedule-information-time">
+                ПН, СР, ПТ.<br>19:00 - 21:00
+                </div>
+            </div>            
             <div class="schedule-trener">
                 <div class="schedule-trener-block">
                     <img class="schedule-trener-block-photo" src="images/instructor_1.jpg"

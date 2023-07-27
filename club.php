@@ -19,6 +19,12 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
+    <div class="mobile-title">
+            <div class="title-block">
+                <div class="title">О клубе</div>
+                <div class="title-block-line"></div>
+            </div>
+        </div>
         <div class="club">
             <div class="block-club-information">
                 <p>Федерация Айкидо Ametsuchi Dojo входит во Всестилевую Федерацию Айкидо России. Поэтому все ученики

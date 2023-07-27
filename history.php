@@ -19,6 +19,12 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
+        <div class="mobile-title">
+            <div class="title-block">
+                <div class="title">История</div>
+                <div class="title-block-line"></div>
+            </div>
+        </div>
         <div class="history">
             <p class="history-paragraph">
                 Основателем искусства Айкидо был Величайший Мастер восточных единоборств, искатель и философ

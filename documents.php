@@ -21,6 +21,10 @@
     <?php include 'header.html'; ?>
     <main>
         <div class="documents">
+        <!-- <div class="title-block">
+            <div class="title">Документы</div>
+            <div class="title-block-line"></div>
+        </div> -->
             <div class="error">
                 <div class="block-error__title">Страница в разработке.</div>
                 <div class="block-error__imgs">
@@ -31,29 +35,21 @@
                     создана или в запросе был указан неверный адрес.</div>
                 <a href="index" class="block-error__button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
             </div>
-            <!-- <div class="block-documents">
-                <img class="block-documents-img" src="images/documents-img-1.jpg" onError="this.src='images/not_found.png'">
+            <!-- <div class="documents-file">
+                <img src="images/document-text.png">
+                <a class="documents-file-title" href="#" download>Document_1_DD.MM.YYYY</a>
             </div>
-            <div class="block-documents">
-                <img class="block-documents-img" src="images/documents-img-2.jpg" onError="this.src='images/not_found.png'">
+            <div class="documents-file">
+                <img src="images/document-text.png">
+                <a class="documents-file-title" href="#" download>Document_2_DD.MM.YYYY</a>
             </div>
-            <div class="block-documents">
-                <img class="block-documents-img" src="images/documents-img-3.jpg" onError="this.src='images/not_found.png'">
+            <div class="documents-file">
+                <img src="images/document-text.png">
+                <a class="documents-file-title" href="#" download>Document_3_DD.MM.YYYY</a>
             </div>
-            <div class="block-documents">
-                <img class="block-documents-img" src="images/documents-img-4.jpg" onError="this.src='images/not_found.png'">
-            </div>
-            <div class="block-documents">
-                <img class="block-documents-img" src="images/documents-img-5.jpg" onError="this.src='images/not_found.png'">
-            </div>
-            <div class="block-documents">
-                <img class="block-documents-img" src="images/documents-img-6.jpg" onError="this.src='images/not_found.png'">
-            </div>
-            <div class="block-documents">
-                <img class="block-documents-img" src="images/documents-img-6.jpg" onError="this.src='images/not_found.png'">
-            </div>
-            <div class="block-documents">
-                <img class="block-documents-img" src="images/documents-img-6.jpg" onError="this.src='images/not_found.png'">
+            <div class="documents-file">
+                <img src="images/document-text.png">
+                <a class="documents-file-title" href="#" download>Document_4_DD.MM.YYYY</a>
             </div> -->
         </div>
     </main>

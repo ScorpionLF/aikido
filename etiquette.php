@@ -19,6 +19,12 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
+        <div class="mobile-title">
+            <div class="title-block">
+                <div class="title">Рэйсики - правила поведения в додзё.</div>
+                <div class="title-block-line"></div>
+            </div>
+        </div>
         <div class="etiquette">
             <div class="etiquette-title">Рэйсики - правила поведения в додзё.</div>
             <div class="etiquette-information">

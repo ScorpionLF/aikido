@@ -22,7 +22,27 @@
                     республике
                     Татарстан”
                 </div>
-                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © 2023.
+                <div class="footer-block-contacts-infoline">
+                    <img class="footer-block-contacts-icon" src="images/location.png">
+                    <div class="footer-block-contacts-text">г. Казань, ул. Ямашева, д. 36</div>
+                </div>
+                <div class="footer-block-contacts-infoline">
+                    <img class="footer-block-contacts-icon" src="images/call.png">
+                    <div class="footer-block-contacts-text">+7 (917) 228-75-32</div>
+                </div>
+                <div class="footer-block-contacts-infoline">
+                    <img class="footer-block-contacts-icon" src="images/device-message.png">
+                    <a href="https://m.vk.com/aikidopower">
+                        <div class="footer-block-contacts-text">https://m.vk.com/aikidopower</div>
+                    </a>
+                </div>
+                <div class="footer-block-contacts-infoline">
+                    <img class="footer-block-contacts-icon" src="images/video-square.png">
+                    <a href="https://m.vk.com/aikidopower">
+                        <div class="footer-block-contacts-text">https://www.youtube.com/@ametsuchidojokazan</div>
+                    </a>
+                </div>
+                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © <?php echo date("Y"); ?>.
                     Все права
                     защищены.</div>
             </div>
