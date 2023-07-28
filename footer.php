@@ -57,32 +57,31 @@
                         <?php
                     } else {
                         ?>
-                        <a href="#sign_in" class="block-footer-buttons-element-button">Вход</a>
-                        <div id="sign_in" class="block-footer-modalWindow">
-                            <a href="index" class="block-footer-modalWindow-overlay"></a>
-                            <div class="block-footer-modalWindow-dialog">
-                                <div class="block-footer-modalWindow-dialog-header">
-                                    <div class="block-footer-modalWindow-dialog-header-imgs">
-                                        <img class="block-footer-modalWindow-dialog-header-imgs-img" src="images/japan.jpg" onError="this.src='images/not_found.png'">
-                                        <a href="index" class="block-footer-modalWindow-dialog-header-imgs-close" aria-hidden="true">×</a>
-                                    </div>
+                        <button class="block-footer-buttons-element-button" onclick="document.getElementById('open').style.display='block'">Вход</button>                 
+                        <div id="open" class="modal">
+                            <span onclick="document.getElementById('open').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                            <form class="modal-content animate" action="login_script.php">
+                                <div class="img-container">
+                                    <img src="images/japan.jpg" onError="this.src='images/not_found.png'" class="avatar">
+                                </div>            
+                                <div class="container">
+                                    <span class="block-footer-modalWindow-dialog-body-forms-group-title">Логин или e-mail <span>*</span></span>
+                                    <input type="text" name="login">
+                                    <span class="block-footer-modalWindow-dialog-body-forms-group-title">Пароль <span>*</span></span>
+                                    <input type="password" name="password">
+                                    <button type="submit">ВОЙТИ</button>
                                 </div>
-                                <div class="block-footer-modalWindow-dialog-body">
-                                    <form action="login_script.php" method="post" class="block-footer-modalWindow-dialog-body-forms">
-                                        <div class="block-footer-modalWindow-dialog-body-forms-group">
-                                            <span class="block-footer-modalWindow-dialog-body-forms-group-title">Логин или e-mail <span>*</span></span>
-                                            <input class="block-footer-modalWindow-dialog-body-forms-group-input" type="text" name="login">
-                                        </div>
-                                        <div class="block-footer-modalWindow-dialog-body-forms-group">
-                                            <span class="block-footer-modalWindow-dialog-body-forms-group-title">Пароль <span>*</span></span>
-                                            <input class="block-footer-modalWindow-dialog-body-forms-group-input" type="password" name="password">
-                                        </div>
-                                        <button type="submit" class="block-footer-modalWindow-dialog-body-button" name="submit">ВОЙТИ</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-
+                            </form>
+                        </div> 
+                        <script>
+                            var modal = document.getElementById('open');
+                            // When the user clicks anywhere outside of the modal, close it.
+                            window.onclick = function(event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script> 
                         <?php
                     }
                     ?>

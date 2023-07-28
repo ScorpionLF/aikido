@@ -131,12 +131,10 @@ header {
     display: block;
 }
 
-.header-mobile {
-    display: none;
-}
-
+.header-mobile,
 .header-navigation-lk,
-.main-nav-hamburger-menu {
+.main-nav-hamburger-menu,
+.block-modalWindow {
     display: none;
 }
 
@@ -210,6 +208,10 @@ header {
     .main-nav-hamburger-menu {
         display: block;
         height: 24px;
+    }
+
+    .block-modalWindow {
+        display: block;
     }
 
     .header-information-contacts,
