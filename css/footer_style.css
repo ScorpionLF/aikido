@@ -80,61 +80,7 @@ footer {
     color: #9A9A9A;
 }
 
-/*---------------------modal window-----------------*/
 
-
-.block-footer-modalWindow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    visibility: hidden;
-    opacity: 0;
-    z-index: 15;
-}
-
-.block-footer-modalWindow:target {
-    visibility: visible;
-    opacity: 1;
-}
-
-.block-footer-modalWindow-overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    cursor: default;
-}
-
-.block-footer-modalWindow-dialog {
-    background: #FFFFFF;
-    border-radius: 5px;
-    position: fixed;
-    left: 37%;
-    width: 500px;
-}
-
-.block-footer-modalWindow-dialog {
-    top: 10%;
-}
-
-.block-footer-modalWindow-dialog-header,
-.modal-footer {
-    padding: 10px 20px
-}
-
-.block-footer-modalWindow-dialog-header {
-    border-bottom: #eee solid 1px;
-    font-size: 20px
-}
-
-.block-footer-modalWindow-dialog-header-imgs {
-    display: flex;
-    justify-content: center;
-}
 
 .block-footer-modalWindow-dialog-header-imgs-img {
     width: 300px;
@@ -148,40 +94,6 @@ footer {
     align-items: center;
 }
 
-.block-footer-modalWindow-dialog-header-imgs-close {
-    color: #aaa;
-    font-size: 50px;
-    text-decoration: none;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-}
-
-.block-footer-modalWindow-dialog-header-imgs-close:hover {
-    color: #919191
-}
-
-#close {
-    display: none
-}
-
-
-.block-footer-modalWindow-dialog-body {
-    padding: 20px;
-    display: grid;
-    justify-content: center;
-}
-
-.block-footer-modalWindow-dialog-body-forms {
-    display: grid;
-    justify-content: center;
-}
-
-.block-footer-modalWindow-dialog-body-forms-group {
-    display: grid;
-}
-
-
 .block-footer-modalWindow-dialog-body-forms-group-title {
     margin-bottom: 10px;
     margin-top: 20px;
@@ -194,25 +106,103 @@ footer {
     color: red;
 }
 
-.block-footer-modalWindow-dialog-body-forms-group-input {
-    padding: 10px;
-    width: 350px;
-    height: 35px;
+/* -----------------------------------modal widow------------------------------ */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
-.block-footer-modalWindow-dialog-body-button {
-    background-color: #000000;
+button {
+    background-color: #000;
+    color: white;
+    padding: 15px 0 15px 0px;;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
     font-family: 'Roboto';
     font-size: 20px;
-    color: white;
-    border: none;
-    border-radius: 2px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    height: 60px;
 }
+
+button:hover {
+    opacity: 0.8;
+}
+
+.img-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 40px;
+    border: 2px solid;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.container {
+    padding: 25px;
+}
+
+.modal {
+    display: none; /*Hidden by default. */
+    position: fixed; /* Stays in place */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(32, 32, 32, 0.65); 
+    padding-top: 60px;
+    z-index: 15;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    width: 40%;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
 
 .footer-block-contacts-infoline {
     display: none;
@@ -258,43 +248,17 @@ footer {
         font-size: 18px;
     }
 
-    .block-footer-modalWindow-dialog {
-        left: 32%;
-        width: 400px;
-    }
-
-    .block-footer-modalWindow-dialog-header-imgs-img {
+    /* .block-footer-modalWindow-dialog-header-imgs-img {
         width: 200px;
         height: 200px;
         border-radius: 100px;
         margin-top: 15px;
         margin-bottom: 15px;
-    }
-
-    .block-footer-modalWindow-dialog-header-imgs-close {
-        font-size: 40px;
-        right: 15px;
-        top: 5px;
-    }
-
-    .block-footer-modalWindow-dialog-body {
-        padding: 15px;
-    }
+    } */
 
     .block-footer-modalWindow-dialog-body-forms-group-title {
         font-size: 16px;
     }
-
-    .block-footer-modalWindow-dialog-body-forms-group-input {
-        width: 300px;
-        height: 25px;
-    }
-
-    .block-footer-modalWindow-dialog-body-button {
-        font-size: 18px;
-        height: 50px;
-    }
-
 }
 
 @media (max-width: 480px) {
@@ -359,3 +323,5 @@ footer {
         width: 330px;
     }
 }
+
+
