@@ -57,7 +57,7 @@
                         <?php
                     } else {
                         ?>
-                        <button class="block-footer-buttons-element-button" onclick="document.getElementById('open').style.display='block'">Вход</button>                 
+                        <button class="footer-button" onclick="document.getElementById('open').style.display='block'">Вход</button>                 
                         <div id="open" class="modal">
                             <span onclick="document.getElementById('open').style.display='none'" class="close" title="Close Modal">&times;</span>     
                             <form class="modal-content animate" action="login_script.php">
@@ -65,11 +65,11 @@
                                     <img src="images/japan.jpg" onError="this.src='images/not_found.png'" class="avatar">
                                 </div>            
                                 <div class="container">
-                                    <span class="block-footer-modalWindow-dialog-body-forms-group-title">Логин или e-mail <span>*</span></span>
+                                    <span class="block-modalWindow-dialog-body-forms-group-title">Логин или e-mail <span>*</span></span>
                                     <input type="text" name="login">
-                                    <span class="block-footer-modalWindow-dialog-body-forms-group-title">Пароль <span>*</span></span>
+                                    <span class="block-modalWindow-dialog-body-forms-group-title">Пароль <span>*</span></span>
                                     <input type="password" name="password">
-                                    <button type="submit">ВОЙТИ</button>
+                                    <button class="modal-button" type="submit">ВОЙТИ</button>
                                 </div>
                             </form>
                         </div> 

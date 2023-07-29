@@ -1,4 +1,4 @@
-.gallery {
+.video-gallery {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -6,13 +6,13 @@
     margin-bottom: 25px;
 }
 
-.gallery-album-info {
+.video-gallery-album-info {
     position: absolute;
     width: 100%;
-    top: 80px;
+    top: 100px;
 }
 
-.gallery-album-info span {
+.video-gallery-album-info span {
     font-family: 'Roboto';
     font-style: normal;
     font-size: 24px;
@@ -27,20 +27,26 @@
     padding: 5px;
 }
 
-.gallery-album {
+.video-gallery-album-info-line-num {
+    margin-top: 65px;
+    font-size: 16px;
+    right: 15px;
+}
+
+.video-gallery-album {
     margin-bottom: 10px;
     position: relative;
     width: 330px;
     background: #000;
 }
 
-.gallery-album img {
+.video-gallery-album img {
     width: 330px;
-    height: 230px;
+    height: 100%;
     opacity: 0.6;
 }
 
-.gallery-disign-line {
+.video-gallery-disign-line {
     height: 2px;
     background: white;
     width: 150px;
@@ -53,20 +59,20 @@
 
 @media (max-width: 1024px) {
 
-    .gallery {
+    .video-gallery {
         width: 770px;
     }
 
-    .gallery-album {
+    .video-gallery-album {
         width: 380px;
     }
 
-    .gallery-album img {
+    .video-gallery-album img {
         width: 380px;
         height: 280px;
     }
 
-    .gallery-album-info {
+    .video-gallery-album-info {
         position: absolute;
         width: 100%;
         top: 110px;
@@ -84,22 +90,22 @@
         display: block;
     }
 
-    .gallery {
+    .video-gallery {
         width: 330px;
         display: grid;
     }
     
-    .gallery-album-info {
+    .video-gallery-album-info {
         position: absolute;
         width: 100%;
         top: 80px;
     }
     
-    .gallery-album-info-line {
+    .video-gallery-album-info-line {
         padding: 5px;
     }
     
-    .gallery-album {
+    .video-gallery-album {
         margin-top: 10px;
         margin-bottom: 10px;
         position: relative;
@@ -108,13 +114,13 @@
         background: #000;
     }
     
-    .gallery-album img {
+    .video-gallery-album img {
         width: 330px;
         height: 230px;
         opacity: 0.6;
     }
     
-    .gallery-disign-line {
+    .video-gallery-disign-line {
         height: 2px;
         background: white;
         width: 150px;
