@@ -9,7 +9,7 @@
 .gallery-album-info {
     position: absolute;
     width: 100%;
-    top: 80px;
+    top: 100px;
 }
 
 .gallery-album-info span {
@@ -27,6 +27,13 @@
     padding: 5px;
 }
 
+.gallery-album-info-line-num {
+    margin-top: 65px;
+    font-size: 16px;
+    right: 15px;
+}
+
+
 .gallery-album {
     margin-bottom: 10px;
     position: relative;
@@ -36,7 +43,7 @@
 
 .gallery-album img {
     width: 330px;
-    height: 230px;
+    height: 100%;
     opacity: 0.6;
 }
 

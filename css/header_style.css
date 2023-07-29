@@ -135,7 +135,8 @@ header {
 
 
 .header-mobile,
-.main-nav-hamburger-menu {
+.main-nav-hamburger-menu,
+.header-navigation-lk-img {
     display: none;
 }
 
@@ -211,7 +212,7 @@ header {
         height: 24px;
     }
 
-    .block-modalWindow {
+    .header-navigation-lk-img {
         display: block;
     }
 

@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/video-gallery.css">
+    <link rel="stylesheet" href="css/video-album.css">
     <link rel="stylesheet" href="css/err404.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
-    <title>Видео</title>
+    <title>Название альбома</title>
     <link type="Image/x-icon" href="images/favicon.png" rel="icon">
 </head>
 </head>
@@ -20,8 +20,8 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-    <div class="title-block">
-            <div class="title">Видео</div>
+        <div class="title-block">
+            <div class="title">Название альбома</div>
             <div class="title-block-line"></div>
         </div>
         <div class="video-gallery">
@@ -34,18 +34,28 @@
                     создана или в запросе был указан неверный адрес.</div>
                 <a href="index" class="block-error__button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
             </div> -->
-            <a href="video-album" class="video-gallery-album">
-                <img src="images/new_1.jpg" onError="this.src='images/not_found.png'"/>
-	            <div class="video-gallery-album-info">
-                    <span>
-                        <div class="video-gallery-album-info-line">DD.MM.YYY</div>
-                        <div class="video-gallery-disign-line"></div>
-                        <div class="video-gallery-album-info-line">Album Title</div>
-                        <div class="video-gallery-album-info-line-num">Number of videos</div>
-                    </span>
+
+            <a class="video-block" onclick="document.getElementById('open_video').style.display='block'"> 
+                <div class="img-box">
+                    <img src="" onError="this.src='images/not_found.png'">
+                </div> 
+                <h5>Title video</h5> 
+            </a>                 
+            <div id="open_video" class="modal">
+                <span onclick="document.getElementById('open_video').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <div class="modal-video-content">
+                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=24VEIcYUlYg&list=LL&index=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-            </a>
-            
+            </div> 
+            <script>
+                var modal = document.getElementById('open_video');
+                // When the user clicks anywhere outside of the modal, close it.
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script> 
         </div>
     </main>
     <?php include 'footer.php'; ?>

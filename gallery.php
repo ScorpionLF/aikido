@@ -41,29 +41,10 @@
                         <div class="gallery-album-info-line">DD.MM.YYY</div>
                         <div class="gallery-disign-line"></div>
                         <div class="gallery-album-info-line">Album Title</div>
+                        <div class="gallery-album-info-line-num">Number of photo</div>
                     </span>
                 </div>
             </a>
-            <a href="#" class="gallery-album">
-                <img src="images/new_2.jpg" onError="this.src='images/not_found.png'"/>
-	            <div class="gallery-album-info">
-                    <span>
-                        <div class="gallery-album-info-line">DD.MM.YYY</div>
-                        <div class="gallery-disign-line"></div>
-                        <div class="gallery-album-info-line">Album Title</div>
-                    </span>
-                </div>
-            </a>
-            <a href="#" class="gallery-album">
-                <img src="images/new_3.jpg" onError="this.src='images/not_found.png'"/>
-	            <div class="gallery-album-info">
-                    <span>
-                        <div class="gallery-album-info-line">DD.MM.YYY</div>
-                        <div class="gallery-disign-line"></div>
-                        <div class="gallery-album-info-line">Album Title</div>
-                    </span>
-                </div>
-            </a> -->
         </div>
     </main>
     <?php include 'footer.php'; ?>
