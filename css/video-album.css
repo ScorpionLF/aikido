@@ -3,11 +3,17 @@
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
-.title-block {
-    display: none;
+.title {
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    color: #000000;
 }
 
 .img-box img {
@@ -22,13 +28,16 @@ iframe {
 }
 
 h5 {
-    margin: 20px 0;
+    margin: 20px 5px;
     font-family: 'Roboto';
     font-size: 20px;
 }
 
 .video-block {
     cursor: pointer;
+    border: 1px solid;
+    width: 330px;
+
 }
 
 .video-block:hover {

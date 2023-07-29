@@ -37,15 +37,14 @@
 
             <a class="video-block" onclick="document.getElementById('open_video').style.display='block'"> 
                 <div class="img-box">
-                    <img src="" onError="this.src='images/not_found.png'">
-                </div> 
+                    <!-- <img src="" onError="this.src='images/not_found.png'"> -->
+                    <iframe src="https://www.youtube.com/embed/lQTaeof0660" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div> 
                 <h5>Title video</h5> 
             </a>                 
             <div id="open_video" class="modal">
                 <span onclick="document.getElementById('open_video').style.display='none'" class="close" title="Close Modal">&times;</span>     
                 <div class="modal-video-content">
-                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=24VEIcYUlYg&list=LL&index=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lQTaeof0660" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div>
             </div> 
             <script>
                 var modal = document.getElementById('open_video');
