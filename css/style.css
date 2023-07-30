@@ -142,3 +142,43 @@ a {
     }
 
 }
+
+
+@media (max-width: 360px) {
+
+    .title-block {
+        width: 280px;
+    }
+    
+    .title-block-line {
+        width: 280px;
+    }
+
+    main {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .terms-and-technique-element-button {
+        border-bottom: 2px solid rgb(152, 152, 152);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 330px;
+        height: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: space-between;
+        color: #000000;
+        margin-top: 10px;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
+        background: none;
+    }
+
+}
