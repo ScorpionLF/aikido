@@ -25,7 +25,6 @@
 
 .history_img_1 {
     width: 550px;
-    height: 300px;
     position: relative;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -46,32 +45,26 @@
 
     .history_img_1 {
         width: 500px;
-        height: 300px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     .history {
-        width: 330px;
+        width: 280px;
         display: grid;
         text-align: justify;
-    
+        margin: 0;
     }
     
     .history-paragraph {
-        width: 330px;
-        font-family: 'Roboto';
-        font-style: normal;
+        width: 280px;
         font-size: 16px;
-        font-weight: 300;
         line-height: 25px;
-        color: black;
     }
     
     .history_img_1 {
-        width: 330px;
-        height: 190px;
+        width: 280px;
         margin: 15px 0 15px 0;
     }
 }

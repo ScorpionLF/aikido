@@ -42,7 +42,7 @@
                         <div class="footer-block-contacts-text">https://www.youtube.com/@ametsuchidojokazan</div>
                     </a>
                 </div>
-                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" © <?php echo date("Y"); ?>.
+                <div class="block-footer-indormation-text-2">Разработка и поддержка сайта IT-компания "Альянс" ©<?php echo date("Y"); ?>. 
                     Все права
                     защищены.</div>
             </div>

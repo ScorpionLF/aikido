@@ -16,7 +16,6 @@ body {
 
 .block-error__imgs-img {
     width: 600px;
-    height: 300px;
 }
 
 .block-error__title {
@@ -39,8 +38,7 @@ body {
 
 .block-error__button {
     margin-top: 50px;
-    width: 300px;
-    padding: 10px;
+    padding: 20px 30px;
     background-color: white;
     border-radius: 5px;
     border: 2px solid black;
@@ -60,7 +58,6 @@ body {
 @media (max-width: 1024px) {
     .block-error__imgs-img {
         width: 400px;
-        height: 200px;
     }
     
     .block-error__title {
@@ -74,18 +71,19 @@ body {
     
     .block-error__button {
         font-size: 14px;
+        padding: 20px 20px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     
     .error {
-        width: 330px;
+        width: 280px;
     }
     
     .block-error__imgs-img {
-        width: 330px;
+        width: 280px;
         margin-top: 25px;
     }
     
@@ -94,13 +92,14 @@ body {
     }
     
     .block-error__text {
-        font-size: 16px;
-        width: 330px;
+        font-size: 14px;
+        width: 280px;
     }
     
     .block-error__button {
         border: 1px solid black;
         font-size: 16px;
         margin-top: 25px;
+        padding: 15px 15px;
     }
 }
