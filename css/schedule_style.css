@@ -73,7 +73,7 @@ table {
     display: none;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1024px) {
     .schedule {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -115,7 +115,7 @@ table {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     .schedule-trener,
     .block-schedule-information {
@@ -128,7 +128,7 @@ table {
     }
 
     .schedule {
-        width: 330px;
+        width: 280px;
         display: grid;
         justify-content: center;
         margin: 0;
@@ -136,7 +136,7 @@ table {
     
     .schedule-information {
         margin-top: 15px;
-        width: 330px;
+        width: 280px;
         font-family: 'Roboto';
         font-style: normal;
         line-height: 25px;
@@ -160,7 +160,7 @@ table {
         position: absolute;
         height: 2px;
         background: #d9d9d9;
-        width: 330px;
+        width: 280px;
     }
     
     .schedule-information-time-title {

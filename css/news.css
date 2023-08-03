@@ -130,22 +130,22 @@
     
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     .news {
-        width: 330px;
+        width: 280px;
         display: grid;
     }
     
     .block-news {
         margin-top: 15px;
         margin-bottom: 15px;
-        width: 330px;
-        height: 500px;
+        width: 280px;
+        height: 450px;
     }
     
     .block-news-img {
-        width: 330px;
+        width: 280px;
     }
     
     .block-news-title-block {

@@ -40,24 +40,29 @@
     
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
 
     .title-block {
         display: block;
     }
 
     .documents {
-        width: 330px;
+        width: 280px;
         display: grid;
         justify-content: center;
     }
     
     .documents-file {
         display: flex; 
-        width: 330px; 
+        width: 280px; 
         padding: 10px 0 10px 0;
     }
-    
+
+    .documents-file img {
+        width: 24px;
+        height: 24px;
+    }
+
     .documents-file-title {
         margin-left: 25px;
         font-family: 'Roboto';

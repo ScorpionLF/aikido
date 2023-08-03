@@ -84,14 +84,14 @@
     
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
 
     .title-block {
         display: block;
     }
 
     .video-gallery {
-        width: 330px;
+        width: 280px;
         display: grid;
     }
     
@@ -99,24 +99,30 @@
         position: absolute;
         width: 100%;
         top: 80px;
+        font-size: 16px;
     }
     
     .video-gallery-album-info-line {
         padding: 5px;
     }
+
+    .video-gallery-album-info-line-num {
+        margin-top: 35px;
+    }
+
     
     .video-gallery-album {
         margin-top: 10px;
         margin-bottom: 10px;
         position: relative;
-        width: 330px;
+        width: 280px;
         height: 230px;
         background: #000;
     }
     
     .video-gallery-album img {
-        width: 330px;
-        height: 230px;
+        width: 280px;
+        height: 100%;
         opacity: 0.6;
     }
     

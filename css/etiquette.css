@@ -60,10 +60,10 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     .etiquette {
-        width: 330px;
+        width: 280px;
         margin-top: 0;
     }
     
@@ -72,8 +72,7 @@
     }
 
     .etiquette-information {
-        width: 330px;
-        margin-top: 35px;
+        width: 280px;
         font-family: 'Roboto';
         font-style: normal;
         font-size: 16px;
@@ -83,12 +82,12 @@
     }
     
     .etiquette-imgs {
-        width: 330px;
+        width: 280px;
         margin-top: 25px;
     }
     
     .etiquette_img_1 {
-        width: 330px;
+        width: 280px;
         margin-top: 0;
     }
 }

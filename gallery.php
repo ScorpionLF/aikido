@@ -44,7 +44,7 @@
                         <div class="gallery-album-info-line-num">Number of photo</div>
                     </span>
                 </div>
-            </a>
+            </a> -->
         </div>
     </main>
     <?php include 'footer.php'; ?>

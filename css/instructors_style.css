@@ -71,10 +71,10 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     .treners {
-        width: 330px;
+        width: 280px;
         display: grid;
         justify-content: center;
         margin-top: 15px;
