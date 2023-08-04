@@ -265,7 +265,7 @@ img.avatar {
     }
 }
 
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
 
     .block-footer-buttons {
         display: none;

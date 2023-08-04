@@ -61,7 +61,7 @@ iframe {
 }
 
 
-@media (max-width: 1014px) {
+@media (max-width: 1024px) {
     .contacts {
         width: 770px;
 
@@ -103,7 +103,12 @@ iframe {
     }
 }
 
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
+
+    .block-contacts-informations {
+        float: inline-start;
+        width: 100%;
+    }
 
     .title-block {
         display: block;
@@ -128,7 +133,8 @@ iframe {
     }
 
     .contacts-line-info {
-        font-size: 16px;
+        font-size: 14px;
+        margin-left: 15px;
     }
 
 

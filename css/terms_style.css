@@ -46,7 +46,7 @@ ul {
     }
 }
 
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
     
     .terms {
         width: 280px;
