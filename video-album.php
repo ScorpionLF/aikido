@@ -20,10 +20,13 @@
 <body>
     <?php include 'header.html'; ?>
     <main>
-        <div class="title-block">
-            <div class="title">Название альбома</div>
-            <div class="title-block-line"></div>
+        <div class="mobile-title">
+            <div class="title-block">
+                <div class="title">Название альбома</div>
+                <div class="title-block-line"></div>
+            </div>
         </div>
+        <div class="album-title">Название альбома</div>
         <div class="video-gallery">
         <!--     <div class="error">
                 <div class="block-error__title">Страница в разработке.</div>
@@ -38,8 +41,8 @@
             <a class="video-block" onclick="document.getElementById('open_video').style.display='block'"> 
                 <div class="img-box">
                     <!-- <img src="" onError="this.src='images/not_found.png'"> -->
-                    <iframe src="https://www.youtube.com/embed/lQTaeof0660" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div> 
-                <h5>Title video</h5> 
+                    <iframe class="iFrame" src="https://www.youtube.com/embed/lQTaeof0660" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div> 
+                <title class="video-title">Обращение Сенсея Халидова Рашида Бакиевича к ученикам федерации Ametsuchi Dojo</title>
             </a>                 
             <div id="open_video" class="modal">
                 <span onclick="document.getElementById('open_video').style.display='none'" class="close" title="Close Modal">&times;</span>     

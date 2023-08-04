@@ -61,7 +61,7 @@ iframe {
 }
 
 
-@media (max-width: 1120px) {
+@media (max-width: 1014px) {
     .contacts {
         width: 770px;
 
@@ -103,14 +103,14 @@ iframe {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
 
     .title-block {
         display: block;
     }
 
     .contacts  {
-        width: 330px;
+        width: 280px;
         display: grid;
         text-align: justify;
         margin-top: 0;
@@ -118,7 +118,7 @@ iframe {
 
     .contacts-line {
         display: flex; 
-        width: 330px; 
+        width: 280px; 
         padding: 10px 0 10px 0;
     }
 
@@ -137,13 +137,13 @@ iframe {
     }
 
     .contacts-img-map {
-        width: 330px;
+        width: 280px;
         z-index: -1;
         margin-top: 15px;
     }
 
     .contacts-map {
-        width: 330px;
+        width: 280px;
         z-index: 1;
         position: relative;
         margin-top: 15px;

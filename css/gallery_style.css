@@ -28,7 +28,7 @@
 }
 
 .gallery-album-info-line-num {
-    margin-top: 65px;
+    margin-top: 45px;
     font-size: 16px;
     right: 15px;
 }
@@ -68,9 +68,13 @@
         width: 380px;
     }
 
+    .gallery-album-info-line-num {
+        margin-top: 65px;
+    }
+
     .gallery-album img {
         width: 380px;
-        height: 280px;
+        height: 100%;
     }
 
     .gallery-album-info {
@@ -85,14 +89,14 @@
     
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
 
     .title-block {
         display: block;
     }
 
     .gallery {
-        width: 330px;
+        width: 280px;
         display: grid;
     }
     
@@ -100,23 +104,28 @@
         position: absolute;
         width: 100%;
         top: 80px;
+        font-size: 16px;
     }
     
     .gallery-album-info-line {
         padding: 5px;
     }
     
+    .gallery-album-info-line-num {
+        margin-top: 35px;
+    }
+
     .gallery-album {
         margin-top: 10px;
         margin-bottom: 10px;
         position: relative;
-        width: 330px;
+        width: 280px;
         height: 230px;
         background: #000;
     }
     
     .gallery-album img {
-        width: 330px;
+        width: 280px;
         height: 230px;
         opacity: 0.6;
     }

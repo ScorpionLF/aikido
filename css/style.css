@@ -57,7 +57,7 @@ a {
     margin-top: 25px;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1024px) {
 
     .terms-and-technique-element-button {
         width: 766px;
@@ -67,7 +67,7 @@ a {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
 
     html {
         height: 100%;
@@ -88,24 +88,18 @@ a {
         text-indent: 20px;
     }
     
-    a {
-        color: #ffffff;
-    }
-
-    
     .mobile-title {
         display: block;
     }
     
     .title-block {
-        width: 330px;
-        height: 34px;
+        width: 280px;
         display: grid;
         margin-bottom: 10px;
     }
     
     .title-block-line {
-        width: 330px;
+        width: 280px;
         background-color: black;
         height: 2px;
         margin-top: 5px;
@@ -124,17 +118,10 @@ a {
         border-top: none;
         border-left: none;
         border-right: none;
-        width: 330px;
+        width: 280px;
         height: 20px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
         font-size: 16px;
-        display: flex;
-        align-items: center;
-        text-align: left;
         justify-content: space-between;
-        color: #000000;
         margin-top: 10px;
         padding: 5px 0 5px 0;
         cursor: pointer;

@@ -5,7 +5,6 @@
 
 details {
     width: 1000px;
-    min-height: 50px;
 }
 
 .block-terms-text {
@@ -30,13 +29,11 @@ ul {
 @media (max-width: 1024px) {
 
     .terms {
-        max-width: 770px;
         margin-bottom: 20px;
     }
     
     details {
         width: 770px;
-        min-height: 40px;
     }
     
     .block-terms-text {
@@ -49,16 +46,15 @@ ul {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     .terms {
-        width: 330px;
+        width: 280px;
         display: grid;
     }
 
     details {
-        width: 330px;
-        min-height: 20px;
+        width: 280px;
     }
     
     .block-terms-text {
@@ -66,14 +62,9 @@ ul {
     }
     
     .block-terms-text {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
         font-size: 16px;
         line-height: 20px;
-        text-align: left;
-        color: #000000;
-        width: 300px;
-        margin: 15px 0 15px 20px;
+        width: 280px;
+        margin: 0;
     }
 }

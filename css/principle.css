@@ -41,19 +41,19 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     .principle-title {
         display: none;
     }
 
     .principle {
-        width: 330px;
+        width: 280px;
         margin-top: 0;
     }
     
     .principle-information {
-        width: 330px;
+        width: 280px;
         font-size: 16px;
         font-weight: 300;
         line-height: 25px;

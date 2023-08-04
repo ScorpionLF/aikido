@@ -24,7 +24,7 @@ details {
 }
 
 .block-techique-video {
-    width: 330px;
+    width: 280px;
     margin-top: 25px;
 }
 
@@ -103,36 +103,36 @@ details {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     
     .title-block {
         display: block;    
     }
 
     .techique {
-        width: 330px;
+        width: 280px;
         display: grid;
         margin-bottom: 15px;
     }
 
     details {
-        width: 330px;
+        width: 280px;
         font-size: 22px;
     }
     
     .block-techique {
-        width: 330px;
+        width: 280px;
         margin-bottom: 15px;
     }
     
     .block-techique-video {
-        width: 330px;
+        width: 280px;
         margin-top: 15px;
     }
     
     .block-techique-video-video {
         height: 230px;
-        width: 330px;
+        width: 280px;
     }
     
     .block-techique-video-title {
@@ -148,7 +148,7 @@ details {
     
     .technique-element-exam-button {
         border-bottom: 2px solid rgb(186, 186, 186);
-        width: 330px;
+        width: 280px;
         height: 20px;
         font-family: 'Roboto';
         font-style: normal;
