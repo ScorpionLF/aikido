@@ -125,6 +125,7 @@ iframe {
         display: flex; 
         width: 280px; 
         padding: 10px 0 10px 0;
+        hyphens: auto;
     }
 
     .contacts-line img {

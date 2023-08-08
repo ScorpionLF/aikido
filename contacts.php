@@ -35,11 +35,11 @@
                 </div>
                 <div class="contacts-line">
                     <img src="images/video-square-black.png">
-                    <a class="contacts-line-info" href="#">https://www.youtube.com/@ametsuchidojokazan</a>
+                    <a class="contacts-line-info" href="https://www.youtube.com/@ametsuchidojokazan">https://www.youtube.com/<br>@ametsuchidojokazan</a>
                 </div>
                 <div class="contacts-line">
                     <img src="images/device-message-black.png">
-                    <a class="contacts-line-info" href="#">https://m.vk.com/aikidopower</a>
+                    <a class="contacts-line-info" href="https://m.vk.com/aikidopower">https://m.vk.com/aikidopower</a>
                 </div>
             </div>
             <div class="block-contacts-map">
