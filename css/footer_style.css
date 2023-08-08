@@ -179,7 +179,7 @@ img.avatar {
 
 .modal-content {
     background-color: #fefefe;
-    margin: 5% auto 15% auto; 
+    margin: 0 auto 15% auto; 
     width: 40%;
     border-radius: 5px;
 }
