@@ -38,7 +38,7 @@
                 </div>
                 <div class="footer-block-contacts-infoline">
                     <img class="footer-block-contacts-icon" src="images/video-square.png">
-                    <a href="https://m.vk.com/aikidopower">
+                    <a href="https://www.youtube.com/@ametsuchidojokazan">
                         <div class="footer-block-contacts-text">https://www.youtube.com/@ametsuchidojokazan</div>
                     </a>
                 </div>
@@ -48,8 +48,12 @@
             </div>
             <div class="block-footer-buttons">
                 <div class="block-footer-buttons-elements">
-                    <input type="image" class="block-footer-buttons-element-1" src="images/youtube.png" alt="youtube">
-                    <input type="image" class="block-footer-buttons-element-2" src="images/vk.png" alt="vk">
+                    <a href="https://www.youtube.com/@ametsuchidojokazan">
+                        <input type="image" class="block-footer-buttons-element-1" src="images/youtube.png" alt="youtube">
+                    </a>
+                    <a href="https://m.vk.com/aikidopower">
+                        <input type="image" class="block-footer-buttons-element-2" src="images/vk.png" alt="vk">
+                    </a>
                     <?php
                     if (isset($_SESSION['login'])) {
                         ?>
