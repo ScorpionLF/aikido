@@ -64,7 +64,7 @@
                         <button class="footer-button" onclick="document.getElementById('open').style.display='block'">Вход</button>                 
                         <div id="open" class="modal">
                             <span onclick="document.getElementById('open').style.display='none'" class="close" title="Close Modal">&times;</span>     
-                            <form class="modal-content animate" action="login_script.php">
+                            <form class="modal-content animate" action="login_script.php" method="post">
                                 <div class="img-container">
                                     <img src="images/japan.jpg" onError="this.src='images/not_found.png'" class="avatar">
                                 </div>            
