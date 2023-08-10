@@ -1,92 +1,164 @@
 .techique {
-    width: 1270px;
-    /* display: grid; */
-    /* align-items: center; */
-    /* margin-bottom: 40px; */
-    margin-top: -20px;
+    width: 1000px;
+    margin-bottom: 25px;
 }
 
 details {
-    /* display: none; */
-    width: 1270px;
+    width: 1000px;
     min-height: 50px;
-    margin-top: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
     align-items: center;
-    text-align: center;
     justify-content: center;
     color: #000000;
 }
 
-.terms_button {
-    background-color: rgb(222, 223, 224);
-    border: 2px solid black;
-    width: 1266px;
-    height: 60px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    color: #000000;
-    cursor: default; 
-    /* margin-top: 25px; */
-}
-
-.exam_button {
-    background-color: rgb(244, 245, 246);
-    border: 1px solid black;
-    width: 1270px;
-    height: 60px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    color: #000000;
-    margin-top: 50px;
-    cursor: default; 
-}
-
-.tech_block {
-    margin-top: 50px;
-    width: 1270px;
-    display: flex;
+.block-techique {
+    width: 1000px;
     justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
-/* #tech_block_left {
-    float: left;
+.block-techique-video {
+    width: 280px;
+    margin-top: 25px;
 }
 
-#tech_block_right {
-    float: right;
-} */
-
-.video_block {
-    width: 420px;
-}
-
-.video {
-    height: 250px;
+.block-techique-video-video {
+    height: 230px;
     width: 100%;
 }
 
-.video_title {
+.block-techique-video-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     align-items: center;
     text-align: center;
     color: #000000;
+    margin-top: 15px;
+}
+
+.technique-element-exam-button {
+    background-color: rgb(244, 245, 246);
+    border: 1px solid black;
+    width: 1000px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    margin-top: 25px;
+    cursor: default;
+}
+
+.title-block {
+    display: none;    
+}
+
+@media (max-width: 1024px) {
+    .techique {
+        width: 770px;
+    }
+
+    details {
+        width: 770px;
+        font-size: 22px;
+    }
+
+    .block-techique {
+        width: 770px;
+    }
+
+    .block-techique-video {
+        width: 385px;
+    }
+
+    .block-techique-video-video {
+        height: 270px;
+    }
+
+    .block-techique-video-title {
+        font-size: 22px;
+    }
+
+    .technique-element-exam-button {
+        width: 770px;
+        height: 50px;
+        font-size: 22px;
+    }
+
+    .technique-element-exam-button {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+    .title-block {
+        display: block;    
+    }
+
+    .techique {
+        width: 280px;
+        display: grid;
+        margin-bottom: 15px;
+    }
+
+    details {
+        width: 280px;
+        font-size: 22px;
+    }
+    
+    .block-techique {
+        width: 280px;
+        margin-bottom: 15px;
+    }
+    
+    .block-techique-video {
+        width: 280px;
+        margin-top: 15px;
+    }
+    
+    .block-techique-video-video {
+        height: 230px;
+        width: 280px;
+    }
+    
+    .block-techique-video-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        align-items: center;
+        text-align: left;
+        color: #000000;
+        margin-top: 10px;
+    }
+    
+    .technique-element-exam-button {
+        border-bottom: 2px solid rgb(186, 186, 186);
+        width: 280px;
+        height: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin-top: 10px;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
+    }
 }

@@ -1,0 +1,135 @@
+.video-gallery {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-bottom: 25px;
+}
+
+.video-gallery-album-info {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+
+.video-gallery-album-info span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery-album-info-line {
+    padding: 5px;
+}
+
+.video-gallery-album-info-line-num {
+    margin-top: 65px;
+    font-size: 16px;
+    right: 15px;
+}
+
+.video-gallery-album {
+    margin-bottom: 10px;
+    position: relative;
+    width: 330px;
+    background: #000;
+}
+
+.video-gallery-album img {
+    width: 330px;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.video-gallery-disign-line {
+    height: 2px;
+    background: white;
+    width: 150px;
+}
+
+.title-block {
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+
+    .video-gallery {
+        width: 770px;
+    }
+
+    .video-gallery-album {
+        width: 380px;
+    }
+
+    .video-gallery-album img {
+        width: 380px;
+        height: 280px;
+    }
+
+    .video-gallery-album-info {
+        position: absolute;
+        width: 100%;
+        top: 110px;
+    }
+    
+    .title-block {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    .title-block {
+        display: block;
+    }
+
+    .video-gallery {
+        width: 280px;
+        display: grid;
+    }
+    
+    .video-gallery-album-info {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        font-size: 16px;
+    }
+    
+    .video-gallery-album-info-line {
+        padding: 5px;
+    }
+
+    .video-gallery-album-info-line-num {
+        margin-top: 35px;
+    }
+
+    
+    .video-gallery-album {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        width: 280px;
+        height: 230px;
+        background: #000;
+    }
+    
+    .video-gallery-album img {
+        width: 280px;
+        height: 100%;
+        opacity: 0.6;
+    }
+    
+    .video-gallery-disign-line {
+        height: 2px;
+        background: white;
+        width: 150px;
+    }
+    
+}

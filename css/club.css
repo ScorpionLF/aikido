@@ -1,21 +1,63 @@
+.club {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 1000px;
+}
 
-
-.info-page {
-    position: absolute;
-    width: 1270px;
-    min-height: 680px;
+.block-club-information {
+    position: relative;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     align-items: center;
     color: #000000;
     text-align: justify;
-    margin-top: -20px;
-    /* margin-bottom: 75px; */
+    line-height: 40px;
 }
 
-.img_about_school {
-    margin-top: 800px;
-    /* margin-bottom: 50px; */
+.block-club-imgs {
+    margin-top: 50px;
+}
+
+.club-img {
+    width: 1000px;
+}
+
+@media (max-width: 1024px) {
+    .club {
+        width: 770px;
+    }
+    
+    .block-club-information {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .club-img {
+        width: 770px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .club {
+        width: 280px;
+        margin: 15px 0 15px 0;      
+    }
+
+    .block-club-information {
+        width: 280px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+    
+    .block-club-imgs {
+        width: 280px;
+        margin-top: 15px;
+    }
+    
+    .club-img {
+        width: 280px;
+    }
 }

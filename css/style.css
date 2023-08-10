@@ -1,9 +1,6 @@
 html {
-    height: 100%;
-}
-
-.container {
-    height: 100%;
+    min-height: 100%;
+    position: relative;
 }
 
 body {
@@ -15,45 +12,120 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     align-items: first baseline;
+    height: 100vh;
 }
 
-.main {
-    /* margin-left: 240px; */
-    /* max-width: 1450px; */
+main {
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     justify-items: center;
     display: grid;
-    /* min-height: 77vh; */
-    /* align-items: center; */
-}
-
-.i_title_div {
-    align-items: center;
-    text-align: center;
-    height: 55px;
-    margin-top: 50px;
-}
-
-.title_page_i {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    color: #000000;
-    position: relative;
-}
-
-.line_line {
-    width: 800px;
-    height: 5px;
-    margin-top: 10px;
-    background: #FCDF21;
-    /* justify-content: center; */
-    /* margin-left: 325px; */
 }
 
 p {
     text-indent: 55px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mobile-title {
+    display: none;
+}
+
+/* -------------------style for button in technique and terms pages summary--------------- */
+
+.terms-and-technique-element-button {
+    background-color: rgb(222, 223, 224);
+    border: 2px solid black;
+    width: 996px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+@media (max-width: 1024px) {
+
+    .terms-and-technique-element-button {
+        width: 766px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    html {
+        height: 100%;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    main {
+        justify-items: center;
+        display: grid;
+    }
+    
+    p {
+        margin: 0;
+        padding: 0 0 10px 0;;
+        text-indent: 20px;
+    }
+    
+    .mobile-title {
+        display: block;
+    }
+    
+    .title-block {
+        width: 280px;
+        display: grid;
+        margin-bottom: 10px;
+    }
+    
+    .title-block-line {
+        width: 280px;
+        background-color: black;
+        height: 2px;
+        margin-top: 5px;
+    }
+    
+    .title {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+    }
+    
+    
+    .terms-and-technique-element-button {
+        border-bottom: 2px solid rgb(152, 152, 152);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 280px;
+        height: 20px;
+        font-size: 16px;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 5px 0 5px 0;
+        cursor: pointer;
+        background: none;
+    }
+
 }

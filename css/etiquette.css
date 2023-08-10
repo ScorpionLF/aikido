@@ -1,0 +1,93 @@
+.etiquette {
+    width: 1000px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.etiquette-information {
+    position: relative;
+    display: grid;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.etiquette-imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.etiquette_img_1 {
+    position: relative;
+    margin-top: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 550px;
+}
+
+.etiquette-title {
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    color: #000000;
+    
+}
+
+@media (max-width: 1024px) {
+    .etiquette {
+        width: 770px;
+    }
+    
+    .etiquette-information {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .etiquette_img_1 {
+        width: 500px;
+    }
+    
+    .etiquette-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+    .etiquette {
+        width: 280px;
+        margin-top: 0;
+    }
+    
+    .etiquette-title {
+        display: none;
+    }
+
+    .etiquette-information {
+        width: 280px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        color: black;
+    }
+    
+    .etiquette-imgs {
+        width: 280px;
+        margin-top: 25px;
+    }
+    
+    .etiquette_img_1 {
+        width: 280px;
+        margin-top: 0;
+    }
+}

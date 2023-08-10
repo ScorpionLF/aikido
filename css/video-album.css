@@ -1,0 +1,144 @@
+.video-gallery {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 25px 0;
+}
+
+.album-title {
+justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    color: #000000;
+    display: block;
+}
+
+
+
+.img-box {
+    height: 200px;
+}
+
+.img-box img {
+    width: 330px;
+}
+
+.iFrame {
+    width: 96%;
+    height: 96%;
+    margin: 2% 2%;
+}
+
+.video-title {
+    display: block;
+    padding: 20px 5px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    hyphens: auto;
+}
+
+.video-block {
+    cursor: pointer;
+    border: 1px solid;
+    width: 330px;
+}
+
+.video-block:hover {
+    opacity: 0.8;
+}
+
+.modal {
+    display: none; /*Hidden by default. */
+    position: fixed; /* Stays in place */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(32, 32, 32, 0.65); 
+    padding-top: 60px;
+    z-index: 15;
+}
+
+.modal-video-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    width: 65%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+@media (max-width: 1024px) {
+
+    .video-gallery {
+        width: 770px;
+    }
+
+    .video-block {
+        width: 380px;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    .title-block {
+        display: block;
+    }
+
+    .album-title {
+        display: none;
+    }
+
+    .video-gallery {
+        width: 280px;
+        display: grid;
+        margin: 15px 0;
+    }
+
+    .video-block {
+        width: 280px;
+    }
+
+    .modal {
+        display: none;
+    }
+    
+    
+}

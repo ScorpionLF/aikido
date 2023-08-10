@@ -1,0 +1,62 @@
+.principle {
+    width: 1000px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.principle-title {
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    color: #000000;
+}
+
+.principle-information {
+    position: relative;
+    display: grid;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+    line-height: 40px;
+}
+
+@media (max-width: 1024px) {
+    .principle {
+        width: 770px;
+    }
+    
+    .principle-title {
+        font-size: 22px;
+    }
+    
+    .principle-information {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+    .principle-title {
+        display: none;
+    }
+
+    .principle {
+        width: 280px;
+        margin-top: 0;
+    }
+    
+    .principle-information {
+        width: 280px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        color: black;
+    }
+}

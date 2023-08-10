@@ -1,54 +1,139 @@
-
-.photo_albums {
+.gallery {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    width: 1270px;
-    /* margin-bottom: 50px; */
-    margin-top: -50px;
+    width: 1000px;
+    margin-bottom: 25px;
 }
 
-.photos_album_title {
+.gallery-album-info {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+
+.gallery-album-info span {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
     font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: grid;
+    justify-content: center;
     text-align: center;
-    margin-top: 10px;
+}
+
+.gallery-album-info-line {
+    padding: 5px;
+}
+
+.gallery-album-info-line-num {
+    margin-top: 45px;
+    font-size: 16px;
+    right: 15px;
 }
 
 
-.album_block {
-    width: 350px;
-    background-image: url("../images/rectangle.png");
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 5px;
-}
-
-.ablum_1 {
+.gallery-album {
+    margin-bottom: 10px;
     position: relative;
+    width: 330px;
+    background: #000;
 }
 
-.album_image_1 {
-    height: 300px;
-    width: 340px;
-    margin-left: 5px;
-    border-radius: 3px;
-    margin-top: 5px;
+.gallery-album img {
+    width: 330px;
+    height: 100%;
+    opacity: 0.6;
 }
 
-.album_title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    align-items: center;
-    text-align: center;
-    color: #000000;
+.gallery-disign-line {
+    height: 2px;
+    background: white;
+    width: 150px;
 }
 
-.album {
-    margin-top: 50px;
-
+.title-block {
+    display: none;
 }
 
+
+@media (max-width: 1024px) {
+
+    .gallery {
+        width: 770px;
+    }
+
+    .gallery-album {
+        width: 380px;
+    }
+
+    .gallery-album-info-line-num {
+        margin-top: 65px;
+    }
+
+    .gallery-album img {
+        width: 380px;
+        height: 100%;
+    }
+
+    .gallery-album-info {
+        position: absolute;
+        width: 100%;
+        top: 110px;
+    }
+    
+    .title-block {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    .title-block {
+        display: block;
+    }
+
+    .gallery {
+        width: 280px;
+        display: grid;
+    }
+    
+    .gallery-album-info {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        font-size: 16px;
+    }
+    
+    .gallery-album-info-line {
+        padding: 5px;
+    }
+    
+    .gallery-album-info-line-num {
+        margin-top: 35px;
+    }
+
+    .gallery-album {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        width: 280px;
+        height: 230px;
+        background: #000;
+    }
+    
+    .gallery-album img {
+        width: 280px;
+        height: 230px;
+        opacity: 0.6;
+    }
+    
+    .gallery-disign-line {
+        height: 2px;
+        background: white;
+        width: 150px;
+    }
+    
+}
