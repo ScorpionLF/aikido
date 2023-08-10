@@ -1,0 +1,319 @@
+footer {
+    width: 100%;
+    background: #000000;
+    justify-items: center;
+    display: grid;
+    position: relative;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+
+.block-footer-indormation {
+    display: grid;
+    float: left;
+}
+
+.block-footer-indormation-text-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.block-footer-indormation-text-2 {
+    width: 600px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: left;
+    color: #706f6f;
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+
+.block-footer-buttons {
+    float: right;
+    width: 660%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block-footer-buttons-elements {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.block-footer-buttons-element-1 {
+    width: 33px;
+    height: 28px;
+}
+
+.block-footer-buttons-element-2 {
+    margin-left: 7px;
+    width: 30px;
+    height: 29px;
+}
+
+.block-footer-buttons-element-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: none;
+    margin-left: 7px;
+    border: 0px;
+    text-decoration: none;
+}
+
+.block-footer-buttons-element-button:hover {
+    text-decoration: none;
+    color: #9A9A9A;
+}
+
+
+
+.block-footer-modalWindow-dialog-header-imgs-img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 150px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.block-modalWindow-dialog-body-forms-group-title {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.block-modalWindow-dialog-body-forms-group-title span {
+    color: red;
+}
+
+/* -----------------------------------modal widow------------------------------ */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.footer-button {
+    color: white;
+    padding: 15px 0 15px 10px;;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 20px;
+    background: none;
+}
+
+.footer-button:hover {
+    opacity: 0.8;
+}
+
+.modal-button {
+    background-color: #000;
+    color: white;
+    padding: 15px 0 15px 0px;;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.img-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 40px;
+    border: 2px solid;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.container {
+    padding: 25px;
+}
+
+.modal {
+    display: none; /*Hidden by default. */
+    position: fixed; /* Stays in place */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(32, 32, 32, 0.65); 
+    padding-top: 60px;
+    z-index: 15;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 0 auto 15% auto; 
+    width: 40%;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+.footer-block-contacts-infoline {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    footer {
+        height: 190px;
+    }
+
+    .footer {
+        width: 770px;
+    }
+
+    .block-footer-indormation-text-1 {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .block-footer-indormation-text-2 {
+        font-size: 10px;
+        margin-bottom: 40px;
+    }
+
+    .block-footer-buttons {
+        margin-top: 80px;
+        margin-bottom: 40px;
+        width: 0%;
+    }
+
+    .block-footer-buttons-element-1 {
+        width: 25px;
+        height: 20px;
+    }
+
+    .block-footer-buttons-element-2 {
+        width: 25px;
+        height: 25px;
+    }
+
+    .block-buttons-element-button {
+        font-size: 18px;
+    }
+
+    .block-modalWindow-dialog-body-forms-group-title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .block-footer-buttons {
+        display: none;
+    }
+
+    footer {
+        height: 100%;
+    }
+    
+    .footer {
+        width: 360px;
+    }
+
+    .block-footer-indormation {
+        width: 280px;
+    }
+    
+    .block-footer-indormation-text-1 {
+        font-size: 12px;
+        text-align: left;
+        margin: 30px 0 10px 0;
+        width: 280px;
+    }
+    
+    .footer-block-contacts-infoline {
+        display: flex;
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        margin: 15px 0;
+        align-items: center;
+    }
+    
+    .footer-block-contacts-text {
+        margin-left: 10px;
+        color: #ffffff;
+    }
+    
+    .block-footer-indormation-text-2 {
+        font-size: 10px;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 15px 0 30px 0;
+        width: 280px;
+    }
+    
+}
+
+
