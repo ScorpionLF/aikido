@@ -61,11 +61,30 @@
                 </div>
             </section>
             <section class="index-news">
-            <a href="news_page" style="text-decoration: none;">
+                <a href="news_page" style="text-decoration: none;">
+                    <div class="block-index-news">
+                        <img class="block-index-news-img" src="images/new_6.jpg" onError="this.src='images/not_found.png'">
+                        <div class="block-index-news-title">Открываем новый сезон тренировок!</div>
+                        <div class="block-index-news-news">
+                            Федерация Айкидо Ametsuchi Dojo объявляет набор в детские группы.
+                        </div>
+                        <input class="block__hidden" type="checkbox" id="is_hidden">
+                        <label for="is_hidden">Прочитать всё.</label>
+                        <div class="hidden__news">
+                            <?php echo (file_get_contents('./all_news/new_6.txt')); ?>
+                        </div>
+                    </div>
+                </a>
+                <a href="news_page" style="text-decoration: none;">
                     <div class="block-index-news">
                         <img class="block-index-news-img" src="images/new_5.jpg" onError="this.src='images/not_found.png'">
                         <div class="block-index-news-title">Ученики Ametsuchi отдыхают в Анапе</div>
                         <div class="block-index-news-news">
+                            Ученики Ametsuchi отдыхают в Анапе на берегу черного моря.
+                        </div>
+                        <input class="block__hidden" type="checkbox" id="is_hidden_2">
+                        <label for="is_hidden_2">Прочитать всё.</label>
+                        <div class="hidden__news">
                             <?php echo (file_get_contents('./all_news/new_5.txt')); ?>
                         </div>
                     </div>
@@ -75,16 +94,12 @@
                         <img class="block-index-news-img" src="images/new_2.jpg" onError="this.src='images/not_found.png'">
                         <div class="block-index-news-title">Семинар Сенсея Халидова!</div>
                         <div class="block-index-news-news">
-                            <?php echo (file_get_contents('./all_news/new_2.txt')); ?>
+                            Прошел 4-й международный семинар Айкидо под руководством Сенсея Халидова!
                         </div>
-                    </div>
-                </a>
-                <a href="news_page" style="text-decoration: none;">
-                    <div class="block-index-news">
-                        <img class="block-index-news-img" src="images/new_4.jpg" onError="this.src='images/not_found.png'">
-                        <div class="block-index-news-title">Ametsuchi посетил Сенсей Сергей Флоренко.</div>
-                        <div class="block-index-news-news">
-                            <?php echo (file_get_contents('./all_news/new_3.txt')); ?>
+                        <input class="block__hidden" type="checkbox" id="is_hidden_3">
+                        <label for="is_hidden_3">Прочитать всё.</label>
+                        <div class="hidden__news">
+                            <?php echo (file_get_contents('./all_news/new_2.txt')); ?>
                         </div>
                     </div>
                 </a>
