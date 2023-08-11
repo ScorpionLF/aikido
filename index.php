@@ -61,7 +61,16 @@
                 </div>
             </section>
             <section class="index-news">
-            <a href="news_page" style="text-decoration: none;">
+                <a href="news_page" style="text-decoration: none;">
+                    <div class="block-index-news">
+                        <img class="block-index-news-img" src="images/new_6.jpg" onError="this.src='images/not_found.png'">
+                        <div class="block-index-news-title">Открываем новый сезон тренировок!</div>
+                        <div class="block-index-news-news">
+                            <?php echo (file_get_contents('./all_news/new_6.txt')); ?>
+                        </div>
+                    </div>
+                </a>
+                <a href="news_page" style="text-decoration: none;">
                     <div class="block-index-news">
                         <img class="block-index-news-img" src="images/new_5.jpg" onError="this.src='images/not_found.png'">
                         <div class="block-index-news-title">Ученики Ametsuchi отдыхают в Анапе</div>
@@ -76,15 +85,6 @@
                         <div class="block-index-news-title">Семинар Сенсея Халидова!</div>
                         <div class="block-index-news-news">
                             <?php echo (file_get_contents('./all_news/new_2.txt')); ?>
-                        </div>
-                    </div>
-                </a>
-                <a href="news_page" style="text-decoration: none;">
-                    <div class="block-index-news">
-                        <img class="block-index-news-img" src="images/new_4.jpg" onError="this.src='images/not_found.png'">
-                        <div class="block-index-news-title">Ametsuchi посетил Сенсей Сергей Флоренко.</div>
-                        <div class="block-index-news-news">
-                            <?php echo (file_get_contents('./all_news/new_3.txt')); ?>
                         </div>
                     </div>
                 </a>
