@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<style>
+    main {
+        margin: 10% 30%;
+        font-family: 'Roboto';
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .container {
+        display: grid;
+    }
+
+    .block-modalWindow-dialog-body-forms-group-title {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .block-modalWindow-dialog-body-forms-group-title span {
+        color: red;
+    }
+
+    .modal-button {
+        background-color: #000;
+        color: white;
+        padding: 15px 0 15px 0px;;
+        margin: 25px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    input {
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <main>
+        <h1>Форма регистрации</h1>
+        <form action="registration.php" method="post">        
+            <div class="container">
+                <span class="block-modalWindow-dialog-body-forms-group-title">Имя <span>*</span></span>
+                <input id="name" type="text" name="name">
+                <span class="block-modalWindow-dialog-body-forms-group-title">Логин или e-mail <span>*</span></span>
+                <input id="login" type="text" name="login">
+                <span class="block-modalWindow-dialog-body-forms-group-title">Пароль <span>*</span></span>
+                <input id="pass" type="password" name="pass">
+                <button class="modal-button" type="submit">Зарегистрировать</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

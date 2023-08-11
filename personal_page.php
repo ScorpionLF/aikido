@@ -26,23 +26,23 @@ if ($_SESSION['login'] == 'admin') {
     <?php include 'header.html'; ?>
 
     <?php
-    $login = $_SESSION['login'];
-    $file_arr = file("users/users.csv");
-    $lines = count($file_arr);
-    for ($i = 0; $i < $lines; $i++) {
-        $line = explode(';', $file_arr[$i]);
-        if (strval($line[1]) == strval($login)) {
-            $id = strval($line[0]);
-        }
-    }
+    // $login = $_SESSION['login'];
+    // $file_arr = file("users/users.csv");
+    // $lines = count($file_arr);
+    // for ($i = 0; $i < $lines; $i++) {
+    //     $line = explode(';', $file_arr[$i]);
+    //     if (strval($line[1]) == strval($login)) {
+    //         $id = strval($line[0]);
+    //     }
+    // }
 
-    $file_arr = file("users/data.csv");
-    $lines = count($file_arr);
-    for ($i = 0; $i < $lines; $i++) {
-        $line = explode(';', $file_arr[$i]);
-        if (strval($line[0]) == $id) {
-            $certificate_src = "users/" . strval($id) . ".jpg";
-            ?>
+    // $file_arr = file("users/data.csv");
+    // $lines = count($file_arr);
+    // for ($i = 0; $i < $lines; $i++) {
+    //     $line = explode(';', $file_arr[$i]);
+    //     if (strval($line[0]) == $id) {
+    //         $certificate_src = "users/" . strval($id) . ".jpg";
+    //         ?>
             <main>
                 <div class="personal_page">
                     <div class="block_personal_page-photo">
@@ -81,8 +81,8 @@ if ($_SESSION['login'] == 'admin') {
                             <div class="block_personal_page-information-line-info">
                                 <?php
                                 echo $line[6];
-        }
-    }
+    //     }
+    // }
     ?>
                     </div>
                 </div>
