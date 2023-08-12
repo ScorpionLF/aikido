@@ -8,18 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <title>Главная</title>
-    <!-- <link type="image/x-icon" href="images/favicon.png" rel="shortcut icon"> -->
-    <!-- <link type="Image/x-icon" href="images/logo.png" rel="icon"> -->
-</head>
+    <link type="Image/x-icon" href="images/logo.png" rel="icon">
 </head>
 
 <body>
-    <?php include 'header.html'; ?>
+    <?php 
+        require 'default.php';
+        echo $header;
+    ?>
     <main>
             <section class="index-composition">
                 <div class="block-composition-left">
