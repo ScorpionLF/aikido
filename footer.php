@@ -70,9 +70,9 @@
                                 </div>            
                                 <div class="container">
                                     <span class="block-modalWindow-dialog-body-forms-group-title">Логин или e-mail <span>*</span></span>
-                                    <input type="text" name="login">
+                                    <input id="login" type="text" name="login">
                                     <span class="block-modalWindow-dialog-body-forms-group-title">Пароль <span>*</span></span>
-                                    <input type="password" name="password">
+                                    <input id="pass" type="password" name="pass">
                                     <button class="modal-button" type="submit">ВОЙТИ</button>
                                 </div>
                             </form>
