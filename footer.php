@@ -64,7 +64,7 @@
                         <button class="footer-button" onclick="document.getElementById('open').style.display='block'">Вход</button>                 
                         <div id="open" class="modal">
                             <span onclick="document.getElementById('open').style.display='none'" class="close" title="Close Modal">&times;</span>     
-                            <form class="modal-content animate" action="auth.php" method="post">
+                            <form class="modal-content animate" action="login.php" method="post">
                                 <div class="img-container">
                                     <img src="images/japan.jpg" onError="this.src='images/not_found.png'" class="avatar">
                                 </div>            
@@ -72,7 +72,7 @@
                                     <span class="block-modalWindow-dialog-body-forms-group-title">Логин или e-mail <span>*</span></span>
                                     <input id="login" type="text" name="login">
                                     <span class="block-modalWindow-dialog-body-forms-group-title">Пароль <span>*</span></span>
-                                    <input id="pass" type="password" name="pass">
+                                    <input id="password" type="password" name="password">
                                     <button class="modal-button" type="submit">ВОЙТИ</button>
                                 </div>
                             </form>

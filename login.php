@@ -2,30 +2,29 @@
     session_start();
     
     
-    $mysql = new mysqli('localhost', 'root', 'root', 'authorization');
+    $mysql = mysqli_connect('localhost', 'root', 'root', 'authorization');
     
     if($mysql->connect_error){
         die("Ошибка: " . $mysql->connect_error);
     }
-    else {
-        echo "Тут ошибок нет.";
-    }
-    
+
     $login = trim($_POST['login']);
-    $pass = trim($_POST['pass']);
+    $password = trim($_POST['password']);
 
 
     // $pass = md5($pass."LoremIpsum");
 
     if (isset($_POST['submit'])) {
  
-        if (!empty($login) && !empty($pass)) {
+        // if (!empty($login) && !empty($password)) {
 
-            $query = "SELECT * FROM users WHERE login = '$login' AND pass = '$pass'";
-            $result = mysqli_query($query);
+            $query = "SELECT * FROM users WHERE login = '$login' AND password = '$password'";
+            $result = mysqli_query($mysql, $query);
             $data = mysqli_fetch_array($result);
-            
-                if ($pass == $data['pass']) {
+
+
+
+                if ($password == $data['password']) {
                     
                     if ($login == "admin") {
                         echo "Admin";
@@ -42,12 +41,14 @@
                     echo "Неправильный пароль.";
                 }
 
-        }
-        else {
-            echo "Пустые поля.";
-        }
+        // }
+        // else {
+        //     echo "Пустые поля.";
+        // }
     }
 
     $mysql->close();
     // header('Location: registration.html');
  ?>
+
+
