@@ -1,3 +1,8 @@
+<?php
+    //  вся процедура работает на сессиях. Именно в ней хранятся данные  пользователя, пока он находится на сайте. Очень важно запустить их в  самом начале странички!!!
+    session_start();
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,7 +78,7 @@
                                     <input id="login" type="text" name="login">
                                     <span class="block-modalWindow-dialog-body-forms-group-title">Пароль <span>*</span></span>
                                     <input id="password" type="password" name="password">
-                                    <button class="modal-button" type="submit">ВОЙТИ</button>
+                                    <button class="modal-button" type="submit" name="submit">ВОЙТИ</button>
                                 </div>
                             </form>
                         </div> 
