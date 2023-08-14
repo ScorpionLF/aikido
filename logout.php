@@ -1,5 +1,6 @@
 <?php
     session_start();
-    unset($_SESSION['login']);
-    header('Location:index')
+    unset($_SESSION['admin']);
+    unset($_SESSION['user']);
+    header('Location:index');
 ?>

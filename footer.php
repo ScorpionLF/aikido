@@ -1,8 +1,3 @@
-<?php
-    //  вся процедура работает на сессиях. Именно в ней хранятся данные  пользователя, пока он находится на сайте. Очень важно запустить их в  самом начале странички!!!
-    session_start();
-    ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,9 +55,9 @@
                         <input type="image" class="block-footer-buttons-element-2" src="images/vk.png" alt="vk">
                     </a>
                     <?php
-                    if (isset($_SESSION['admin']) && isset($_SESSION['user'])) {
+                    if (isset($_SESSION['login'])) {
                         ?>
-                        <a href="index" class="block-footer-buttons-element-button">Выйти</a>
+                        <a href="index" class="footer-button">Выйти</a>
                         <?php
                     } else {
                         ?>
