@@ -60,7 +60,7 @@
                         <input type="image" class="block-footer-buttons-element-2" src="images/vk.png" alt="vk">
                     </a>
                     <?php
-                    if (isset($_SESSION['login'])) {
+                    if (isset($_SESSION['admin']) && isset($_SESSION['user'])) {
                         ?>
                         <a href="index" class="block-footer-buttons-element-button">Выйти</a>
                         <?php

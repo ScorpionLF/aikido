@@ -16,24 +16,23 @@
 
     if (isset($_POST['submit'])) {
  
-        // if (!empty($login) && !empty($password)) {
+        if (!empty($login) && !empty($password)) {
 
             $query = "SELECT * FROM users WHERE login = '$login' AND password = '$password'";
             $result = mysqli_query($mysql, $query);
             $data = mysqli_fetch_array($result);
 
-
-
                 if ($password == $data['password']) {
                     
                     if ($login == "admin") {
-                        echo "Admin";
-                        // $admin = $_SESSION['admin'];
+                        // echo "Admin";
+                        $admin = $_SESSION['admin'];
+                        header('Location: admin_page');
                     }
                     else {
-                        echo "User";
-                        // $user = $_SESSION['user'];
-
+                        // echo "User";
+                        $user = $_SESSION['user'];
+                        header('Location: personal_page');
                     }
 
                 } 
@@ -41,10 +40,10 @@
                     echo "Неправильный пароль.";
                 }
 
-        // }
-        // else {
-        //     echo "Пустые поля.";
-        // }
+        }
+        else {
+            echo "Пустые поля.";
+        }
     }
 
     $mysql->close();
