@@ -35,7 +35,7 @@
                 </div>
             </a>  
             <div id="open_news_6" class="modal">
-                <span onclick="document.getElementById('open_news_6').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_6').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -55,7 +55,7 @@
                 </div>
             </a>  
             <div id="open_news_1" class="modal">
-                <span onclick="document.getElementById('open_news_1').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_1').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_6.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -75,7 +75,7 @@
                 </div>
             </a>  
             <div id="open_news_2" class="modal">
-                <span onclick="document.getElementById('open_news_2').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_2').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_5.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -95,7 +95,7 @@
                 </div>
             </a>  
             <div id="open_news_3" class="modal">
-                <span onclick="document.getElementById('open_news_3').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_3').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_4.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -115,7 +115,7 @@
                 </div>
             </a>  
             <div id="open_news_4" class="modal">
-                <span onclick="document.getElementById('open_news_4').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_4').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_1.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -135,7 +135,7 @@
                 </div>
             </a>  
             <div id="open_news_5" class="modal">
-                <span onclick="document.getElementById('open_news_5').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_5').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_2.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
