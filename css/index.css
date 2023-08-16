@@ -158,7 +158,12 @@ padding: 15px;
     padding: 0 15px 0 15px;
 }
 
-
+.href-news {
+    font-size: 18px;
+    margin: 10px 0;
+    color: gray;
+    font-family: 'Roboto';
+}
 
 
 @media (max-width: 1024px) {

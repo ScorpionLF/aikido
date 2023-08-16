@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/news.css">
-    <link rel="stylesheet" href="css/header_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Inter&family=Roboto&display=swap"
@@ -19,10 +18,7 @@
 </head>
 
 <body>
-    <?php 
-        require 'default.php';
-        echo $header;
-    ?>
+    <?php include 'header.html'; ?>
     <main>
         <section class="index-composition">
             <div class="block-composition-left">
@@ -64,12 +60,30 @@
             </div>
         </section>
         <section class="index-news">
+        <a class="block-index-news" onclick="document.getElementById('open_news_6').style.display='block'"> 
+                <img class="block-news-img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-news-title">Мастер-класс по Айкидо</div>
+                <div class="block-news-news">
+                    <?php echo (file_get_contents('./all_news/news_7.txt')); ?>
+                </div>
+            </a>  
+            <div id="open_news_6" class="modal">
+                <span onclick="document.getElementById('open_news_6').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <div class="modal-news-content">
+                    <img class="modal__img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
+                    <div class="block__news">
+                        <div class="block-news-title">Мастер-класс по Айкидо</div>
+                        <p class="modal__news">
+                            <?php echo (file_get_contents('./all_news/news_7.txt')); ?>
+                        </p>
+                    </div>
+                </div> 
+            </div> 
             <a class="block-index-news" onclick="document.getElementById('open_news_1').style.display='block'"> 
                 <img class="block-news-img" src="images/new_6.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-news-title">Открываем новый сезон тренировок!</div>
                 <div class="block-news-news">
                 <?php echo (file_get_contents('./all_news/new_6.txt')); ?>
-                    <div class="block-news-date">09.08.2023</div>
                 </div>
             </a>  
             <div id="open_news_1" class="modal">
@@ -89,7 +103,6 @@
                 <div class="block-news-title">Ученики Ametsuchi отдыхают в Анапе</div>
                 <div class="block-news-news">
                 <?php echo (file_get_contents('./all_news/new_5.txt')); ?>
-                    <div class="block-news-date">18.07.2022</div>
                 </div>
             </a>  
             <div id="open_news_2" class="modal">
@@ -104,27 +117,8 @@
                     </div>
                 </div> 
             </div> 
-            <a class="block-index-news" onclick="document.getElementById('open_news_3').style.display='block'"> 
-                <img class="block-news-img" src="images/new_4.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-news-title">Ametsuchi посетил Сенсей Сергей Флоренко</div>
-                <div class="block-news-news">
-                <?php echo (file_get_contents('./all_news/new_3.txt')); ?>
-                    <div class="block-news-date">22.06.2023</div>
-                </div>
-            </a>  
-            <div id="open_news_3" class="modal">
-                <span onclick="document.getElementById('open_news_3').style.display='none'" class="close" title="Close Modal">&times;</span>     
-                <div class="modal-news-content">
-                    <img class="modal__img" src="images/new_4.jpg" onError="this.src='images/not_found.png'">
-                    <div class="block__news">
-                        <div class="block-news-title">Ametsuchi посетил Сенсей Сергей Флоренко</div>
-                        <p class="modal__news">
-                            <?php echo (file_get_contents('./all_news/new_3.txt')); ?>
-                        </p>
-                    </div>
-                </div> 
-            </div> 
         </section>
+        <a class="href-news" href="news_page">< Все новости ></a>
     </main>
     <?php include 'footer.php'; ?>
 

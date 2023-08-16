@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
+    margin-bottom: 25px;
 }
 
 .block-news {
@@ -51,7 +52,7 @@
     hyphens: auto;
     display: grid;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     hyphens: auto;
@@ -207,6 +208,12 @@
 
 .block__news {
     margin-left: 5%;
+}
+
+.text-for-news {
+    font-family: 'Roboto'; 
+    font-size: 18px; 
+    line-height: 30px;
 }
 
 
