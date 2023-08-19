@@ -211,13 +211,6 @@
     text-align: justify;
 }
 
-.text-for-news {
-    font-family: 'Roboto'; 
-    font-size: 18px; 
-    line-height: 30px;
-}
-
-
 @media (max-width:1024px) {
     .news {
         width: 770px;
