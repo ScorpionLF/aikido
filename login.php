@@ -2,7 +2,7 @@
     session_start();
     
     
-    $mysql = mysqli_connect('localhost', 'root', 'root', 'authorization');
+    $mysql = mysqli_connect('localhost', 'root', '', 'authorization');
     
     if($mysql->connect_error){
         die("Ошибка: " . $mysql->connect_error);
@@ -26,7 +26,7 @@
                     
                     if ($login == "admin") {
                         // echo "Admin";
-                        $login = $_SESSION['login'];
+                        $admin = $_SESSION['admin'];
                         header('Location: admin_page');
                     }
                     else {
