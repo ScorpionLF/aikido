@@ -41,7 +41,7 @@
             <a class="video-block" onclick="document.getElementById('open_video').style.display='block'"> 
                 <div class="img-box">
                     <!-- <img src="" onError="this.src='images/not_found.png'"> -->
-                    <iframe class="iFrame" src="https://www.youtube.com/embed/lQTaeof0660" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div> 
+                    <iframe  src="https://www.youtube.com/embed/lQTaeof0660" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div> 
                 <!-- <title class="video-title">Обращение Сенсея Халидова Рашида Бакиевича к ученикам федерации Ametsuchi Dojo</title> -->
             </a>                 
             <div id="open_video" class="modal">

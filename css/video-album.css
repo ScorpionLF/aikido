@@ -5,7 +5,7 @@
     width: 1000px;
     margin: 25px 0;
 }
-
+/* 
 .album-title {
 justify-content: center;
     font-family: 'Roboto';
@@ -15,9 +15,7 @@ justify-content: center;
     display: flex;
     color: #000000;
     display: block;
-}
-
-
+} */
 
 .img-box {
     height: 210px;
@@ -27,19 +25,19 @@ justify-content: center;
     width: 330px;
 }
 
-.iFrame {
+iFrame {
     width: 94%;
     height: 92%;
     margin: 3%;
 }
 
-.video-title {
+/* .video-title {
     display: block;
     padding: 20px 5px;
     font-family: 'Roboto';
     font-size: 18px;
     hyphens: auto;
-}
+} */
 
 .video-block {
     cursor: pointer;
@@ -105,14 +103,6 @@ justify-content: center;
     from {transform: scale(0)} 
     to {transform: scale(1)}
 }
-
-.video__item {
-    width: 94%;
-    height: 90%;
-    margin: 3%;
-}
-
-
 
 @media (max-width: 1024px) {
 
