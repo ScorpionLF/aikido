@@ -47,7 +47,7 @@
             <div id="open_video" class="modal">
                 <span onclick="document.getElementById('open_video').style.display='none'" class="close" title="Close Modal">&times;</span>     
                 <div class="modal-video-content">
-                <iframe  src="https://www.youtube.com/embed/lQTaeof0660" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div>
+                <iframe class="video__item" src="https://www.youtube.com/embed/lQTaeof0660" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div>
             </div> 
             <script>
                 var modal = document.getElementById('open_video');
