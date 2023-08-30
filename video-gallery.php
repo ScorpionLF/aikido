@@ -34,7 +34,8 @@
                     создана или в запросе был указан неверный адрес.</div>
                 <a href="index" class="block-error__button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
             </div> -->
-            <a href="video-album" class="video-gallery-album">
+
+            <!-- <a href="video-album" class="video-gallery-album">
                 <img src="images/new_1.jpg" onError="this.src='images/not_found.png'"/>
 	            <div class="video-gallery-album-info">
                     <span>
@@ -44,8 +45,20 @@
                         <div class="video-gallery-album-info-line-num">Number of videos</div>
                     </span>
                 </div>
-            </a>
+            </a> -->
             
+            <a href="video-album">
+                <img src="images/poster.png" alt="">
+            </a>
+            <!-- <a href="video-album">
+                <img src="images/poster.png" alt="">
+            </a>
+            <a href="video-album">
+                <img src="images/poster.png" alt="">
+            </a>
+            <a href="video-album">
+                <img src="images/poster.png" alt="">
+            </a> -->
         </div>
     </main>
     <?php include 'footer.php'; ?>
