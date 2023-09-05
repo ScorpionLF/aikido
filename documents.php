@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <?php include 'header.html'; ?>
+    <?php include 'header.php'; ?>
     <main>
         <div class="documents">
         <!-- <div class="title-block">

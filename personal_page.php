@@ -23,7 +23,7 @@ if ($_SESSION['login'] == 'admin') {
 </head>
 
 <body>
-    <?php include 'header.html'; ?>
+    <?php include 'header.php'; ?>
 
     <?php
     // $login = $_SESSION['login'];
