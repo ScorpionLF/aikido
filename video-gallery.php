@@ -34,6 +34,7 @@
                     создана или в запросе был указан неверный адрес.</div>
                 <a href="index" class="block-error__button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
             </div> -->
+            
             <a href="video-album">
                 <img src="images/poster.png" alt="">
             </a>
