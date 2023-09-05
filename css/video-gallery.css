@@ -6,33 +6,6 @@
     margin-bottom: 25px;
 }
 
-.video-gallery-album-info {
-    position: absolute;
-    width: 100%;
-    top: 100px;
-}
-
-.video-gallery-album-info span {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    display: grid;
-    justify-content: center;
-    text-align: center;
-}
-
-.gallery-album-info-line {
-    padding: 5px;
-}
-
-.video-gallery-album-info-line-num {
-    margin-top: 65px;
-    font-size: 16px;
-    right: 15px;
-}
-
 .video-gallery-album {
     margin-bottom: 10px;
     position: relative;
@@ -44,6 +17,7 @@
     width: 330px;
     height: 100%;
     opacity: 0.6;
+
 }
 
 .video-gallery-disign-line {
@@ -59,6 +33,8 @@
 .video-gallery img {
     width: 330px;
     margin-top: 25px;
+    box-shadow: 1px 1px 5px 5px #a3a3a3;
+
 }
 
 
@@ -75,12 +51,6 @@
     .video-gallery-album img {
         width: 380px;
         height: 280px;
-    }
-
-    .video-gallery-album-info {
-        position: absolute;
-        width: 100%;
-        top: 110px;
     }
     
     .title-block {
@@ -100,22 +70,6 @@
         display: grid;
     }
     
-    .video-gallery-album-info {
-        position: absolute;
-        width: 100%;
-        top: 80px;
-        font-size: 16px;
-    }
-    
-    .video-gallery-album-info-line {
-        padding: 5px;
-    }
-
-    .video-gallery-album-info-line-num {
-        margin-top: 35px;
-    }
-
-    
     .video-gallery-album {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -129,12 +83,6 @@
         width: 280px;
         height: 100%;
         opacity: 0.6;
-    }
-    
-    .video-gallery-disign-line {
-        height: 2px;
-        background: white;
-        width: 150px;
     }
     
 }
