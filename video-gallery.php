@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <?php include 'header.html'; ?>
+    <?php include 'header.php'; ?>
     <main>
     <div class="title-block">
             <div class="title">Видео</div>
@@ -34,18 +34,6 @@
                     создана или в запросе был указан неверный адрес.</div>
                 <a href="index" class="block-error__button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
             </div> -->
-
-            <!-- <a href="video-album" class="video-gallery-album">
-                <img src="images/new_1.jpg" onError="this.src='images/not_found.png'"/>
-	            <div class="video-gallery-album-info">
-                    <span>
-                        <div class="video-gallery-album-info-line">DD.MM.YYY</div>
-                        <div class="video-gallery-disign-line"></div>
-                        <div class="video-gallery-album-info-line">Album Title</div>
-                        <div class="video-gallery-album-info-line-num">Number of videos</div>
-                    </span>
-                </div>
-            </a> -->
             
             <a href="video-album">
                 <img src="images/poster.png" alt="">
