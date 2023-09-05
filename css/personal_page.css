@@ -1,7 +1,7 @@
 .personal_page {
     justify-content: left;
     display: flex;
-    width: 1270px;
+    width: 1000px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -42,5 +42,5 @@
 .block_personal_page-photo-img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 350px;
-    height: 500px;
+    /* height: 500px; */
 }
