@@ -1,3 +1,21 @@
+<?php
+// start the session
+session_start();
+
+// if the user is already logged in then redirect user to welcome page
+
+
+
+// if (isset($_SESSION["userid"]) && $_SESSION["userid"] === true) {
+if (!isset($_SESSION["user"])) {
+	// echo $_SESSION["userid"];
+	header("location: login.php");
+	// exit;
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,7 +73,7 @@
                         <input type="image" class="block-footer-buttons-element-2" src="images/vk.png" alt="vk">
                     </a>
                     <?php
-                    if (isset($_SESSION['login'])) {
+                    if (isset($_SESSION['user'])) {
                         ?>
                         <a href="index" class="footer-button">Выйти</a>
                         <?php

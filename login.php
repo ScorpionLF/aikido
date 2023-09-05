@@ -22,16 +22,20 @@
             $result = mysqli_query($mysql, $query);
             $data = mysqli_fetch_array($result);
 
+            if ($data) {
+
                 if ($password == $data['password']) {
                     
                     if ($login == "admin") {
                         // echo "Admin";
-                        $admin = $_SESSION['admin'];
+                        // $admin = $_SESSION['admin'];
+                        $_SESSION['user'] = $data['login'];
                         header('Location: admin_page');
                     }
                     else {
                         // echo "User";
-                        $login = $_SESSION['login'];
+                        // $login = $_SESSION['login'];
+                        $_SESSION['user'] = $data['login'];
                         header('Location: personal_page');
                     }
 
@@ -40,6 +44,7 @@
                     echo "Неправильный пароль.";
                 }
 
+            }    
         }
         else {
             echo '<main style="margin: 10% 30%;">
