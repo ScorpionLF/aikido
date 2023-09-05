@@ -1,4 +1,19 @@
 
+<?php
+// start the session
+session_start();
+
+// if the user is already logged in then redirect user to welcome page
+
+
+
+// if (isset($_SESSION["userid"]) && $_SESSION["userid"] === true) {
+if (!isset($_SESSION["user"])) {
+	// echo $_SESSION["userid"];
+	// exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -18,7 +33,7 @@
 </head>
 
 <body>
-    <?php include 'header.html'; ?>
+    <?php include 'header.php'; ?>
     <main>
         <section class="index-composition">
             <div class="block-composition-left">

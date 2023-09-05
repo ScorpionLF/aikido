@@ -1,3 +1,18 @@
+<?php
+// start the session
+session_start();
+
+// if the user is already logged in then redirect user to welcome page
+
+
+
+// if (isset($_SESSION["userid"]) && $_SESSION["userid"] === true) {
+if (!isset($_SESSION["user"])) {
+	// echo $_SESSION["userid"];
+	// exit;
+}
+?>
+
 
 
 <!DOCTYPE html>
@@ -110,18 +125,27 @@
             <div class="header-navigation-button">
                 <a href="schedule" class="header-navigation-button-element">Расписание</a>
             </div>
-            <!-- <div class="header-navigation-button">
-                <a href="gallery" class="header-navigation-button-element">Галерея</a>
-            </div> -->
-            <div class="header-navigation-button">
-                <div class="header-navigation-button-dropdown">
-                    <button class="header-navigation-button-element">Галерея</button>
-                    <div class="header-navigation-button-dropdown-content">
-                        <a href="gallery">Фото</a>
-                        <a href="video-gallery">Видео</a>
+            <?php
+            if (isset($_SESSION['user'])) {
+            ?>
+                <div class="header-navigation-button">
+                    <div class="header-navigation-button-dropdown">
+                        <button class="header-navigation-button-element">Галерея</button>
+                        <div class="header-navigation-button-dropdown-content">
+                            <a href="gallery">Фото</a>
+                            <a href="video-gallery">Видео</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            <?php
+            } else {
+            ?>
+                <div class="header-navigation-button">
+                    <a href="gallery" class="header-navigation-button-element">Галерея</a>
+                </div> 
+            <?php
+            }
+            ?>
             <div class="header-navigation-button">
                 <a href="contacts" class="header-navigation-button-element">Контакты</a>
             </div>
