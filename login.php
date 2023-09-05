@@ -26,16 +26,17 @@
 
                 if ($password == $data['password']) {
                     
+                    $_SESSION['user'] = $data['login'];
+
                     if ($login == "admin") {
                         // echo "Admin";
                         // $admin = $_SESSION['admin'];
-                        $_SESSION['user'] = $data['login'];
                         header('Location: admin_page');
                     }
                     else {
                         // echo "User";
                         // $login = $_SESSION['login'];
-                        $_SESSION['user'] = $data['login'];
+                        // $_SESSION['user'] = $data['login'];
                         header('Location: personal_page');
                     }
 

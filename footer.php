@@ -9,7 +9,6 @@ session_start();
 // if (isset($_SESSION["userid"]) && $_SESSION["userid"] === true) {
 if (!isset($_SESSION["user"])) {
 	// echo $_SESSION["userid"];
-	header("location: login.php");
 	// exit;
 }
 ?>
@@ -75,7 +74,7 @@ if (!isset($_SESSION["user"])) {
                     <?php
                     if (isset($_SESSION['user'])) {
                         ?>
-                        <a href="index" class="footer-button">Выйти</a>
+                        <a href="logout" class="footer-button">Выйти</a>
                         <?php
                     } else {
                         ?>

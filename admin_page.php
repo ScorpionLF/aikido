@@ -8,7 +8,7 @@
         <title>admin page</title>
     </head>
     <body>
-    <?php include 'header.html'; ?>
+    <?php include 'header.php'; ?>
         <div style="text-align:center">
             <?php 
             // if(!empty($_SESSION['login']) and $_SESSION['login'] == 'admin'): ?>
