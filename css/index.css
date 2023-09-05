@@ -158,7 +158,12 @@ padding: 15px;
     padding: 0 15px 0 15px;
 }
 
-
+.href-news {
+    font-size: 18px;
+    margin: 10px 0;
+    color: gray;
+    font-family: 'Roboto';
+}
 
 
 @media (max-width: 1024px) {
@@ -192,7 +197,7 @@ padding: 15px;
 
     .block-index-news {
         width: 250px;
-        height: 380px;
+        min-height: 400px;
     }
 
     .block-index-news-img {

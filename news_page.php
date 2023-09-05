@@ -26,6 +26,26 @@
             </div>
         </div>
         <div class="news">
+            <a class="block-news" onclick="document.getElementById('open_news_6').style.display='block'"> 
+                <img class="block-news-img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-news-title">Мастер-класс по Айкидо</div>
+                <div class="block-news-news">
+                    <?php echo (file_get_contents('./all_news/news_7.txt')); ?>
+                    <div class="block-news-date">09.08.2023</div>
+                </div>
+            </a>  
+            <div id="open_news_6" class="modal">
+                <span onclick="document.getElementById('open_news_6').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
+                <div class="modal-news-content">
+                    <img class="modal__img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
+                    <div class="block__news">
+                        <div class="block-news-title">Мастер-класс по Айкидо</div>
+                        <p class="modal__news">
+                            <?php echo (file_get_contents('./all_news/news_7.txt')); ?>
+                        </p>
+                    </div>
+                </div> 
+            </div> 
             <a class="block-news" onclick="document.getElementById('open_news_1').style.display='block'"> 
                 <img class="block-news-img" src="images/new_6.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-news-title">Открываем новый сезон тренировок!</div>
@@ -35,7 +55,7 @@
                 </div>
             </a>  
             <div id="open_news_1" class="modal">
-                <span onclick="document.getElementById('open_news_1').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_1').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_6.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -55,7 +75,7 @@
                 </div>
             </a>  
             <div id="open_news_2" class="modal">
-                <span onclick="document.getElementById('open_news_2').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_2').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_5.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -75,7 +95,7 @@
                 </div>
             </a>  
             <div id="open_news_3" class="modal">
-                <span onclick="document.getElementById('open_news_3').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_3').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_4.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -95,7 +115,7 @@
                 </div>
             </a>  
             <div id="open_news_4" class="modal">
-                <span onclick="document.getElementById('open_news_4').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_4').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_1.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -115,7 +135,7 @@
                 </div>
             </a>  
             <div id="open_news_5" class="modal">
-                <span onclick="document.getElementById('open_news_5').style.display='none'" class="close" title="Close Modal">&times;</span>     
+                <span onclick="document.getElementById('open_news_5').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
                 <div class="modal-news-content">
                     <img class="modal__img" src="images/new_2.jpg" onError="this.src='images/not_found.png'">
                     <div class="block__news">
@@ -126,34 +146,6 @@
                     </div>
                 </div> 
             </div> 
-            <a class="block-news" onclick="document.getElementById('open_news_6').style.display='block'"> 
-                <img class="block-news-img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-news-title">Ушел Великий Мастер...</div>
-                <div class="block-news-news">
-                    <?php echo (file_get_contents('./all_news/new_4.txt')); ?>
-                    <div class="block-news-date">26.04.2022</div>
-                </div>
-            </a>  
-            <div id="open_news_6" class="modal">
-                <span onclick="document.getElementById('open_news_6').style.display='none'" class="close" title="Close Modal">&times;</span>     
-                <div class="modal-news-content">
-                    <img class="modal__img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
-                    <div class="block__news">
-                        <div class="block-news-title">Ушел Великий Мастер...</div>
-                        <p class="modal__news">
-                            <?php echo (file_get_contents('./all_news/new_4.txt')); ?>
-                        </p>
-                    </div>
-                </div> 
-            </div> 
-        <div class="block-news-transitions">
-            <div class="block-news-transitions-arrow">
-                < </div>
-                    <div class="block-news-transitions-number-page">1 </div>
-                    <div class="block-news-transitions-number-page">2 </div>
-                    <div class="block-news-transitions-number-page">3 </div>
-                    <div class="block-news-transitions-arrow">></div>
-            </div>
     </main>
 
     <?php include 'footer.php'; ?>
