@@ -122,6 +122,5 @@ require_once "session.php";
         <a class="href-news" href="news_page">< Все новости ></a>
     </main>
     <?php include 'footer.php'; ?>
-
 </body>
 </html>
