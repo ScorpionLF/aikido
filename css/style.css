@@ -13,6 +13,7 @@ body {
     grid-template-rows: auto 1fr auto;
     align-items: first baseline;
     height: 100vh;
+    font-family: 'Roboto';
 }
 
 main {

@@ -120,6 +120,23 @@ require_once "session.php";
             </div> 
         </section>
         <a class="href-news" href="news_page">< Все новости ></a>
+        <section class="block__faq">
+            <title>FAQ</title>
+            <div class="faq__questions">
+                <details>
+                    <summary>Покажи-скрой меня</summary>
+                    <p>Скандинавская мифология — мифология древних скандинавов</p>
+                </details>
+                <details open>
+                    <summary>Покажи-скрой меня 2</summary>
+                    <p>Основным источником сведений о ней являются тексты поэтической </p>
+                </details>
+                <details>
+                    <summary>Покажи-скрой меня 3</summary>
+                    <p>Скандинавская мифология — мифология древних скандинавов</p>
+                </details>
+            </div>
+        </section>
     </main>
     <?php include 'footer.php'; ?>
     
