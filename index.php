@@ -61,7 +61,26 @@ require_once "session.php";
             </div>
         </section>
         <section class="index-news">
-        <a class="block-index-news" onclick="document.getElementById('open_news_6').style.display='block'"> 
+            <a class="block-index-news" onclick="document.getElementById('open_news_2').style.display='block'"> 
+                <img class="block-index-news-img" src="images/new_7.jpg" onError="this.src='images/not_found.png'">
+                <div class="block-news-title">Теперь в Telegram</div>
+                <div class="block-news-news">
+                <?php echo (file_get_contents('./all_news/news_4.txt')); ?>
+                </div>
+            </a>  
+            <div id="open_news_2" class="modal">
+                <span onclick="document.getElementById('open_news_2').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
+                <div class="modal-news-content">
+                    <img class="modal__img" src="images/new_7.jpg" onError="this.src='images/not_found.png'">
+                    <div class="block__news">
+                        <div class="block-news-title">Ученики Ametsuchi отдыхают в Анапе</div>
+                        <p class="modal__news">
+                            <?php echo (file_get_contents('./all_news/news_4.txt')); ?>
+                        </p>
+                    </div>
+                </div> 
+            </div> 
+            <a class="block-index-news" onclick="document.getElementById('open_news_6').style.display='block'"> 
                 <img class="block-index-news-img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-news-title">Мастер-класс по Айкидо</div>
                 <div class="block-news-news">
@@ -95,25 +114,6 @@ require_once "session.php";
                         <div class="block-news-title">Открываем новый сезон тренировок!</div>
                         <p class="modal__news">
                             <?php echo (file_get_contents('./all_news/new_6.txt')); ?>
-                        </p>
-                    </div>
-                </div> 
-            </div> 
-            <a class="block-index-news" onclick="document.getElementById('open_news_2').style.display='block'"> 
-                <img class="block-index-news-img" src="images/new_5.jpg" onError="this.src='images/not_found.png'">
-                <div class="block-news-title">Ученики Ametsuchi отдыхают в Анапе</div>
-                <div class="block-news-news">
-                <?php echo (file_get_contents('./all_news/new_5.txt')); ?>
-                </div>
-            </a>  
-            <div id="open_news_2" class="modal">
-                <span onclick="document.getElementById('open_news_2').style.display='none'" class="close-news" title="Close Modal">&times;</span>     
-                <div class="modal-news-content">
-                    <img class="modal__img" src="images/new_5.jpg" onError="this.src='images/not_found.png'">
-                    <div class="block__news">
-                        <div class="block-news-title">Ученики Ametsuchi отдыхают в Анапе</div>
-                        <p class="modal__news">
-                            <?php echo (file_get_contents('./all_news/new_5.txt')); ?>
                         </p>
                     </div>
                 </div> 
