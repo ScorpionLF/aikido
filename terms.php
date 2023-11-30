@@ -37,23 +37,23 @@
                         <li><strong>До</strong> - путь</li> <br>
                         <li><strong>О-сэнсэй</strong> - Великий Учитель </li><br>
                         <li><strong>Сэнсэй </strong> - учитель </li><br>
-                        <li><strong>Ути Дэси</strong> - ближайший ученик или последователь </li><br>
+                        <li><strong>Учи-дэси</strong> - ближайший ученик или последователь </li><br>
                         <li><strong>Сэмпай</strong> - старший ученик </li><br>
                         <li><strong>Кохай</strong> - младший ученик</li> <br>
-                        <li><strong>Aригато годзаимас</strong> - благодарю</li> <br>
-                        <li><strong>Xадзимэ</strong> - начинайте </li><br>
+                        <li><strong>Aригато гозаимас</strong> - благодарю</li> <br>
+                        <li><strong>Xаджимэ</strong> - начинайте </li><br>
                         <li><strong>Ямэ</strong> - стойте</li> <br>
                         <li><strong>Кирицу</strong> - встать </li><br>
                         <li><strong>Сэйдза</strong> - сесть</li> <br>
-                        <li><strong>Моксо (Мокусо)</strong> - мецитация, "молчание мыслей"</li> <br>
+                        <li><strong>Моксо</strong> - мецитация, "молчание мыслей"</li> <br>
                         <li><strong>Рэй</strong> - поклон</li> <br>
-                        <li><strong>Дза рэй</strong> - поклон на коленях </li><br>
-                        <li><strong>Рицу рэй</strong> - поклон стоя </li><br>
-                        <li><strong>Гомэн насаи</strong> - прошу прощения </li><br>
+                        <li><strong>Дза-рэй</strong> - поклон на коленях </li><br>
+                        <li><strong>Рицу-рэй</strong> - поклон стоя </li><br>
+                        <li><strong>Гомэннасаи</strong> - прошу прощения </li><br>
                         <li><strong>Ии дэс</strong> - все в порядке, ничего страшного </li><br>
                         <li><strong>Кейко</strong> - тренировка</li> <br>
                         <li><strong>Кимэ</strong> - концентрация силы</li> <br>
-                        <li><strong>Ки-но-нагарэ</strong> - поток ки Энергия, подобная ручью Работа в динамике</li>
+                        <li><strong>Ки-но-нагарэ</strong> - поток ки Энергия, подобная ручью. Работа в динамике</li>
                         <br>
                         <li><strong>Кю</strong> - ученическая степень</li> <br>
                         <li><strong>Дан</strong> - мастерская степень </li><br>
@@ -65,7 +65,7 @@
                         <li><strong>Боккэн</strong> - деревянный меч для занятий</li> <br>
                         <li><strong>Танто</strong> - деревянный нож для занятий</li> <br>
                         <li><strong>Дзё</strong> - деревянная палка для занятий</li> <br>
-                        <li><strong>Додзё</strong> - место постижения пути, зал</li> <br>
+                        <li><strong>Додзё</strong> - место постижения пучи, зал</li> <br>
                         <li><strong>Татами</strong> - маты (исходно - японские соломенные) </li><br>
                         <li><strong>Камидза</strong> - "верхнее место; почётное место", главное место в зале</li>
                         <br>
@@ -80,15 +80,15 @@
                 </summary>
                 <div class="block-terms-text">
                     <ul>
-                        <li><strong>Ити</strong> - Один </li><br>
+                        <li><strong>Ичи</strong> - Один </li><br>
                         <li><strong>Ни</strong> - Два </li><br>
                         <li><strong>Сан</strong> - Три </li><br>
-                        <li><strong>Си</strong> - Четыре </li><br>
+                        <li><strong>Си (ён)</strong> - Четыре </li><br>
                         <li><strong>Го</strong> - Пять</li> <br>
                         <li><strong>Року</strong> - Шесть </li><br>
-                        <li><strong>Сити</strong> - Семь </li><br>
+                        <li><strong>Сити (нана)</strong> - Семь </li><br>
                         <li><strong>Хати</strong> - Восемь </li><br>
-                        <li><strong>Кю:</strong> - Девять </li><br>
+                        <li><strong>Кю</strong> - Девять </li><br>
                         <li><strong>Дзю</strong> - Десять </li><br>
                     </ul>
                 </div>
@@ -100,7 +100,7 @@
                 </summary>
                 <div class="block-terms-text">
                     <ul>
-                        <li><strong>Те</strong> - рука</li> <br>
+                        <li><strong>Тэ</strong> - рука</li> <br>
                         <li><strong>Тай</strong> - тело </li><br>
                         <li><strong>Куби</strong> - горло</li> <br>
                         <li> <strong>Тэкуби</strong> - предплечье</li> <br>
@@ -114,7 +114,7 @@
                         <li> <strong>Коси</strong> - бедро, поясница </li><br>
                         <li> <strong>Удэ</strong> - локоть </li><br>
                         <li> <strong>Мэн</strong> - лицо </li><br>
-                        <li><strong>Тэ-гатана</strong> - рука-меч</li> <br>
+                        <li><strong>Тэ-катана</strong> - рука-меч</li> <br>
                         <li><strong>Дану</strong> - ровень</li> <br>
                         <li><strong>Дзё</strong> - верх </li><br>
                         <li><strong>Тю (Чу)</strong> - середина </li><br>
@@ -137,9 +137,9 @@
                         <li><strong>Камаэ</strong> - основная стойка </li><br>
                         <li><strong>Сидзэнтай</strong> - стойка естественного ожидания </li><br>
                         <li><strong>Кибадати</strong> - "стойка всадника"</li> <br>
-                        <li><strong>Ай ханми</strong> - одноименная стойка двух партнеров </li><br>
-                        <li><strong>Гяку ханми</strong> - разноименная стойка двух партнеров </li><br>
-                        <li><strong>Ма ай</strong> - дистанция между партнерами, дистанция гармонии, "две руки", "два меча"</li>
+                        <li><strong>Ай-ханми</strong> - одноименная стойка двух партнеров </li><br>
+                        <li><strong>Гяку-ханми</strong> - разноименная стойка двух партнеров </li><br>
+                        <li><strong>Ма-ай</strong> - дистанция между партнерами, дистанция гармонии, "две руки", "два меча"</li>
                         <br>
                     </ul>
                 </div>
@@ -151,24 +151,24 @@
                 </summary>
                 <div class="block-terms-text">
                     <ul>
-                        <li><strong>Цки (Цуки)</strong> - прямой удар </li><br>
-                        <li><strong>Ути</strong> - удар ребром ладони </li><br>
-                        <li><strong>Ёкомэн ути</strong> - боковой удар в голову или шею </li><br>
-                        <li> <strong>Сёмен ути</strong> - удар сверху </li><br>
-                        <li> <strong>Гэри (Гири)</strong> - удар ногой</li> <br>
+                        <li><strong>Цуки</strong> - прямой удар </li><br>
+                        <li><strong>Учи</strong> - удар ребром ладони </li><br>
+                        <li><strong>Ёкомэн-учи</strong> - боковой удар в голову или шею </li><br>
+                        <li> <strong>Шомэн-учи</strong> - удар сверху </li><br>
+                        <li> <strong>Гэри</strong> - удар ногой</li> <br>
                         <li> <strong>Тори (Дори)</strong> - захват</li> <br>
-                        <li> <strong>Кататэ тори</strong> - захват за руку </li><br>
-                        <li> <strong>Ай ханми кататэ тори</strong> - захват за одноименную руку</li> <br>
-                        <li><strong>Гяку ханми кататэ тори</strong> - за разноименную </li><br>
-                        <li> <strong>Рё тэ дори</strong> - захват двумя руками за две руки </li><br>
-                        <li> <strong>Кататэ рё тэ дори (Моро те дори)</strong> - обеими руками за одну</li> <br>
-                        <li> <strong>Ката дори</strong> - захват за отворот кимоно (плечо) </li><br>
-                        <li> <strong>Рё ката дори</strong> - за оба плеча</li> <br>
-                        <li> <strong>Содэ дори</strong> - захват локтя</li> <br>
-                        <li><strong>Усиро кататэ дори кубэ симэ</strong> - захват сзади за руку и удушение </li><br>
-                        <li><strong>Мунэ дори</strong> - за отворот кимоно</li> <br>
-                        <li><strong>Рё мунэ дори</strong> - за отворот кимоно двумя руками</li> <br>
-                        <li><strong>Ката дори мен учи</strong> - захват плеча с одновременным ударом в лицо</li> <br>
+                        <li> <strong>Кататэ-дори</strong> - захват за руку </li><br>
+                        <li> <strong>Ай-ханми кататэ-дори</strong> - захват за одноименную руку</li> <br>
+                        <li><strong>Гяку-ханми кататэ-дори</strong> - за разноименную </li><br>
+                        <li> <strong>Риотэ-дори</strong> - захват двумя руками за две руки </li><br>
+                        <li> <strong>Кататэ риотэ дори (Моротэ-дори)</strong> - обеими руками за одну</li> <br>
+                        <li> <strong>Ката-дори</strong> - захват за отворот кимоно (плечо) </li><br>
+                        <li> <strong>Рио ката-дори</strong> - за оба плеча</li> <br>
+                        <li> <strong>Содэ-дори</strong> - захват локтя</li> <br>
+                        <li><strong>Уширо кататэ-дори кубэ симэ</strong> - захват сзади за руку и удушение </li><br>
+                        <li><strong>Мунэ-дори</strong> - за отворот кимоно</li> <br>
+                        <li><strong>Рёмунэ-дори</strong> - за отворот кимоно двумя руками</li> <br>
+                        <li><strong>Ката-дори мэн учи</strong> - захват плеча с одновременным ударом в лицо</li> <br>
                     </ul>
                 </div>
             </details>
