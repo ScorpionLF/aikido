@@ -66,10 +66,13 @@ if (!isset($_SESSION["user"])) {
             <div class="block-footer-buttons">
                 <div class="block-footer-buttons-elements">
                     <a href="https://www.youtube.com/@ametsuchidojokazan">
-                        <input type="image" class="block-footer-buttons-element-1" src="images/youtube.png" alt="youtube">
+                        <input type="image" class="block-footer-buttons-element" src="images/href_yt.svg" alt="youtube">
                     </a>
                     <a href="https://m.vk.com/aikidopower">
-                        <input type="image" class="block-footer-buttons-element-2" src="images/vk.png" alt="vk">
+                        <input type="image" class="block-footer-buttons-element" src="images/href_vk.svg" alt="vk">
+                    </a>
+                    <a href="https://t.me/aikidopower">
+                        <input type="image" class="block-footer-buttons-element" src="images/href_tg.svg" alt="vk">
                     </a>
                     <?php
                     if (isset($_SESSION['user'])) {
