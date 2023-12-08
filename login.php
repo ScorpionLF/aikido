@@ -2,7 +2,7 @@
     session_start();
     
     
-    $mysql = mysqli_connect('localhost', 'root', '', 'authorization');
+    $mysql = mysqli_connect('localhost', 'root', '', 'aikido');
     
     if($mysql->connect_error){
         die("Ошибка: " . $mysql->connect_error);

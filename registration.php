@@ -3,7 +3,7 @@
     $name = $_POST['name'];
     $password = $_POST['password'];
     
-    $mysql = mysqli_connect('localhost', 'root', '', 'authorization');
+    $mysql = mysqli_connect('localhost', 'root', '', 'aikido');
     
     $mysql->query("INSERT INTO `users` (`login`, `password`, `name`) VALUES('$login', '$password', '$name')");
 
