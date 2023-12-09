@@ -1,14 +1,3 @@
-<!-- <form method="post" action="addNews_script.php">
-    <div>
-        Title: <br />
-        <textarea name="name" id="title" cols="30" rows="10"></textarea> <br />
-        News: <br />
-        <textarea name="input" id="input" cols="30" rows="20"></textarea> <br />
-    </div>
-    <div>
-        <button type="submit">Add</button>
-    </div>
-</form> -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +13,7 @@
         <textarea id="descr" name="descr"></textarea><br><br>
         
         <!-- <label for="date">Дата:</label> -->
-        <input type="date" id="date" name="date"><br><br>
+        <input type="date" id="data" name="data"><br><br>
         
         <input type="submit" value="Добавить">
     </form>

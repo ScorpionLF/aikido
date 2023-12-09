@@ -1,22 +1,14 @@
 <?php
-// require_once 'dbconnect.php';
 
-// $host = 'localhost';
-// $user = 'root';
-// $password = '';
-// $database = 'aikido';
-// $connection = mysql_connect($host, $user, $password, $database);
 $connection = mysqli_connect('localhost', 'root', '', 'aikido');
 
 $query = "SELECT * FROM news";
-// $connection->query("SELECT * FROM news");
 $result = mysqli_query($connection, $query);
 
 // if (!$result) {
 //     die("Error: " . mysqli_error($connection));
 // }
-// ?>
-
+?>
 
 <!DOCTYPE html>
 <html>
@@ -29,7 +21,7 @@ $result = mysqli_query($connection, $query);
     <?php while ($row = mysqli_fetch_array($result)): ?>
         <h2><?php echo $row['title']; ?></h2>
         <p><?php echo $row['descr']; ?></p>
-        <p><?php echo $row['date']; ?></p>
+        <p><?php echo $row['data']; ?></p>
     <?php endwhile; ?>
 
     <a href="addNews.php">Добавить новость</a>
