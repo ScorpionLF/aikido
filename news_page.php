@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -19,7 +20,7 @@
 <body>
     <?php include 'header.php'; ?>
     <main>
-    <div class="mobile-title">
+         <div class="mobile-title">
             <div class="title-block">
                 <div class="title">Новости</div>
                 <div class="title-block-line"></div>
@@ -30,7 +31,7 @@
                 <img class="block-news-img" src="images/new_3.jpg" onError="this.src='images/not_found.png'">
                 <div class="block-news-title">Мастер-класс по Айкидо</div>
                 <div class="block-news-news">
-                    <?php echo (file_get_contents('./all_news/news_7.txt')); ?>
+                <?php echo (file_get_contents('./all_news/news_7.txt')); ?>
                     <div class="block-news-date">09.08.2023</div>
                 </div>
             </a>  
@@ -146,9 +147,9 @@
                     </div>
                 </div> 
             </div> 
-    </main>
 
-    <?php include 'footer.php'; ?>
+    </main> 
+    <?php include 'footer.php'; ?> 
 </body>
 
-</html>
+</html> 

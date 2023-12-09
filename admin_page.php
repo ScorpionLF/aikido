@@ -12,8 +12,9 @@
         <div style="text-align:center">
             <?php 
             // if(!empty($_SESSION['login']) and $_SESSION['login'] == 'admin'): ?>
-            <?php echo "Административная панель."; ?>
-            <a href="logout">Выйти</a>
+            <?php echo "Административная панель."; ?> <br />
+            <a href="addNews.php">Add news</a>
+            <!-- <a href="logout">Выйти</a> -->
         <?php 
         // else:
             // echo '<div class="error">
